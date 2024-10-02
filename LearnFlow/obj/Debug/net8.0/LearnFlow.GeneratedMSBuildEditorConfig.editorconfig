@@ -9,39 +9,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LearnFlow
 build_property.RootNamespace = LearnFlow
-build_property.ProjectDir = D:\Learning\DotNet Core\LearnFlow\LearnFlow\
+build_property.ProjectDir = F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Learning\DotNet Core\LearnFlow\LearnFlow
+build_property.MSBuildProjectDirectory = F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Learning/DotNet Core/LearnFlow/LearnFlow/Views/Home/Index.cshtml]
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/DotNet Core/LearnFlow/LearnFlow/Views/Home/Privacy.cshtml]
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/DotNet Core/LearnFlow/LearnFlow/Views/Shared/Error.cshtml]
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/DotNet Core/LearnFlow/LearnFlow/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/DotNet Core/LearnFlow/LearnFlow/Views/_ViewImports.cshtml]
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/DotNet Core/LearnFlow/LearnFlow/Views/_ViewStart.cshtml]
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/DotNet Core/LearnFlow/LearnFlow/Views/Shared/_Layout.cshtml]
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1rpier6gsb
