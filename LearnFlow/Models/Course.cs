@@ -1,0 +1,29 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+
+namespace LearnFlow.Models;
+
+public class Course
+{
+  [Key]
+  public int CourseId { get; set; }
+  [ForeignKey("Instructor")]
+  public int InstructorId { get; set; }
+  [Required]
+  public required string Title { get; set; }
+  [Required]
+  public required string Description { get; set; }
+  [Precision(18, 2)]
+  public decimal Price { get; set; }
+  public DateTime CreationDate { get; set; } = DateTime.Now;
+  // Navigation Properties
+  public User Instructor { get; set; }
+  public ICollection<Lecture> Lectures { get; set; }
+  public ICollection<Enrollment> Enrollments { get; set; }
+  public ICollection<Quiz> Quizzes { get; set; }
+  public ICollection<Review> Reviews { get; set; }
+  public ICollection<Payment> Payments { get; set; }
+
+}
