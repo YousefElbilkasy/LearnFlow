@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jCbPssscXi/nZk4St0PViPIqfFO84Ng1UGYGW94jUBY=",
+  "Hash": "pa2fimLnlUUbkmxNNc2EOCG1tIFpu9wYMzVmrKC1SoE=",
   "Source": "LearnFlow",
   "BasePath": "_content/LearnFlow",
   "Mode": "Default",
@@ -243,25 +243,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\owl-carousel.js"
-    },
-    {
-      "Identity": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\wwwroot\\js\\site.js",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "js/site.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

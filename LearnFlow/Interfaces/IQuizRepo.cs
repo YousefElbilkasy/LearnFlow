@@ -1,12 +1,13 @@
+using LearnFlow.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearnFlow.Interfaces
 {
   public interface IQuizRepo
   {
-    public Task<IActionResult> GetAllQuizes();
-    public Task<IActionResult> GetQuiz(string id);
-    public Task<IActionResult> SubmitAnswers(string id);
-    public Task<IActionResult> ViewAnswers(string id);
+    public Task<IEnumerable<Quiz>> GetAllQuizes();
+    public Task<Quiz> GetQuiz(string id);
+    public Task<bool> SubmitAnswers(string id);
+    public Task<QuizResult> ViewAnswers(string id);
   }
 }

@@ -1,0 +1,24 @@
+@model IEnumerable<Quiz>
+<h1>Quizes</h1>
+<div>
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li>
+                <div style="border:2px solid black; width:400px;">
+                    <label>Course: @item.Course.Title</label>
+                    <label>Quiz: @item.Title</label>
+                    <label>Max Score: @item.MaxScore</label>
+                </div>
+            </li>
+        }
+    </ul>
+</div>
+<style>
+    label{
+        display:block;
+    }
+    li{
+        display:inline;
+    }
+</style>

@@ -3,20 +3,47 @@
   "WorkspaceRootPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\learnflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\learnflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.Quizs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\learnflowcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\learnflowcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\answeroption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +54,17 @@
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.QuizResults.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.AnswerOptions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.Questions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,106 +74,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LearnFlow\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LearnFlow\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAGAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T22:59:22.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuizRepo.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
-              "RelativeDocumentMoniker": "LearnFlow\\Repository\\QuizRepo.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
-              "RelativeToolTip": "LearnFlow\\Repository\\QuizRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Controllers\\QuizController.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "LearnFlow\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T22:31:58.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IQuizRepo.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Interfaces\\IQuizRepo.cs",
-              "RelativeDocumentMoniker": "LearnFlow\\Interfaces\\IQuizRepo.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Interfaces\\IQuizRepo.cs",
-              "RelativeToolTip": "LearnFlow\\Interfaces\\IQuizRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T21:38:31.783Z",
+              "WhenOpened": "2024-10-03T18:18:38.931Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QuizResult.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\QuizResult.cs",
-              "RelativeDocumentMoniker": "LearnFlow\\Models\\QuizResult.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\QuizResult.cs",
-              "RelativeToolTip": "LearnFlow\\Models\\QuizResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T21:10:13.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Question.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Question.cs",
-              "RelativeDocumentMoniker": "LearnFlow\\Models\\Question.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Question.cs",
-              "RelativeToolTip": "LearnFlow\\Models\\Question.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T21:09:30.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Quiz.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Quiz.cs",
-              "RelativeDocumentMoniker": "LearnFlow\\Models\\Quiz.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Quiz.cs",
-              "RelativeToolTip": "LearnFlow\\Models\\Quiz.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T21:08:34.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\appsettings.json",
-              "RelativeDocumentMoniker": "LearnFlow\\appsettings.json",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\appsettings.json",
-              "RelativeToolTip": "LearnFlow\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-02T20:56:39.796Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Views\\Quiz\\Index.cshtml",
+              "RelativeDocumentMoniker": "LearnFlow\\Views\\Quiz\\Index.cshtml",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Views\\Quiz\\Index.cshtml",
+              "RelativeToolTip": "LearnFlow\\Views\\Quiz\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T15:23:58.853Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\Quiz.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Quiz.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\Quiz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T21:08:34.29Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizRepo.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Repository\\QuizRepo.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
+              "RelativeToolTip": "LearnFlow\\Repository\\QuizRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T22:31:58.264Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IQuizRepo.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Interfaces\\IQuizRepo.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Interfaces\\IQuizRepo.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Interfaces\\IQuizRepo.cs",
+              "RelativeToolTip": "LearnFlow\\Interfaces\\IQuizRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T15:31:28.779Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Course.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\Course.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Course.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:39:04.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LearnFlow.csproj",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+              "RelativeDocumentMoniker": "LearnFlow\\LearnFlow.csproj",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+              "RelativeToolTip": "LearnFlow\\LearnFlow.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T18:16:15.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Program.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Program.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Program.cs",
+              "RelativeToolTip": "LearnFlow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T17:40:45.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LearnFlowContext.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\LearnFlowContext.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\LearnFlowContext.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\LearnFlowContext.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\LearnFlowContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T16:01:20.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AnswerOption.cs",
               "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\AnswerOption.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Models\\AnswerOption.cs",
@@ -157,34 +213,79 @@
               "RelativeToolTip": "LearnFlow\\Models\\AnswerOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T20:56:37.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T20:56:37.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "QuizController.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\QuizController.cs",
-              "RelativeDocumentMoniker": "LearnFlow\\Controllers\\QuizController.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\QuizController.cs",
-              "RelativeToolTip": "LearnFlow\\Controllers\\QuizController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T19:46:31.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\HomeController.cs",
               "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LearnFlow\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T17:40:28.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T17:40:28.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Question.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\Question.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Question.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T21:09:30.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuizResult.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\QuizResult.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\QuizResult.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\QuizResult.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\QuizResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T21:10:13.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.QuizResults.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.QuizResults.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.QuizResults.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-03T15:35:43.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.AnswerOptions.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.AnswerOptions.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.AnswerOptions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-03T15:33:50.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.Questions.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.Questions.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.Questions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-03T15:32:58.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Quizs.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.Quizs.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/courselearning.cxegm6ywqlsb.eu_north_1.rds.amazonaws.com_1433/LearnFlow/admin/SqlTable/dbo.Quizs.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-03T15:32:16.545Z"
             }
           ]
         },

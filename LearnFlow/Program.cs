@@ -1,4 +1,6 @@
+using LearnFlow.Interfaces;
 using LearnFlow.Models;
+using LearnFlow.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<LearnFlowContext>(options =>
   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+
+builder.Services.AddScoped<IQuizRepo, QuizRepo>();
 
 
 var app = builder.Build();
@@ -28,6 +32,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
   name: "default",
-  pattern: "{controller=Home}/{action=Index}/{id?}");
+  pattern: "{controller=Quiz}/{action=Index}/{id?}");
 
 app.Run();

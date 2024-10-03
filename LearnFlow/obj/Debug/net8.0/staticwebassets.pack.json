@@ -45,10 +45,6 @@
       "PackagePath": "staticwebassets\\js\\owl-carousel.js"
     },
     {
-      "Id": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
       "Id": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
