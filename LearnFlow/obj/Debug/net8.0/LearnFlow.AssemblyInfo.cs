@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearnFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c40306c1c67c98729a2d4e6c2fd99a72e99a8ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a72aeccfc86f8dda85db519af6e72e156ca9d4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearnFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearnFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
