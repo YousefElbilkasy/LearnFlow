@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -20,7 +21,7 @@ public class Payment
 
   [Required, Precision(18, 2) ]
   public decimal Amount { get; set; }
-
+  [DisplayName("Payment Date")]
   public DateTime PaymentDate { get; set; } = DateTime.Now;
 
   // Navigation Properties

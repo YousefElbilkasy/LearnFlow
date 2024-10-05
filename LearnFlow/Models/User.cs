@@ -17,13 +17,15 @@ public class User
 {
   [Key]
   public int UserId { get; set;}
-  [Required, EmailAddress]
+  [Required, EmailAddress,]
   public required string Email { get; set;}
   [Required]
   public required string PasswordHash { get; set;}
   public UserRole Role { get; set; }
   [Required]
   public required string FullName { get; set; }
+  [Required]
+  public required string ImageUrl { get; set; }
   public DateTime DateJoined { get; set; } = DateTime.Now;
   public ICollection<Course> Courses { get; set; }
   public ICollection<Enrollment> Enrollments { get; set; }
