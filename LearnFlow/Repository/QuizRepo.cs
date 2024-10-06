@@ -21,9 +21,15 @@ namespace LearnFlow.Repository
       return quizes;
     }
 
-    public Task<Quiz> GetQuiz(string id)
+    public async Task<Quiz?> GetQuizById(int? id)
     {
-      throw new NotImplementedException();
+      if (id == null)
+      {
+        return null;
+      }
+
+      var quiz = await _context.Quizs.FindAsync(id);
+      return quiz;
     }
 
     public Task<bool> SubmitAnswers(string id)

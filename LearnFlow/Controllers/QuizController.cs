@@ -19,5 +19,11 @@ namespace LearnFlow.Controllers
 			var quizes = await _quizRepo.GetAllQuizes();
 			return View(quizes);
 		}
+
+		public async Task<IActionResult> Details(int id)
+		{
+			var quiz = await _quizRepo.GetQuizById(id);
+			return View(quiz);
+		}
 	}
 }

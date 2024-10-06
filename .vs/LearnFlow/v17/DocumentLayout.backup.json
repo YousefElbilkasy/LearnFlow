@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "QuizController.cs",
               "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\QuizController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\QuizController.cs",
@@ -92,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Views\\Quiz\\Index.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\Quiz\\Index.cshtml",
               "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Views\\Quiz\\Index.cshtml",
               "RelativeToolTip": "LearnFlow\\Views\\Quiz\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-03T15:23:58.853Z",
               "IsPinned": true,
@@ -120,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "QuizRepo.cs",
               "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Repository\\QuizRepo.cs",
@@ -180,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Program.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Program.cs",
