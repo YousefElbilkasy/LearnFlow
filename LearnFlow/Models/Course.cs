@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,7 @@ public class Course
   public required string Description { get; set; }
   [Precision(18, 2)]
   public decimal Price { get; set; }
+  [DisplayName("Creation Date")]
   public DateTime CreationDate { get; set; } = DateTime.Now;
   // Navigation Properties
   public User Instructor { get; set; }

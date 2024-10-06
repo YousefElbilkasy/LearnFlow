@@ -1,6 +1,6 @@
 using System;
 using LearnFlow.Interfaces;
-using LearnFlow.Models;
+using LearnFlow.Models; // Ensure this namespace contains the Role enum or class
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearnFlow.Repository;
@@ -43,5 +43,11 @@ public class UserRepo : IUserRepo
   public Task<IActionResult> UpdateUser(User user)
   {
     throw new NotImplementedException();
+  }
+
+  internal User GetUserById(int id)
+  {
+    var user = context.Users.FirstOrDefault(u => u.UserId == id);
+    return user;
   }
 }
