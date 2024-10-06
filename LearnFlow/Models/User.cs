@@ -22,7 +22,7 @@ public class User
   [Required]
   public required string PasswordHash { get; set;}
   public UserRole Role { get; set; }
-  [Required]
+  [Required, DisplayName("Full Name")]
   public required string FullName { get; set; }
   [Required]
   public required string ImageUrl { get; set; }

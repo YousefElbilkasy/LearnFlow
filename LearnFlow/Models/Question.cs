@@ -13,7 +13,7 @@ public class Question
   [ForeignKey("Quiz")]
   public int QuizId { get; set; }
 
-  [Required, DisplayName("Question")]
+  [Required]
   public required string QuestionText { get; set; }
 
   // Navigation Property to related AnswerOptions

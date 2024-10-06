@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -9,10 +10,10 @@ public class AnswerOption
   [Key]
   public int AnswerOptionId { get; set; }
 
-  [Required]
+  [Required, DisplayName("Option")]
   public required string OptionText { get; set; } // The text for the answer option
 
-  [Required]
+  [Required, DisplayName("Correct")]
   public bool IsCorrect { get; set; } // Indicates if this option is the correct answer
 
   [ForeignKey("Question")]

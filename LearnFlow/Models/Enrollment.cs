@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -14,6 +15,7 @@ public class Enrollment
   [ForeignKey("Course")]
   [Required]
   public int CourseId { get; set; }
+  [DisplayName("Enrollment Date")]
   public DateTime EnrollmentDate { get; set; }
   public float Progress { get; set; }
   public Course Course { get; set; }

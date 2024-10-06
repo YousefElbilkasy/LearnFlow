@@ -13,11 +13,17 @@ namespace LearnFlow.Controllers
       _userRepo = userRepo;
     }
 
-    public ActionResult Index()
+    public IActionResult Index()
     {
       var users = _userRepo.GetAllUsers();
       return View(users);
     }
 
+    public IActionResult ViewUser(int id)
+    {
+      var user = _userRepo.GetUserById(id);
+      return View(user);
+    }
   }
+
 }
