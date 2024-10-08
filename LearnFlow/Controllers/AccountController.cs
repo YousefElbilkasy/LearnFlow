@@ -55,7 +55,7 @@ namespace LearnFlow.Controllers
         foreach (var error in result.Errors)
           ModelState.AddModelError("", error.Description);
       }
-        return View("Register", model);
+      return View("Register", model);
     }
   }
 }
