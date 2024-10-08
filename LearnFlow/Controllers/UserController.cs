@@ -1,3 +1,4 @@
+using LearnFlow.Interfaces;
 using LearnFlow.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,9 +7,9 @@ namespace LearnFlow.Controllers
   public class UserController : Controller
   {
     // GET: UserController
-    private readonly UserRepo _userRepo;
+    private readonly IUserRepo _userRepo;
 
-    public UserController(UserRepo userRepo)
+    public UserController(IUserRepo userRepo)
     {
       _userRepo = userRepo;
     }

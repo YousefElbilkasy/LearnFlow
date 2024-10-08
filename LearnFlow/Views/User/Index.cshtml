@@ -4,6 +4,10 @@
   ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>Username: @item.FullName</li>
+    }
+</ul>
 
