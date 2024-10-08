@@ -25,6 +25,6 @@ public class Payment
   public DateTime PaymentDate { get; set; } = DateTime.Now;
 
   // Navigation Properties
-  public User Student { get; set; }
-  public Course Course { get; set; }
+  public User? Student { get; set; }
+  public Course? Course { get; set; }
 }

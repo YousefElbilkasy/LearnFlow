@@ -20,5 +20,5 @@ public class AnswerOption
   public int QuestionId { get; set; } // Foreign key linking to the Question
 
   // Navigation Property
-  public Question Question { get; set; } // The question this option belongs to
+  public Question? Question { get; set; } // The question this option belongs to
 }

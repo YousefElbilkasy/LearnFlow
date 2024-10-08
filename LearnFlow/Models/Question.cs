@@ -17,8 +17,8 @@ public class Question
   public required string QuestionText { get; set; }
 
   // Navigation Property to related AnswerOptions
-  public ICollection<AnswerOption> AnswerOptions { get; set; } // Collection of answer options
+  public ICollection<AnswerOption>? AnswerOptions { get; set; } // Collection of answer options
 
   // Navigation Property
-  public Quiz Quiz { get; set; }
+  public Quiz? Quiz { get; set; }
 }

@@ -47,7 +47,7 @@ public class UserRepo : IUserRepo
 
   internal User GetUserById(int id)
   {
-    var user = context.Users.FirstOrDefault(u => u.UserId == id);
+    var user = context.Users.FirstOrDefault(u => u.Id  == id);
     return user;
   }
 }

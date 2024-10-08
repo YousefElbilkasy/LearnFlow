@@ -15,5 +15,5 @@ public class Lecture
   [Required]
   public required string Content { get; set; }
   public int Order { get; set; }
-  public Course Course { get; set; }
+  public Course? Course { get; set; }
 }

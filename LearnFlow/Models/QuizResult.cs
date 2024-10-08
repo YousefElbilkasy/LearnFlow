@@ -22,6 +22,6 @@ public class QuizResult
   public DateTime CompletionDate { get; set; } = DateTime.Now;
 
   // Navigation Properties
-  public User Student { get; set; }
-  public Quiz Quiz { get; set; }
+  public User? Student { get; set; }
+  public Quiz? Quiz { get; set; }
 }

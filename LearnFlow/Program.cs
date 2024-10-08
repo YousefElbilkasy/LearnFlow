@@ -1,13 +1,18 @@
 using LearnFlow.Models;
+using LearnFlow.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IUserRepo, UserRepo>();
 builder.Services.AddDbContext<LearnFlowContext>(options =>
   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+
+builder.Services.AddIdentity<User, IdentityRole<int>>()
+                .AddEntityFrameworkStores<LearnFlowContext>()
+                .AddDefaultTokenProviders();
 
 
 var app = builder.Build();
@@ -25,6 +30,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

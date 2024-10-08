@@ -23,6 +23,6 @@ public class Review
   public string? ReviewText { get; set; }
 
   // Navigation Properties
-  public Course Course { get; set; }
-  public User Student { get; set; }
+  public Course? Course { get; set; }
+  public User? Student { get; set; }
 }
