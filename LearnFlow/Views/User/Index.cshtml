@@ -1,0 +1,13 @@
+@model List<User>
+
+@{
+  ViewData["Title"] = "Index";
+}
+
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>Username: @item.FullName</li>
+    }
+</ul>
+
