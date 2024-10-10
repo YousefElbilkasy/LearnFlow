@@ -1,45 +1,177 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\",
+  "WorkspaceRootPath": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\views\\dashboard\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\dashboard\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\views\\dashboard\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\dashboard\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\migrations\\learnflowcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\migrations\\learnflowcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\learnflowcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\learnflowcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\answeroption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\answeroption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\answeroption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\wwwroot\\js\\owl-carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\wwwroot\\js\\owl-carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\wwwroot\\js\\isotope.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\wwwroot\\js\\isotope.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\wwwroot\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\wwwroot\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\wwwroot\\js\\counter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\wwwroot\\js\\counter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\learnflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\learnflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\migrations\\20241008172103_createregisteruserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\migrations\\20241008172103_createregisteruserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\migrations\\20241002203612_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\migrations\\20241002203612_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinal\\learnflow\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CADABA-3824-44D4-90E2-4F1F9754CEF4}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,11 +182,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 30,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -62,24 +202,453 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "LearnFlow\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "LearnFlow\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T23:59:36.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "LearnFlow\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "LearnFlow\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T23:58:33.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "LearnFlow\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "LearnFlow\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T23:57:21.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\ForgotPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\ForgotPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T23:56:18.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "LearnFlow\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "RelativeToolTip": "LearnFlow\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T23:37:37.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Dashboard\\StudentDashboard.cshtml",
+              "RelativeDocumentMoniker": "LearnFlow\\Views\\Dashboard\\StudentDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Dashboard\\StudentDashboard.cshtml",
+              "RelativeToolTip": "LearnFlow\\Views\\Dashboard\\StudentDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T23:37:14.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "LearnFlow\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T23:36:40.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "LearnFlow\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T23:36:18.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InstructorDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
+              "RelativeDocumentMoniker": "LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
+              "RelativeToolTip": "LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T23:27:38.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\Review.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T02:28:47.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\Payment.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T02:28:41.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T02:28:38.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "owl-carousel.js",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\js\\owl-carousel.js",
+              "RelativeDocumentMoniker": "LearnFlow\\wwwroot\\js\\owl-carousel.js",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\js\\owl-carousel.js",
+              "RelativeToolTip": "LearnFlow\\wwwroot\\js\\owl-carousel.js",
+              "ViewState": "AgIAABoAAAAAzczMzMw7wBoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-09T01:43:42.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "isotope.min.js",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\js\\isotope.min.js",
+              "RelativeDocumentMoniker": "LearnFlow\\wwwroot\\js\\isotope.min.js",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\js\\isotope.min.js",
+              "RelativeToolTip": "LearnFlow\\wwwroot\\js\\isotope.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-09T01:43:42.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "custom.js",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\js\\custom.js",
+              "RelativeDocumentMoniker": "LearnFlow\\wwwroot\\js\\custom.js",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\js\\custom.js",
+              "RelativeToolTip": "LearnFlow\\wwwroot\\js\\custom.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-09T01:43:41.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "counter.js",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\js\\counter.js",
+              "RelativeDocumentMoniker": "LearnFlow\\wwwroot\\js\\counter.js",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\js\\counter.js",
+              "RelativeToolTip": "LearnFlow\\wwwroot\\js\\counter.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-09T01:43:40.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Controllers\\InstructorController.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "LearnFlow\\Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:17:09.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Interfaces\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Interfaces\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Interfaces\\IUserRepo.cs",
+              "RelativeToolTip": "LearnFlow\\Interfaces\\IUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:25:11.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LearnFlowContext.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\LearnFlowContext.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\LearnFlowContext.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\LearnFlowContext.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\LearnFlowContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:25:02.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:25:01.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20241008172103_CreateRegisterUsersTable.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Migrations\\20241008172103_CreateRegisterUsersTable.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Migrations\\20241008172103_CreateRegisterUsersTable.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Migrations\\20241008172103_CreateRegisterUsersTable.cs",
+              "RelativeToolTip": "LearnFlow\\Migrations\\20241008172103_CreateRegisterUsersTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:21:34.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "LearnFlow\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:21:12.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LearnFlow",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\LearnFlow.csproj",
+              "RelativeDocumentMoniker": "LearnFlow\\LearnFlow.csproj",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\LearnFlow.csproj",
+              "RelativeToolTip": "LearnFlow\\LearnFlow.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-08T17:08:21.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LearnFlowContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Migrations\\LearnFlowContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Migrations\\LearnFlowContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Migrations\\LearnFlowContextModelSnapshot.cs",
+              "RelativeToolTip": "LearnFlow\\Migrations\\LearnFlowContextModelSnapshot.cs",
+              "ViewState": "AgIAAHsAAAAAMDMzMzPjvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:04:25.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20241002203612_init.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Migrations\\20241002203612_init.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Migrations\\20241002203612_init.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Migrations\\20241002203612_init.cs",
+              "RelativeToolTip": "LearnFlow\\Migrations\\20241002203612_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:04:23.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "LearnFlow\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "LearnFlow\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-08T15:32:05.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "LearnFlow\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHkAAADAMzMzMzMXwIAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:30:57.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LearnFlow\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:30:50.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LearnFlow\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:25:36.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:22:46.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "LearnFlow\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "LearnFlow\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T15:22:25.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Program.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Program.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Program.cs",
+              "RelativeToolTip": "LearnFlow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:15:53.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\User.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAACAZmZmZmYkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T15:15:26.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "LearnFlow\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAABAMzMzMzMwwHoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-02T22:59:22.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 39,
               "Title": "QuizRepo.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Repository\\QuizRepo.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Repository\\QuizRepo.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Repository\\QuizRepo.cs",
               "RelativeToolTip": "LearnFlow\\Repository\\QuizRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +657,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 35,
               "Title": "IQuizRepo.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Interfaces\\IQuizRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Interfaces\\IQuizRepo.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Interfaces\\IQuizRepo.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Interfaces\\IQuizRepo.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Interfaces\\IQuizRepo.cs",
               "RelativeToolTip": "LearnFlow\\Interfaces\\IQuizRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -101,11 +670,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
               "Title": "QuizResult.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\QuizResult.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\QuizResult.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Models\\QuizResult.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\QuizResult.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\QuizResult.cs",
               "RelativeToolTip": "LearnFlow\\Models\\QuizResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,12 +683,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 26,
               "Title": "Question.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Question.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\Question.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Models\\Question.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Question.cs*",
-              "RelativeToolTip": "LearnFlow\\Models\\Question.cs*",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\Question.cs",
+              "RelativeToolTip": "LearnFlow\\Models\\Question.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T21:09:30.678Z",
@@ -127,11 +696,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "Quiz.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\Quiz.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Models\\Quiz.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\Quiz.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\Quiz.cs",
               "RelativeToolTip": "LearnFlow\\Models\\Quiz.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -140,11 +709,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 40,
               "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\appsettings.json",
               "RelativeDocumentMoniker": "LearnFlow\\appsettings.json",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\appsettings.json",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\appsettings.json",
               "RelativeToolTip": "LearnFlow\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -153,11 +722,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 23,
               "Title": "AnswerOption.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\AnswerOption.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\AnswerOption.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Models\\AnswerOption.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Models\\AnswerOption.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Models\\AnswerOption.cs",
               "RelativeToolTip": "LearnFlow\\Models\\AnswerOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -166,11 +735,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 41,
               "Title": "QuizController.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\QuizController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\QuizController.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\QuizController.cs",
               "RelativeToolTip": "LearnFlow\\Controllers\\QuizController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,11 +748,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 42,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinal\\LearnFlow\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LearnFlow\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
