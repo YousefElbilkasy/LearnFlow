@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ucJJdQf71ktAA40d8Cm9E03HzuXR5V/vnXHKWEWhz1g=",
+  "Hash": "iwJzQFUyZRDOiKWVYOxQVAY14wOXhtnC3N7DV6puXjE=",
   "Source": "LearnFlow",
   "BasePath": "_content/LearnFlow",
   "Mode": "Default",
@@ -2962,12 +2962,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\367975535_276663188328228_2089725748906969763_n.jpg",
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\367975535_276663188328228_2089725748906969763_n.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
       "BasePath": "_content/LearnFlow",
-      "RelativePath": "uploads/367975535_276663188328228_2089725748906969763_n.jpg",
+      "RelativePath": "uploads/users/367975535_276663188328228_2089725748906969763_n.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2978,15 +2978,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\367975535_276663188328228_2089725748906969763_n.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\367975535_276663188328228_2089725748906969763_n.jpg"
     },
     {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\61b74faf03fba0.38263665.jpg",
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\61b74faf03fba0.38263665.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
       "BasePath": "_content/LearnFlow",
-      "RelativePath": "uploads/61b74faf03fba0.38263665.jpg",
+      "RelativePath": "uploads/users/61b74faf03fba0.38263665.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2997,15 +2997,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\61b74faf03fba0.38263665.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\61b74faf03fba0.38263665.jpg"
     },
     {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\DALL·E 2024-09-10 16.00.16 - A peaceful early morning scene, with a man walking in the darkness of pre-dawn, his path subtly illuminated by a gentle light radiating from him, symb.webp",
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\DALL·E 2024-09-10 16.00.16 - A peaceful early morning scene, with a man walking in the darkness of pre-dawn, his path subtly illuminated by a gentle light radiating from him, symb.webp",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
       "BasePath": "_content/LearnFlow",
-      "RelativePath": "uploads/DALL·E 2024-09-10 16.00.16 - A peaceful early morning scene, with a man walking in the darkness of pre-dawn, his path subtly illuminated by a gentle light radiating from him, symb.webp",
+      "RelativePath": "uploads/users/DALL·E 2024-09-10 16.00.16 - A peaceful early morning scene, with a man walking in the darkness of pre-dawn, his path subtly illuminated by a gentle light radiating from him, symb.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3016,15 +3016,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\DALL·E 2024-09-10 16.00.16 - A peaceful early morning scene, with a man walking in the darkness of pre-dawn, his path subtly illuminated by a gentle light radiating from him, symb.webp"
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\DALL·E 2024-09-10 16.00.16 - A peaceful early morning scene, with a man walking in the darkness of pre-dawn, his path subtly illuminated by a gentle light radiating from him, symb.webp"
     },
     {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\default.png",
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\default.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
       "BasePath": "_content/LearnFlow",
-      "RelativePath": "uploads/default.png",
+      "RelativePath": "uploads/users/default.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3035,7 +3035,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\default.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\default.png"
     },
     {
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",

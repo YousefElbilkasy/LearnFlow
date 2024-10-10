@@ -36,7 +36,7 @@ namespace LearnFlow.Controllers
         DateJoined = user.DateJoined
       };
 
-      userProfile.ImageUrl = "/uploads/" + userProfile.ImageUrl;
+      userProfile.ImageUrl = "/uploads/users/" + userProfile.ImageUrl;
 
       if (string.IsNullOrEmpty(userProfile.ImageUrl))
         userProfile.ImageUrl = "default.png";
@@ -61,7 +61,7 @@ namespace LearnFlow.Controllers
         PhoneNumber = user.PhoneNumber
       };
 
-      userProfile.ImageUrl = "/uploads/" + userProfile.ImageUrl;
+      userProfile.ImageUrl = "/uploads/users/" + userProfile.ImageUrl;
 
       if (userProfile.ImageUrl == null)
         userProfile.ImageUrl += "default.png";
@@ -92,14 +92,14 @@ namespace LearnFlow.Controllers
         {
           // Save new image
           var fileName =
-          Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads", model.NewImageUrl.FileName);
+          Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads\\users", model.NewImageUrl.FileName);
           model.NewImageUrl.CopyTo(new FileStream(fileName, FileMode.Create));
 
           // Delete old image
           if (user.ImageUrl != "default.png")
           {
             var oldImagePath =
-            Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads", user.ImageUrl);
+            Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads\\users", user.ImageUrl);
             if (System.IO.File.Exists(oldImagePath))
               System.IO.File.Delete(oldImagePath);
           }

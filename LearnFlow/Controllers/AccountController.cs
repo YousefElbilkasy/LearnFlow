@@ -29,7 +29,8 @@ namespace LearnFlow.Controllers
     {
       if (model.ImageUrl != null)
       {
-        var fileName = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads", model.ImageUrl.FileName);
+        var fileName =
+        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads\\users", model.ImageUrl.FileName);
         model.ImageUrl.CopyTo(new FileStream(fileName, FileMode.Create));
       }
 

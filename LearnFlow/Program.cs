@@ -11,11 +11,13 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<LearnFlowContext>(options =>
   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
+// Add Identity
 builder.Services.AddIdentity<User, IdentityRole<int>>()
                 .AddEntityFrameworkStores<LearnFlowContext>()
                 .AddDefaultTokenProviders();
 
-builder.Services.AddScoped<IUserRepo, UserRepo>();
+// Add Course Repository
+builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
 
 var app = builder.Build();
 

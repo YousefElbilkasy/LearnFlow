@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {}
+    "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {
+    "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+        "projectUniqueName": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
         "projectName": "LearnFlow",
-        "projectPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+        "projectPath": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
         "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\",
+        "outputPath": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
