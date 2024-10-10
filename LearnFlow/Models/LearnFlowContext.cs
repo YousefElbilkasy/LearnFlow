@@ -1,9 +1,10 @@
 using System;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
 namespace LearnFlow.Models;
 
-public class LearnFlowContext : DbContext
+public class LearnFlowContext : IdentityDbContext<User, IdentityRole<int>, int>
 {
   public LearnFlowContext(DbContextOptions<LearnFlowContext> options) : base(options)
   {
@@ -17,6 +18,4 @@ public class LearnFlowContext : DbContext
   public DbSet<Quiz> Quizs { get; set; }
   public DbSet<QuizResult> QuizResults { get; set; }
   public DbSet<Review> Reviews { get; set; }
-  public DbSet<User> Users { get; set; }
-
 }

@@ -18,6 +18,6 @@ public class Enrollment
   [DisplayName("Enrollment Date")]
   public DateTime EnrollmentDate { get; set; }
   public float Progress { get; set; }
-  public Course Course { get; set; }
-  public User Student { get; set; }
+  public Course? Course { get; set; }
+  public User? Student { get; set; }
 }

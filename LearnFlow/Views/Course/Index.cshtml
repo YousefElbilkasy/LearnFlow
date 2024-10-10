@@ -1,0 +1,38 @@
+@model IEnumerable<LearnFlow.Models.Course>
+
+@{
+  ViewData["Title"] = "Index";
+}
+
+<h1>Courses</h1>
+
+<p>
+  <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+  <thead>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Price</th>
+    <th>Creation Date</th>
+    <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var course in Model)
+    {
+      <tr>
+        <td>@course.Title</td>
+        <td>@course.Description</td>
+        <td>@course.Price</td>
+        <td>@course.CreationDate</td>
+        <td>
+          <a asp-action="Edit" asp-route-id="@course.CourseId">Edit</a>
+          <a asp-action="Details" asp-route-id="@course.CourseId">Details</a>
+          <a asp-action="Delete" asp-route-id="@course.CourseId">Delete</a>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>

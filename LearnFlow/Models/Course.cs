@@ -20,12 +20,15 @@ public class Course
   public decimal Price { get; set; }
   [DisplayName("Creation Date")]
   public DateTime CreationDate { get; set; } = DateTime.Now;
+  public string ImageUrl { get; set; } = "default-course.png";
+
+
   // Navigation Properties
-  public User Instructor { get; set; }
-  public ICollection<Lecture> Lectures { get; set; }
-  public ICollection<Enrollment> Enrollments { get; set; }
-  public ICollection<Quiz> Quizzes { get; set; }
-  public ICollection<Review> Reviews { get; set; }
-  public ICollection<Payment> Payments { get; set; }
+  public User? Instructor { get; set; }
+  public ICollection<Lecture>? Lectures { get; set; }
+  public ICollection<Enrollment>? Enrollments { get; set; }
+  public ICollection<Quiz>? Quizzes { get; set; }
+  public ICollection<Review>? Reviews { get; set; }
+  public ICollection<Payment>? Payments { get; set; }
 
 }

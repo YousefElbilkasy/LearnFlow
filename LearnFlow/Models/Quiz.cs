@@ -12,6 +12,6 @@ public class Quiz
   [Required]
   public required string Title { get; set; }
   public double MaxScore { get; set; }
-  public Course Course { get; set; }
-  public ICollection<Question> Questions { get; set; }
+  public Course? Course { get; set; }
+  public ICollection<Question>? Questions { get; set; }
 }
