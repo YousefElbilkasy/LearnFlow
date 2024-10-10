@@ -112,6 +112,8 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
       "Humanizer.Core.af/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -640,6 +642,7 @@
           }
         }
       },
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.8": {
         "type": "package",
         "compile": {
@@ -686,6 +689,9 @@
           }
         }
       },
+<<<<<<< HEAD
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+=======
       "Microsoft.AspNetCore.Identity.UI/8.0.8": {
         "type": "package",
         "dependencies": {
@@ -723,6 +729,7 @@
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -1567,6 +1574,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+<<<<<<< HEAD
+=======
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -1608,6 +1617,7 @@
           "buildMultiTargeting/_._": {}
         }
       },
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
       "Microsoft.Extensions.Identity.Core/8.0.8": {
         "type": "package",
         "dependencies": {
@@ -2967,8 +2977,66 @@
         "logo.png"
       ]
     },
+<<<<<<< HEAD
+    "Microsoft.AspNetCore.Cryptography.Internal/8.0.8": {
+      "sha512": "VrfHrQwvj8p5W3z+PhHCkUMgpPnThJ9ZDeu+AJrFGWFvHSA6sI7iP/k9LjqkdFXsFezlOOZWNAgB6EH9gCCA4g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.internal/8.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.8": {
+      "sha512": "Ct73TxRAPhQ8OqckzgIUPjJ1/WXnQbOnGjqbvTyPmMptdOg9YJ9wXQh9U+da2s6nki54mcZAyonvaKXLsrXhKQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/8.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "microsoft.aspnetcore.cryptography.keyderivation.8.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.8": {
+      "sha512": "OtjXwZkWdW7UTQ1XR/IGWmeVCujnly0fjjCbUxsjHC1o3cB9iWQRTREdL4931Ulwk9RRgjYQ/mAo7k8ggcZ9xQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.identity.entityframeworkcore.8.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "sha512": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+=======
     "Humanizer.Core.af/2.14.1": {
       "sha512": "BoQHyu5le+xxKOw+/AUM7CLXneM/Bh3++0qh1u0+D95n6f9eGt9kNc8LcAHLIOwId7Sd5hiAaaav0Nimj3peNw==",
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
       "type": "package",
       "path": "humanizer.core.af/2.14.1",
       "files": [
@@ -5491,6 +5559,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
+=======
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "sha512": "ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
       "type": "package",
@@ -5542,6 +5612,7 @@
         "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
     },
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
     "Microsoft.Extensions.Identity.Core/8.0.8": {
       "sha512": "ICzYDXrPFaJWX2c/fp+AvltzVu2LZIe5eK5+JbxndTjGqYEzAAW9jwKSaBq9c3QF0wM9c3SjI80E2Kcn+l9prg==",
       "type": "package",
@@ -8119,7 +8190,10 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.8",
+<<<<<<< HEAD
+=======
       "Microsoft.AspNetCore.Identity.UI >= 8.0.8",
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
@@ -8128,19 +8202,40 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\Maram Mohamed\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
     "C:\\Users\\youse\\.nuget\\packages\\": {}
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\LearnFlow.csproj",
+      "projectName": "LearnFlow",
+      "projectPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\LearnFlow.csproj",
+      "packagesPath": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\obj\\",
+=======
       "projectUniqueName": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "projectName": "LearnFlow",
       "projectPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
       "outputPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\",
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\Maram Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
         "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8176,10 +8271,13 @@
             "target": "Package",
             "version": "[8.0.8, )"
           },
+<<<<<<< HEAD
+=======
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
             "version": "[8.0.8, )"
           },
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.8, )"
@@ -8224,7 +8322,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
       }
     }
   }
