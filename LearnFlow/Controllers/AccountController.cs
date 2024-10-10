@@ -29,7 +29,7 @@ namespace LearnFlow.Controllers
     {
       if (model.ImageUrl != null)
       {
-        var fileName = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", model.ImageUrl.FileName);
+        var fileName = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads", model.ImageUrl.FileName);
         model.ImageUrl.CopyTo(new FileStream(fileName, FileMode.Create));
       }
 
@@ -40,22 +40,28 @@ namespace LearnFlow.Controllers
           FullName = model.FullName,
           UserName = model.UserName,
           Email = model.Email,
-          PhoneNumber = model.PhoneNumber,
-          ImageUrl = model.ImageUrl.FileName == null ? "default.jpg" : model.ImageUrl.FileName,
-          PasswordHash = model.Password
+          PhoneNumber = model.PhoneNumber
         };
+        user.ImageUrl = model.ImageUrl?.FileName ?? "default.png";
 
         var result = await UserManager.CreateAsync(user, model.Password);
 
         if (result.Succeeded)
         {
           await signInManager.SignInAsync(user, false);
+          return RedirectToAction("LogIn");
         }
 
         foreach (var error in result.Errors)
           ModelState.AddModelError("", error.Description);
       }
       return View("Register", model);
+    }
+
+    [HttpGet]
+    public IActionResult LogIn()
+    {
+      return View();
     }
   }
 }

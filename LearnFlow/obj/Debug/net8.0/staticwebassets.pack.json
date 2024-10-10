@@ -377,8 +377,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\Default.png",
-      "PackagePath": "staticwebassets\\uploads\\Default.png"
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\367975535_276663188328228_2089725748906969763_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\367975535_276663188328228_2089725748906969763_n.jpg"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\61b74faf03fba0.38263665.jpg",
+      "PackagePath": "staticwebassets\\uploads\\61b74faf03fba0.38263665.jpg"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\DALL·E 2024-09-10 16.00.16 - A peaceful early morning scene, with a man walking in the darkness of pre-dawn, his path subtly illuminated by a gentle light radiating from him, symb.webp",
+      "PackagePath": "staticwebassets\\uploads\\DALL·E 2024-09-10 16.00.16 - A peaceful early morning scene, with a man walking in the darkness of pre-dawn, his path subtly illuminated by a gentle light radiating from him, symb.webp"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\default.png",
+      "PackagePath": "staticwebassets\\uploads\\default.png"
     },
     {
       "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
