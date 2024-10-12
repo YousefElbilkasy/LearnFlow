@@ -1,42 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\LearnFlow.csproj": {}
+    "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\LearnFlow.csproj": {
+    "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\LearnFlow.csproj",
+        "projectUniqueName": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
         "projectName": "LearnFlow",
-        "projectPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\LearnFlow.csproj",
-        "packagesPath": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinal\\LearnFlow\\obj\\",
-=======
-    "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {}
-  },
-  "projects": {
-    "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
-        "projectName": "LearnFlow",
-        "projectPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
-        "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\",
->>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
+        "projectPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+        "packagesPath": "C:\\Users\\MaStEr\\.nuget\\packages\\",
+        "outputPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\Maram Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-          "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
+          "C:\\Users\\MaStEr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,13 +50,6 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-<<<<<<< HEAD
-=======
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
->>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -123,11 +94,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
->>>>>>> 28c15ca84ca85698810386213f5440e5c66f3bad
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
