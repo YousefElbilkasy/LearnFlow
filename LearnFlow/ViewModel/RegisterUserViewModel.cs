@@ -1,8 +1,15 @@
 using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using LearnFlow.Models;
 
 namespace LearnFlow.ViewModel;
+
+public enum Role
+{
+  Student,
+  Instructor
+}
 
 public class RegisterUserViewModel
 {
@@ -31,4 +38,7 @@ public class RegisterUserViewModel
 
   [DisplayName("Profile Picture")]
   public IFormFile? ImageUrl { get; set; }
+
+  [Required]
+  public required UserRole Role { get; set; }
 }
