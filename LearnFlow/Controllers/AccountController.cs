@@ -53,6 +53,8 @@ namespace LearnFlow.Controllers
 
         if (result.Succeeded)
         {
+          await UserManager.AddToRoleAsync(user, model.Role.ToString());
+
           await signInManager.SignInAsync(user, false);
           return RedirectToAction("LogIn");
         }

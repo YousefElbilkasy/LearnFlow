@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O4IYvlrwGvmAG0FZ7ckbM7zZuMYlqAZLy0+exIWdAX4=",
+  "Hash": "TgBCKa0bbgjP4r57HFZOEeKXXNLO2cgkuRz0IGZ2G5I=",
   "Source": "LearnFlow",
   "BasePath": "_content/LearnFlow",
   "Mode": "Default",
@@ -2924,6 +2924,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Default.png"
     },
     {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\1.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "uploads/users/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\1.jpg"
+    },
+    {
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\default.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
@@ -2941,6 +2960,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\users\\default.png"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\Image20240715104238.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "uploads/users/Image20240715104238.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\Image20240715104238.jpg"
     },
     {
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",

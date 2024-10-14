@@ -369,6 +369,14 @@
       "PackagePath": "staticwebassets\\uploads\\courses\\default-course.png"
     },
     {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\1.jpg"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\Image20240715104238.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\Image20240715104238.jpg"
+    },
+    {
       "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\default.png",
       "PackagePath": "staticwebassets\\uploads\\users\\default.png"
     },
