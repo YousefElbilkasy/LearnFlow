@@ -20,9 +20,9 @@ public class UserRepo : IUserRepo
     throw new NotImplementedException();
   }
 
-  public List<User> GetAllUsers()
+  public async Task<List<User>> GetAllUsers()
   {
-    var users = context.Users.ToList();
+    var users = await context.Users.ToListAsync();
     return users;
   }
 
