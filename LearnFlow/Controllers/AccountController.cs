@@ -1,6 +1,9 @@
 using System.Drawing;
+using System.Security.Claims;
 using LearnFlow.Models;
 using LearnFlow.ViewModel;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -72,16 +75,19 @@ namespace LearnFlow.Controllers
     }
 
     [HttpPost]
-    public async Task<IActionResult> SaveLogIn(LoginViewModel model)
+    public async Task<IActionResult> SaveLogIn(LogInUserViewModel model)
     {
       if (ModelState.IsValid)
       {
-        var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
-        if (result.Succeeded)
-          return RedirectToAction("Index", "Home");
+        var user = await UserManager.FindByEmailAsync(model.Email);
+        if (user != null)
+        {
+          var result = await signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+          if (result.Succeeded)
+            return RedirectToAction("Index", "Home");
+        }
 
         ModelState.AddModelError("", "Invalid Email or Password");
-
       }
       return View("LogIn", model);
     }

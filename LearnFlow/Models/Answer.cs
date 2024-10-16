@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LearnFlow.Models;
 
-public class AnswerOption
+public class Answer
 {
   [Key]
   public int AnswerOptionId { get; set; }

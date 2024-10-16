@@ -526,3 +526,4 @@ F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\refint\Learn
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.pdb
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.genruntimeconfig.cache
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\ref\LearnFlow.dll
+D:\Learning\DotNet Core\LearnFlow\LearnFlow\bin\Debug\net8.0\CloudinaryDotNet.dll

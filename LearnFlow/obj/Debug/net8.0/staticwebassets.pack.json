@@ -381,6 +381,10 @@
       "PackagePath": "staticwebassets\\uploads\\users\\default.png"
     },
     {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\photo_2023-11-11_17-37-24.jpg"
+    },
+    {
       "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },
