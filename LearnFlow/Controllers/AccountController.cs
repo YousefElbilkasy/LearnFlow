@@ -81,7 +81,7 @@ namespace LearnFlow.Controllers
                     if (isPasswordValid)
                     {
                         var result = await signInManager.PasswordSignInAsync(emailfound, loginmodel.Password, false, false);
-                        if (result.Succeeded) return RedirectToAction("Student", "Index");
+                        if (result.Succeeded) return RedirectToAction("Index", "Home");
                         TempData["Error"] = "Login Failed, please try again later";
                         return View(loginmodel);
                     }
