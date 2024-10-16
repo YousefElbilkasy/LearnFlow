@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
@@ -8,6 +9,7 @@ using LearnFlow.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace LearnFlow.Controllers
 {
@@ -21,8 +23,9 @@ namespace LearnFlow.Controllers
     private readonly Cloudinary cloudinary;
     private readonly UploadToCloudinaryRepo uploadToCloudinaryRepo;
     private readonly LearnFlowContext dbContext;
+    private readonly IEnrollmentRepo enrollmentRepo;
 
-    public CourseController(CourseRepo courseRepo, UserManager<User> userManager, IRepo<Lecture> lectureRepo, IRepo<Quiz> quizRepo, IRepo<Question> questionRepo, Cloudinary cloudinary, UploadToCloudinaryRepo uploadToCloudinaryRepo, LearnFlowContext dbContext)
+    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, IRepo<Lecture> lectureRepo, IRepo<Quiz> quizRepo, IRepo<Question> questionRepo, Cloudinary cloudinary, UploadToCloudinaryRepo uploadToCloudinaryRepo, LearnFlowContext dbContext)
     {
       this.courseRepo = courseRepo;
       this.userManager = userManager;
@@ -32,6 +35,7 @@ namespace LearnFlow.Controllers
       this.cloudinary = cloudinary;
       this.uploadToCloudinaryRepo = uploadToCloudinaryRepo;
       this.dbContext = dbContext;
+      this.enrollmentRepo = enrollmentRepo;
     }
 
     // GET: CourseController
@@ -41,12 +45,17 @@ namespace LearnFlow.Controllers
       return View(courses);
     }
 
-    // GET: CourseController/Details/5
-    public async Task<ActionResult> Details(int id)
-    {
-      var course = await courseRepo.GetByIdAsync(id);
-      return View(course);
-    }
+        // GET: CourseController/Details/3
+
+        public async Task<ActionResult> Details(int id)
+        {
+            var course = await courseRepo.GetByIdAsync(id);
+            if (course == null)
+            {
+                return NotFound(); 
+            }
+            return View(course);
+        }
 
     // GET: CourseController/Create
     [Authorize(Roles = "Instructor")]
@@ -219,23 +228,23 @@ namespace LearnFlow.Controllers
       return View(course);
     }
 
-    // POST: CourseController/Edit/5
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    [Authorize(Roles = "Instructor, Admin")]
+        // POST: CourseController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Instructor, Admin")]
     public async Task<ActionResult> Edit(int id, Course course)
-    {
-      if (id != course.CourseId)
-      {
-        return NotFound();
-      }
-      if (ModelState.IsValid)
-      {
-        await courseRepo.UpdateAsync(course);
-        return RedirectToAction(nameof(Index));
-      }
-      return View(course);
-    }
+        {
+            if (id != course.CourseId)
+            {
+                return NotFound();
+            }
+            if (ModelState.IsValid)
+            {
+                await courseRepo.UpdateAsync(course);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(course);
+        }
 
     // GET: CourseController/Delete/5
     [Authorize(Roles = "Instructor, Admin")]

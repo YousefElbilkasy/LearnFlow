@@ -36,6 +36,7 @@ builder.Services.AddSingleton(cloudinary);
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("Cloudinary"));
 
 
+builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
 
 var app = builder.Build();
 
