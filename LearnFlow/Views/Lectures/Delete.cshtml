@@ -1,0 +1,55 @@
+﻿@model LearnFlow.Models.Lecture
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container text-center">
+    <h3 class="mb-4" style="color: white;">Are you sure you want to delete this video?</h3>
+
+    <center>
+        <dl class="row justify-content-center">
+            <dt class="col-sm-4 text-white font-weight-bold">
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+            <dd class="col-sm-8">
+                <span class="text-black">@Html.DisplayFor(model => model.Title)</span>
+            </dd>
+            <dt class="col-sm-4 text-white font-weight-bold">
+                Video
+            </dt>
+            <dd class="col-sm-8 d-flex justify-content-center">
+                <video width="400px" controls style="border-radius: 10px;">
+                    <source src="@Url.Content(Model.Content)" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </dd>
+        </dl>
+    </center>
+    <br />
+   
+    <form asp-action="Delete" method="post" class="d-inline">
+        <input type="hidden" asp-for="LectureId" />
+        <button type="submit" class="btn btn-danger custom-purple-btn">Delete</button>
+        <a asp-action="Index" class="btn btn-outline-light ml-3" style="color: black; border-color: gray;">Back to List</a>
+    </form>
+</div>
+
+<style>
+    
+    .custom-purple-btn {
+        background-color: #9b59b6; /* Primary purple color */
+        color: #ffffff; /* White text */
+        border: none;
+    }
+
+        .custom-purple-btn:hover {
+            background-color: #7d3c98; /* Darker purple for hover */
+            color: #ffffff;
+        }
+
+    .col-sm-8 {
+        flex: 0 0 auto;
+        width: 67.666667%;
+    }
+</style>

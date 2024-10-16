@@ -10799,16 +10799,22 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\youse\\.nuget\\packages\\": {}
     "C:\\Users\\youse\\.nuget\\packages\\": {}
 =======
     "C:\\Users\\Maram Mohamed\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
 >>>>>>> origin/authentication
+=======
+    "C:\\Users\\shahd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> origin/Shahd
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "projectName": "LearnFlow",
@@ -10822,11 +10828,19 @@
       "packagesPath": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\obj\\",
 >>>>>>> origin/authentication
+=======
+      "projectUniqueName": "C:\\pro_learn\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+      "projectName": "LearnFlow",
+      "projectPath": "C:\\pro_learn\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+      "packagesPath": "C:\\Users\\shahd\\.nuget\\packages\\",
+      "outputPath": "C:\\pro_learn\\LearnFlow\\LearnFlow\\obj\\",
+>>>>>>> origin/Shahd
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
         "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10834,6 +10848,10 @@
         "C:\\Users\\Maram Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
 >>>>>>> origin/authentication
+=======
+        "C:\\Users\\shahd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> origin/Shahd
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10841,7 +10859,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10854,11 +10871,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -10922,11 +10934,15 @@
           }
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
 >>>>>>> origin/authentication
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+>>>>>>> origin/Shahd
       }
     }
   }

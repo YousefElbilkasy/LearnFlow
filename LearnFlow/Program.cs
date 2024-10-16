@@ -1,38 +1,41 @@
+using LearnFlow.Data;
 using CloudinaryDotNet;
 using LearnFlow.Interfaces;
 using LearnFlow.Models;
+using LearnFlow.Repositories;
 using LearnFlow.Repository;
+using LearnFlow.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using test_video_2.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<LearnFlowContext>(options =>
-  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
-
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+               options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 // Add Identity
 builder.Services.AddIdentity<User, IdentityRole<int>>()
                 .AddEntityFrameworkStores<LearnFlowContext>()
                 .AddDefaultTokenProviders();
 
 // Add Repositories
+builder.Services.AddScoped<ILectureRepository, LectureRepository>();
 builder.Services.AddScoped<CourseRepo, CourseRepo>();
 builder.Services.AddScoped<IRepo<Quiz>, QuizRepo>();
 builder.Services.AddScoped<IRepo<Question>, QuestionRepo>();
 builder.Services.AddScoped<IRepo<Lecture>, LectureRepo>();
 builder.Services.AddScoped<IUserRepo, UserRepo>();
 builder.Services.AddScoped<UploadToCloudinaryRepo, UploadToCloudinaryRepo>();
+builder.Services.AddScoped<IVideoService, VideoService>();
+//builder.Services.AddScoped<ILectureRepository, LectureRepository>();
 
 // Configure Cloudinary
-var cloudinarySettings = builder.Configuration.GetSection("Cloudinary").Get<CloudinarySettings>();
-var cloudinary = new Cloudinary(new Account(
-    cloudinarySettings.CloudName,
-    cloudinarySettings.ApiKey,
-    cloudinarySettings.ApiSecret
-));
 builder.Services.AddSingleton(cloudinary);
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("Cloudinary"));
+
+
 
 var app = builder.Build();
 
@@ -55,4 +58,4 @@ app.MapControllerRoute(
   name: "default",
   pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+app.Run(); 

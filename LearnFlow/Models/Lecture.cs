@@ -16,11 +16,17 @@ public class Lecture
   public required string Title { get; set; }
 
   [Required]
+<<<<<<< HEAD
   public required string VideoUrl { get; set; }
 
   public string? ContentUrl { get; set; }
 
+=======
+  public required string Content { get; set; }
+    
+>>>>>>> origin/Shahd
   public int Order { get; set; }
 
   public Course? Course { get; set; }
+    
 }
