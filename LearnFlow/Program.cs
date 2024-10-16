@@ -18,6 +18,7 @@ builder.Services.AddIdentity<User, IdentityRole<int>>()
 
 // Add Course Repository
 builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
+builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
 
 var app = builder.Build();
 
