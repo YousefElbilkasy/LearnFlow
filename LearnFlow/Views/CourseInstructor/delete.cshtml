@@ -4,7 +4,7 @@
 <p>Are you sure you want to delete the course titled <strong>@Model.Title</strong>?</p>
 
 <form asp-action="DeleteConfirmed" method="post">
-    <input type="hidden" asp-for="CourseId" />
+    @* <input type="hidden" asp-for="CourseId" /> *@
     <button type="submit" class="btn btn-danger">Delete</button>
     <a asp-action="InstructorDashboard" class="btn btn-secondary">Cancel</a>
 </form>

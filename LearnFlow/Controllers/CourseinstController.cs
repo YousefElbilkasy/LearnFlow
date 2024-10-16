@@ -2,7 +2,6 @@
 using LearnFlow.Interfaces;
 using LearnFlow.Models;
 using LearnFlow.ViewModel;
-using LearnFlow.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,7 +25,7 @@ namespace LearnFlow.Controllers
             // Convert each Course to CourseViewModel
             var courseViewModels = courses.Select(course => new CourseViewModel
             {
-                CourseId = course.CourseId,
+                // CourseId = course.CourseId,
                 Title = course.Title,
                 Description = course.Description,
                 Price = course.Price,
@@ -81,7 +80,7 @@ namespace LearnFlow.Controllers
             // Map the Course to CourseViewModel
             var courseViewModel = new CourseViewModel
             {
-                CourseId = course.CourseId,
+                // CourseId = course.CourseId,
                 Title = course.Title,
                 Description = course.Description,
                 Price = course.Price
@@ -96,7 +95,7 @@ namespace LearnFlow.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, CourseViewModel model)
         {
-            if (id != model.CourseId)
+            // if (id != model.CourseId)
             {
                 return NotFound();
             }
@@ -133,7 +132,7 @@ namespace LearnFlow.Controllers
             // Show confirmation page with course details (or skip to POST directly)
             var courseViewModel = new CourseViewModel
             {
-                CourseId = course.CourseId,
+                // CourseId = course.CourseId,
                 Title = course.Title,
                 Description = course.Description,
                 Price = course.Price

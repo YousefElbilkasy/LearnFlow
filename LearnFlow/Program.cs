@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<LearnFlowContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 // Add Identity
 builder.Services.AddIdentity<User, IdentityRole<int>>()
                 .AddEntityFrameworkStores<LearnFlowContext>()
@@ -33,7 +33,13 @@ builder.Services.AddScoped<IVideoService, VideoService>();
 builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
 
 // Configure Cloudinary
-builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("Cloudinary"));
+var cloudinarySettings = builder.Configuration.GetSection("Cloudinary").Get<CloudinarySettings>();
+var cloudinary = new Cloudinary(new Account(
+    cloudinarySettings.CloudName,
+    cloudinarySettings.ApiKey,
+    cloudinarySettings.ApiSecret
+));
+builder.Services.AddSingleton(cloudinary);
 
 
 

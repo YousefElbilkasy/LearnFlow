@@ -321,7 +321,7 @@ namespace LearnFlow.Migrations
                     QuestionId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     QuizId = table.Column<int>(type: "int", nullable: false),
-                    QuestionText = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Text = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -363,7 +363,7 @@ namespace LearnFlow.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "AnswerOptions",
+                name: "Answers",
                 columns: table => new
                 {
                     AnswerOptionId = table.Column<int>(type: "int", nullable: false)
@@ -374,9 +374,9 @@ namespace LearnFlow.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_AnswerOptions", x => x.AnswerOptionId);
+                    table.PrimaryKey("PK_Answers", x => x.AnswerOptionId);
                     table.ForeignKey(
-                        name: "FK_AnswerOptions_Questions_QuestionId",
+                        name: "FK_Answers_Questions_QuestionId",
                         column: x => x.QuestionId,
                         principalTable: "Questions",
                         principalColumn: "QuestionId",
@@ -384,8 +384,8 @@ namespace LearnFlow.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_AnswerOptions_QuestionId",
-                table: "AnswerOptions",
+                name: "IX_Answers_QuestionId",
+                table: "Answers",
                 column: "QuestionId");
 
             migrationBuilder.CreateIndex(
@@ -492,7 +492,7 @@ namespace LearnFlow.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "AnswerOptions");
+                name: "Answers");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
