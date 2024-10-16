@@ -17,111 +17,111 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LearnFlow
 build_property.RootNamespace = LearnFlow
-build_property.ProjectDir = C:\pro_learn\LearnFlow\LearnFlow\
+build_property.ProjectDir = c:\pro_learn\LearnFlow\LearnFlow\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\pro_learn\LearnFlow\LearnFlow
+build_property.MSBuildProjectDirectory = c:\pro_learn\LearnFlow\LearnFlow
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Account/ForgotPassword.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Account/ForgotPasswordConfirmation.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Account/Login.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Account/Register.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Account/SaveRegister.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Account/SaveRegister.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTYXZlUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Course/Details.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Course/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Course/Index.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Dashboard/AdminDashboard.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Dashboard/AdminDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Dashboard/InstructorDashboard.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Dashboard/InstructorDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluc3RydWN0b3JEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Dashboard/StudentDashboard.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Dashboard/StudentDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFN0dWRlbnREYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Home/Index.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Home/Privacy.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Create.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Delete.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Details.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Edit.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Index.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Lectures/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Shared/Error.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/User/EditProfile.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/User/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/User/Index.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/User/ViewProfile.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/User/ViewProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxWaWV3UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/_ViewImports.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/_ViewStart.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pro_learn/LearnFlow/LearnFlow/Views/Shared/_Layout.cshtml]
+[c:/pro_learn/LearnFlow/LearnFlow/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1rpier6gsb
