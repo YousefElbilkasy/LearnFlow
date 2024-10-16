@@ -45,17 +45,17 @@ namespace LearnFlow.Controllers
       return View(courses);
     }
 
-        // GET: CourseController/Details/3
+    // GET: CourseController/Details/3
 
-        public async Task<ActionResult> Details(int id)
-        {
-            var course = await courseRepo.GetByIdAsync(id);
-            if (course == null)
-            {
-                return NotFound(); 
-            }
-            return View(course);
-        }
+    public async Task<ActionResult> Details(int id)
+    {
+      var course = await courseRepo.GetByIdAsync(id);
+      if (course == null)
+      {
+        return NotFound();
+      }
+      return View(course);
+    }
 
     // GET: CourseController/Create
     [Authorize(Roles = "Instructor")]
@@ -228,23 +228,23 @@ namespace LearnFlow.Controllers
       return View(course);
     }
 
-        // POST: CourseController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Instructor, Admin")]
+    // POST: CourseController/Edit/5
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    [Authorize(Roles = "Instructor, Admin")]
     public async Task<ActionResult> Edit(int id, Course course)
-        {
-            if (id != course.CourseId)
-            {
-                return NotFound();
-            }
-            if (ModelState.IsValid)
-            {
-                await courseRepo.UpdateAsync(course);
-                return RedirectToAction(nameof(Index));
-            }
-            return View(course);
-        }
+    {
+      if (id != course.CourseId)
+      {
+        return NotFound();
+      }
+      if (ModelState.IsValid)
+      {
+        await courseRepo.UpdateAsync(course);
+        return RedirectToAction(nameof(Index));
+      }
+      return View(course);
+    }
 
     // GET: CourseController/Delete/5
     [Authorize(Roles = "Instructor, Admin")]
