@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TgBCKa0bbgjP4r57HFZOEeKXXNLO2cgkuRz0IGZ2G5I=",
+  "Hash": "7w69T5on14nU3IH3LUV3sRkNM9fwOrUUmpuLMKrqeo4=",
   "Source": "LearnFlow",
   "BasePath": "_content/LearnFlow",
   "Mode": "Default",
@@ -2979,6 +2979,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\users\\Image20240715104238.jpg"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "uploads/users/photo_2023-11-11_17-37-24.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg"
     },
     {
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",

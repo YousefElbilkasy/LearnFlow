@@ -1,0 +1,69 @@
+@using LearnFlow.ViewModel
+@{
+  ViewData["Title"] = "AddLectures";
+}
+
+@model AddLecturesViewModel
+
+<h2>Add Lectures</h2>
+
+<form asp-action="AddLectures" method="post">
+  <input type="hidden" asp-for="CourseId" />
+  
+  <div id="lectures">
+    @for (int i = 0; i < Model.Lectures.Count; i++)
+    {
+      <div class="lecture">
+        <h4>Lecture @i</h4>
+        <div class="form-group">
+          <label asp-for="Lectures[i].Title"></label>
+          <input asp-for="Lectures[i].Title" class="form-control" />
+          <span asp-validation-for="Lectures[i].Title" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+          <label asp-for="Lectures[i].VideoUrl"></label>
+          <input asp-for="Lectures[i].VideoUrl" class="form-control" />
+          <span asp-validation-for="Lectures[i].VideoUrl" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+          <label asp-for="Lectures[i].ContentUrl"></label>
+          <input asp-for="Lectures[i].ContentUrl" class="form-control" />
+          <span asp-validation-for="Lectures[i].ContentUrl" class="text-danger"></span>
+        </div>
+      </div>
+    }
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<button type="button" class="btn btn-secondary" onclick="addLecture()">Add Lecture</button>
+
+@section Scripts {
+  <script>
+    function addLecture() {
+      var lecturesDiv = document.getElementById('lectures');
+      var lectureCount = lecturesDiv.children.length + 1; // Start counter from 1
+      var newLectureHtml = `
+        <div class="lecture">
+          <h4>Lecture ${lectureCount}</h4>
+          <div class="form-group">
+            <label for="Lectures_${lectureCount}__Title">Title</label>
+            <input type="text" id="Lectures_${lectureCount}__Title" name="Lectures[${lectureCount}].Title" class="form-control" required />
+            <span class="text-danger" data-valmsg-for="Lectures[${lectureCount}].Title"></span>
+          </div>
+          <div class="form-group">
+            <label for="Lectures_${lectureCount}__VideoUrl">Video URL</label>
+            <input type="file" id="Lectures_${lectureCount}__VideoUrl" name="Lectures[${lectureCount}].VideoUrl" class="form-control" accept="video/*" required />
+            <span class="text-danger" data-valmsg-for="Lectures[${lectureCount}].VideoUrl"></span>
+          </div>
+          <div class="form-group">
+            <label for="Lectures_${lectureCount}__ContentUrl">Content URL</label>
+            <input type="file" id="Lectures_${lectureCount}__ContentUrl" name="Lectures[${lectureCount}].ContentUrl" class="form-control" multiple />
+            <span class="text-danger" data-valmsg-for="Lectures[${lectureCount}].ContentUrl"></span>
+          </div>
+        </div>`;
+      lecturesDiv.insertAdjacentHTML('beforeend', newLectureHtml);
+    }
+  </script>
+}

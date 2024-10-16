@@ -22,7 +22,7 @@ namespace LearnFlow.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("LearnFlow.Models.AnswerOption", b =>
+            modelBuilder.Entity("LearnFlow.Models.Answer", b =>
                 {
                     b.Property<int>("AnswerOptionId")
                         .ValueGeneratedOnAdd()
@@ -44,7 +44,7 @@ namespace LearnFlow.Migrations
 
                     b.HasIndex("QuestionId");
 
-                    b.ToTable("AnswerOptions");
+                    b.ToTable("Answers", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.Course", b =>
@@ -62,8 +62,15 @@ namespace LearnFlow.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("InstructorId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsVerified")
+                        .HasColumnType("bit");
 
                     b.Property<decimal>("Price")
                         .HasPrecision(18, 2)
@@ -77,7 +84,7 @@ namespace LearnFlow.Migrations
 
                     b.HasIndex("InstructorId");
 
-                    b.ToTable("Courses");
+                    b.ToTable("Courses", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.Enrollment", b =>
@@ -106,7 +113,7 @@ namespace LearnFlow.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("Enrollments");
+                    b.ToTable("Enrollments", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.Lecture", b =>
@@ -117,8 +124,7 @@ namespace LearnFlow.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LectureId"));
 
-                    b.Property<string>("Content")
-                        .IsRequired()
+                    b.Property<string>("ContentUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("CourseId")
@@ -131,11 +137,15 @@ namespace LearnFlow.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("VideoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("LectureId");
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("Lectures");
+                    b.ToTable("Lectures", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.Payment", b =>
@@ -165,7 +175,7 @@ namespace LearnFlow.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("Payments");
+                    b.ToTable("Payments", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.Question", b =>
@@ -176,18 +186,18 @@ namespace LearnFlow.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("QuestionId"));
 
-                    b.Property<string>("QuestionText")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("QuizId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("QuestionId");
 
                     b.HasIndex("QuizId");
 
-                    b.ToTable("Questions");
+                    b.ToTable("Questions", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.Quiz", b =>
@@ -212,7 +222,7 @@ namespace LearnFlow.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("Quizs");
+                    b.ToTable("Quizs", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.QuizResult", b =>
@@ -241,7 +251,7 @@ namespace LearnFlow.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("QuizResults");
+                    b.ToTable("QuizResults", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.Review", b =>
@@ -270,7 +280,7 @@ namespace LearnFlow.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("LearnFlow.Models.User", b =>
@@ -303,6 +313,7 @@ namespace LearnFlow.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -327,6 +338,9 @@ namespace LearnFlow.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
@@ -484,10 +498,10 @@ namespace LearnFlow.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("LearnFlow.Models.AnswerOption", b =>
+            modelBuilder.Entity("LearnFlow.Models.Answer", b =>
                 {
                     b.HasOne("LearnFlow.Models.Question", "Question")
-                        .WithMany("AnswerOptions")
+                        .WithMany("Answers")
                         .HasForeignKey("QuestionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -681,7 +695,7 @@ namespace LearnFlow.Migrations
 
             modelBuilder.Entity("LearnFlow.Models.Question", b =>
                 {
-                    b.Navigation("AnswerOptions");
+                    b.Navigation("Answers");
                 });
 
             modelBuilder.Entity("LearnFlow.Models.Quiz", b =>

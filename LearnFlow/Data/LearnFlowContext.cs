@@ -9,7 +9,7 @@ public class LearnFlowContext : IdentityDbContext<User, IdentityRole<int>, int>
   public LearnFlowContext(DbContextOptions<LearnFlowContext> options) : base(options)
   {
   }
-  public DbSet<AnswerOption> AnswerOptions { get; set; }
+  public DbSet<Answer> Answers { get; set; }
   public DbSet<Course> Courses { get; set; }
   public DbSet<Enrollment> Enrollments { get; set; }
   public DbSet<Lecture> Lectures { get; set; }

@@ -15,10 +15,10 @@ public class Question
   public int QuizId { get; set; }
 
   [Required]
-  public required string QuestionText { get; set; }
+  public required string Text { get; set; }
 
   // Navigation Property to related AnswerOptions
-  public ICollection<AnswerOption>? AnswerOptions { get; set; } // Collection of answer options
+  public ICollection<Answer>? Answers { get; set; } // Collection of answer options
 
   // Navigation Property
   public Quiz? Quiz { get; set; }

@@ -1,28 +1,53 @@
 using LearnFlow.Interfaces;
+using LearnFlow.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LearnFlow.Repository
 {
-  public class QuizRepo : IQuizRepo
+  public class QuizRepo : IRepo<Quiz>
   {
-    public Task<IActionResult> GetAllQuizes()
+    private readonly LearnFlowContext context;
+
+    public QuizRepo(LearnFlowContext context)
     {
-      throw new NotImplementedException();
+      this.context = context;
     }
 
-    public Task<IActionResult> GetQuiz(string id)
+    public async Task<Quiz> CreateAsync(Quiz entity)
     {
-      throw new NotImplementedException();
+      context.Quizs.Add(entity);
+      await context.SaveChangesAsync();
+      return entity;
     }
 
-    public Task<IActionResult> SubmitAnswers(string id)
+    public async Task<Quiz> DeleteAsync(int id)
     {
-      throw new NotImplementedException();
+      var quiz = await context.Quizs.FindAsync(id);
+      if (quiz == null)
+      {
+        return null;
+      }
+      context.Quizs.Remove(quiz);
+      await context.SaveChangesAsync();
+      return quiz;
     }
 
-    public Task<IActionResult> ViewAnswers(string id)
+    public async Task<IEnumerable<Quiz>> GetAllAsync()
     {
-      throw new NotImplementedException();
+      return await context.Quizs.ToListAsync();
+    }
+
+    public async Task<Quiz> GetByIdAsync(int id)
+    {
+      return await context.Quizs.FindAsync(id);
+    }
+
+    public async Task<Quiz> UpdateAsync(Quiz entity)
+    {
+      context.Quizs.Update(entity);
+      await context.SaveChangesAsync();
+      return entity;
     }
   }
 }
