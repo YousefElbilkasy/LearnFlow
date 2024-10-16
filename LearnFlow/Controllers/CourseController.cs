@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using LearnFlow.Data;
 
 namespace LearnFlow.Controllers
 {
@@ -137,8 +138,7 @@ namespace LearnFlow.Controllers
               {
                 CourseId = model.CourseId,
                 Title = lecture.Title,
-                VideoUrl = await uploadToCloudinaryRepo.UploadFileToCloudinary(lecture.Video),
-                ContentUrl = await uploadToCloudinaryRepo.UploadFileToCloudinary(lecture.Content)
+                Content = await uploadToCloudinaryRepo.UploadFileToCloudinary(lecture.Content)
               };
 
               await lectureRepo.CreateAsync(newLecture);

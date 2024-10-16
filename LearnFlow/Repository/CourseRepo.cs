@@ -1,6 +1,10 @@
+using System;
+using LearnFlow.Data;
 using LearnFlow.Interfaces;
 using LearnFlow.Models;
 using Microsoft.EntityFrameworkCore;
+
+namespace LearnFlow.Repository;
 
 public class CourseRepo : IRepo<Course>
 {
@@ -13,21 +17,31 @@ public class CourseRepo : IRepo<Course>
 
     public async Task<IEnumerable<Course>> GetAllAsync()
     {
-        // Ensure Instructor is included when fetching all courses
-        return await context.Courses
-            .Include(c => c.Instructor)
-            .ToListAsync();
+        return await context.Courses.ToListAsync();
+    }
+
+    public async Task<IEnumerable<Course>> GetAllForInstructorAsync(int instructorId)
+    {
+        return await context.Courses.Where(c => c.InstructorId == instructorId).ToListAsync();
+    }
+
+    public async Task<IEnumerable<Course>> GetAllForIsVerifiedAsync()
+    {
+        return await context.Courses.Where(c => c.IsVerified == true).ToListAsync();
+    }
+    public async Task<IEnumerable<Course>> GetAllForStudentAsync(int studentId)
+    {
+        return await context.Courses.Where(c => c.Enrollments.Any(e => e.StudentId == studentId)).ToListAsync();
     }
 
     public async Task<Course> GetByIdAsync(int id)
     {
-        // Fetch the course along with necessary related data
         return await context.Courses
-            .Include(c => c.Instructor)
-            .Include(c => c.Reviews)
-            .Include(c => c.Lectures)
-            .Include(c => c.Enrollments) // Just include enrollments, count later if needed
-            .FirstOrDefaultAsync(c => c.CourseId == id);
+        .Include(c => c.Instructor)
+        .Include(r => r.Reviews)
+        .Include(l => l.Lectures)
+        .Include(e => e.Enrollments.Count)
+        .FirstOrDefaultAsync(c => c.CourseId == id);
     }
 
     public async Task<Course> CreateAsync(Course entity)
@@ -56,4 +70,6 @@ public class CourseRepo : IRepo<Course>
         await context.SaveChangesAsync();
         return entity;
     }
+
+
 }

@@ -7,9 +7,9 @@ namespace LearnFlow.Repositories
 {
     public class LectureRepository : ILectureRepository
     {
-        private readonly ApplicationDbContext _context;
+        private readonly LearnFlowContext _context;
 
-        public LectureRepository(ApplicationDbContext context)
+        public LectureRepository(LearnFlowContext context)
         {
             _context = context;
         }

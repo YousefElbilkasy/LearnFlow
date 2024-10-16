@@ -21,7 +21,6 @@ public class Course
   [DisplayName("Creation Date")]
   public DateTime CreationDate { get; set; } = DateTime.Now;
   public string ImageUrl { get; set; } = "default-course.png";
-    public bool IsVerified {  get; set; }
 
   public bool IsVerified { get; set; } = false;
 

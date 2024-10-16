@@ -1,8 +1,9 @@
 using System;
+using LearnFlow.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-namespace LearnFlow.Models;
+namespace LearnFlow.Data;
 
 public class LearnFlowContext : IdentityDbContext<User, IdentityRole<int>, int>
 {

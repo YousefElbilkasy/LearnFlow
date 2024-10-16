@@ -1,6 +1,7 @@
 ﻿using System.Security.Claims;
 using LearnFlow.Interfaces;
 using LearnFlow.Models;
+using LearnFlow.ViewModel;
 using LearnFlow.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

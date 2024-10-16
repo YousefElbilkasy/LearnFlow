@@ -1,4 +1,4 @@
-﻿namespace test_video_2.Helpers
+﻿namespace LearnFlow.Helpers
 {
     public class CloudinarySettings
     {

@@ -1,5 +1,5 @@
-using LearnFlow.Data;
 using CloudinaryDotNet;
+using LearnFlow.Data;
 using LearnFlow.Interfaces;
 using LearnFlow.Models;
 using LearnFlow.Repositories;
@@ -7,13 +7,13 @@ using LearnFlow.Repository;
 using LearnFlow.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using test_video_2.Helpers;
+using LearnFlow.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<LearnFlowContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 // Add Identity
 builder.Services.AddIdentity<User, IdentityRole<int>>()
@@ -30,13 +30,12 @@ builder.Services.AddScoped<IUserRepo, UserRepo>();
 builder.Services.AddScoped<UploadToCloudinaryRepo, UploadToCloudinaryRepo>();
 builder.Services.AddScoped<IVideoService, VideoService>();
 //builder.Services.AddScoped<ILectureRepository, LectureRepository>();
+builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
 
 // Configure Cloudinary
-builder.Services.AddSingleton(cloudinary);
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("Cloudinary"));
 
 
-builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
 
 var app = builder.Build();
 
