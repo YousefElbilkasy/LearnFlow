@@ -1,0 +1,122 @@
+﻿@model LearnFlow.ViewModel.EditVideoViewModel
+
+@{
+    ViewData["Title"] = "Edit Lecture";
+}
+
+<h1 class="text-center mb-4" style="color: white;">Edit Lecture</h1>
+
+<div class="container">
+    <div class="form-container bg-light-purple p-5 shadow rounded">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="LectureId" />
+
+            <div class="form-group mb-4">
+                <label asp-for="Title" class="control-label text-purple">Title</label>
+                <input asp-for="Title" class="form-control" required />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="CourseId" class="control-label text-purple">Course ID</label>
+                <input asp-for="CourseId" type="number" class="form-control" required />
+                <span asp-validation-for="CourseId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="control-label text-purple">Current Video</label>
+                <video width="100%" controls style="border-radius: 10px;">
+                    <source src="@Model.CurrentContentUrl" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="NewContent" class="control-label text-purple">New Video (optional)</label>
+                <input asp-for="NewContent" type="file" class="form-control" accept="video/*" />
+                <span asp-validation-for="NewContent" class="text-danger"></span>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn custom-purple-btn">Save Changes</button>
+                <a asp-action="Index" class="btn btn-outline-purple">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}
+
+<style>
+    /* Colors */
+    .bg-light-purple {
+        background-color: white;
+    }
+
+    .text-purple, .btn-purple {
+        color: #6f42c1;
+    }
+
+    /* Button styling */
+    .custom-purple-btn {
+        background-color: #6f42c1; /* Primary purple color */
+        color: white;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-weight: bold;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .custom-purple-btn:hover {
+            background-color: #5a3798;
+            color: white;
+        }
+
+    .btn-outline-purple {
+        border: 2px solid #6f42c1;
+        color: #6f42c1;
+        border-radius: 25px;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .btn-outline-purple:hover {
+            background-color: #6f42c1;
+            color: white;
+        }
+
+    /* Form container styling */
+    .form-container {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form elements */
+    .form-control {
+        border-radius: 10px;
+        border: 1px solid #6f42c1;
+    }
+
+        .form-control:focus {
+            box-shadow: 0 0 5px rgba(111, 66, 193, 0.5);
+            border-color: #5a3798;
+        }
+
+    /* Labels */
+    .control-label {
+        font-weight: bold;
+    }
+
+    /* Validation text styling */
+    .text-danger {
+        font-size: 0.9em;
+        font-style: italic;
+    }
+</style>

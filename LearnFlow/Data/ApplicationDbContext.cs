@@ -5,12 +5,15 @@ namespace LearnFlow.Data
 {
     public class ApplicationDbContext : DbContext
     {
+        internal readonly IEnumerable<object> Courses;
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
 
         public DbSet<ApplicationUser> RegisterUser { get; set; }
+        public DbSet<Lecture> Lectures { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
