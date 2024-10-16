@@ -10798,21 +10798,42 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\youse\\.nuget\\packages\\": {}
     "C:\\Users\\youse\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Maram Mohamed\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> origin/authentication
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "projectName": "LearnFlow",
       "projectPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
       "outputPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\LearnFlow.csproj",
+      "projectName": "LearnFlow",
+      "projectPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\LearnFlow.csproj",
+      "packagesPath": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\obj\\",
+>>>>>>> origin/authentication
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\Maram Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> origin/authentication
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10900,8 +10921,12 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+>>>>>>> origin/authentication
       }
     }
   }
