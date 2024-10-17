@@ -85,7 +85,7 @@ namespace LearnFlow.Controllers
               Title = courseVM.Title,
               Description = courseVM.Description,
               Price = courseVM.Price,
-              ImageUrl = courseVM.ImageUrl ?? "default-course.png"
+              // ImageUrl = courseVM.ImageUrl ?? "default-course.png"
             };
 
             // save course to database
@@ -262,6 +262,42 @@ namespace LearnFlow.Controllers
     {
       await courseRepo.DeleteAsync(id);
       return RedirectToAction(nameof(Index));
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<ActionResult> Enroll(int id)
+    {
+
+      int studentId = 1;
+
+
+      var existingEnrollment = await enrollmentRepo.GetEnrollmentByStudentAndCourseAsync(studentId, id);
+
+      if (existingEnrollment == null)
+      {
+
+        var enrollment = new Enrollment
+        {
+          CourseId = id,
+          StudentId = studentId,
+          EnrollmentDate = DateTime.Now,
+          Progress = 0
+        };
+
+        await enrollmentRepo.EnrollStudentAsync(enrollment);
+
+
+        TempData["SuccessMessage"] = "You have successfully enrolled in the course!";
+      }
+      else
+      {
+
+        TempData["SuccessMessage"] = "You are already enrolled in this course.";
+      }
+
+      return RedirectToAction(nameof(Details), new { id });
+
     }
   }
 }
