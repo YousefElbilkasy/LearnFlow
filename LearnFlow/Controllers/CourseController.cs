@@ -25,9 +25,8 @@ namespace LearnFlow.Controllers
     private readonly UploadToCloudinaryRepo uploadToCloudinaryRepo;
     private readonly LearnFlowContext dbContext;
     private readonly IEnrollmentRepo enrollmentRepo;
-    private readonly RoleManager<IdentityRole> RoleManager;
 
-    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, IRepo<Lecture> lectureRepo, IRepo<Quiz> quizRepo, IRepo<Question> questionRepo, Cloudinary cloudinary, UploadToCloudinaryRepo uploadToCloudinaryRepo, LearnFlowContext dbContext, RoleManager<IdentityRole> roleManager)
+    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, IRepo<Lecture> lectureRepo, IRepo<Quiz> quizRepo, IRepo<Question> questionRepo, Cloudinary cloudinary, UploadToCloudinaryRepo uploadToCloudinaryRepo, LearnFlowContext dbContext)
     {
       this.courseRepo = courseRepo;
       this.userManager = userManager;
@@ -38,7 +37,6 @@ namespace LearnFlow.Controllers
       this.uploadToCloudinaryRepo = uploadToCloudinaryRepo;
       this.dbContext = dbContext;
       this.enrollmentRepo = enrollmentRepo;
-      RoleManager = roleManager;
     }
 
     // GET: CourseController

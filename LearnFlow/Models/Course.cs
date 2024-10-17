@@ -10,6 +10,7 @@ public class Course
 {
   [Key]
   public int CourseId { get; set; }
+
   [ForeignKey("Instructor")]
   public int InstructorId { get; set; }
   [Required]

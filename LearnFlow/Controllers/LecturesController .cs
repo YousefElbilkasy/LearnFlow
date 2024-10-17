@@ -2,6 +2,7 @@
 using LearnFlow.Models;
 using LearnFlow.ViewModel;
 using LearnFlow.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LearnFlow.Controllers
 {
@@ -40,6 +41,7 @@ namespace LearnFlow.Controllers
         }
 
         // POST: Lectures/Create
+        [Authorize(Roles = "Instructor")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CreateVideoViewModel lecture)
