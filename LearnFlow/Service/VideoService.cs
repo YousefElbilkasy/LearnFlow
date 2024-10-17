@@ -10,14 +10,9 @@ namespace LearnFlow.Service
     {
         private readonly Cloudinary _cloud;
 
-        public VideoService(IOptions<CloudinarySettings> config)
+        public VideoService(Cloudinary cloudinary)
         {
-            var acc = new Account(
-                config.Value.CloudName,
-                config.Value.ApiKey,
-                config.Value.ApiSecret
-            );
-            _cloud = new Cloudinary(acc);
+            _cloud = cloudinary;
         }
 
         public async Task<VideoUploadResult> AddVideoAsync(IFormFile file)

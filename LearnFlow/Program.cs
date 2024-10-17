@@ -8,6 +8,7 @@ using LearnFlow.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using LearnFlow.Helpers;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,7 @@ builder.Services.AddIdentity<User, IdentityRole<int>>()
                 .AddDefaultTokenProviders();
 
 // Add Repositories
+builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
 builder.Services.AddScoped<ILectureRepository, LectureRepository>();
 builder.Services.AddScoped<CourseRepo, CourseRepo>();
 builder.Services.AddScoped<IRepo<Quiz>, QuizRepo>();
@@ -33,15 +35,15 @@ builder.Services.AddScoped<IVideoService, VideoService>();
 builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
 
 // Configure Cloudinary
-var cloudinarySettings = builder.Configuration.GetSection("Cloudinary").Get<CloudinarySettings>();
-var cloudinary = new Cloudinary(new Account(
-    cloudinarySettings.CloudName,
-    cloudinarySettings.ApiKey,
-    cloudinarySettings.ApiSecret
-));
-builder.Services.AddSingleton(cloudinary);
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
 
-
+// Register Cloudinary service
+builder.Services.AddSingleton(sp =>
+{
+    var config = sp.GetRequiredService<IOptions<CloudinarySettings>>().Value;
+    var account = new Account(config.CloudName, config.ApiKey, config.ApiSecret);
+    return new Cloudinary(account);
+});
 
 var app = builder.Build();
 

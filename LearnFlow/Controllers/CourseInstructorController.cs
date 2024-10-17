@@ -1,6 +1,7 @@
 ﻿using System.Security.Claims;
 using LearnFlow.Interfaces;
 using LearnFlow.Models;
+using LearnFlow.Repository;
 using LearnFlow.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,10 +10,10 @@ namespace LearnFlow.Controllers
 {
     public class CourseInstructorController : Controller
     {
-        private readonly IRepo<Course> courseRepo;
+        private readonly CourseRepo courseRepo;
         private readonly string instructorDashboardViewPath = "~/Views/Dashboard/InstructorDashboard.cshtml";
 
-        public CourseInstructorController(IRepo<Course> courseRepo)
+        public CourseInstructorController(CourseRepo courseRepo)
         {
             this.courseRepo = courseRepo;
         }
@@ -25,7 +26,7 @@ namespace LearnFlow.Controllers
             // Convert each Course to CourseViewModel
             var courseViewModels = courses.Select(course => new CourseViewModel
             {
-                // CourseId = course.CourseId,
+                CourseId = course.CourseId,
                 Title = course.Title,
                 Description = course.Description,
                 Price = course.Price,
@@ -48,21 +49,18 @@ namespace LearnFlow.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Fetch the logged-in instructor's ID
-                var loggedInInstructorId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
                 var course = new Course
                 {
                     Title = model.Title,
                     Description = model.Description,
                     Price = model.Price,
-                    InstructorId = int.Parse(loggedInInstructorId),
+                    InstructorId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)),
                     CreationDate = DateTime.Now,
                     IsVerified = false
                 };
 
                 await courseRepo.CreateAsync(course);
-                return RedirectToAction("InstructorDashboard", "CourseInstructor");
+                return RedirectToAction("InstructorDashboard");
             }
             return View(model);
         }
@@ -80,7 +78,7 @@ namespace LearnFlow.Controllers
             // Map the Course to CourseViewModel
             var courseViewModel = new CourseViewModel
             {
-                // CourseId = course.CourseId,
+                CourseId = course.CourseId,
                 Title = course.Title,
                 Description = course.Description,
                 Price = course.Price
@@ -95,11 +93,6 @@ namespace LearnFlow.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, CourseViewModel model)
         {
-            // if (id != model.CourseId)
-            {
-                return NotFound();
-            }
-
             if (ModelState.IsValid)
             {
                 var course = await courseRepo.GetByIdAsync(id);
@@ -132,7 +125,7 @@ namespace LearnFlow.Controllers
             // Show confirmation page with course details (or skip to POST directly)
             var courseViewModel = new CourseViewModel
             {
-                // CourseId = course.CourseId,
+                CourseId = course.CourseId,
                 Title = course.Title,
                 Description = course.Description,
                 Price = course.Price
