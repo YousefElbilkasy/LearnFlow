@@ -1,0 +1,191 @@
+@* @using LearnFlow.ViewModel
+@model CourseViewModel
+
+@{
+  ViewData["Title"] = "Create";
+}
+
+<h1>Create Course</h1>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label asp-for="Title" class="control-label"></label>
+    <input asp-for="Title" class="form-control" />
+    <span asp-validation-for="Title" class="text-danger"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Description" class="control-label"></label>
+    <textarea asp-for="Description" class="form-control"></textarea>
+    <span asp-validation-for="Description" class="text-danger"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Price" class="control-label"></label>
+    <input asp-for="Price" class="form-control" />
+    <span asp-validation-for="Price" class="text-danger"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Image" class="control-label"></label>
+    <input asp-for="Image" type="file" class="form-control" />
+    <span asp-validation-for="Image" class="text-danger"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Lectures" class="control-label"></label>
+    <div id="lectures-container">
+      <div class="lecture-item">
+        <h4>Lecture 1</h4>
+        <div class="form-group">
+          <label asp-for="Lectures[0].Title" class="control-label"></label>
+          <input asp-for="Lectures[0].Title" class="form-control" />
+          <span asp-validation-for="Lectures[0].Title" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+          <label asp-for="Lectures[0].Video" class="control-label"></label>
+          <input asp-for="Lectures[0].Video" type="file" class="form-control" />
+          <span asp-validation-for="Lectures[0].Video" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+          <label asp-for="Lectures[0].Content" class="control-label"></label>
+          <input asp-for="Lectures[0].Content" type="file" class="form-control" />
+          <span asp-validation-for="Lectures[0].Content" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+          <label asp-for="Lectures[0].Quiz" class="control-label"></label>
+          <div id="quizzes-container-0">
+            <div class="quiz-item">
+              <h5>Quiz 1</h5>
+              <div class="form-group">
+                <label asp-for="Lectures[0].Quiz.Title" class="control-label"></label>
+                <input asp-for="Lectures[0].Quiz.Title" class="form-control" />
+                <span asp-validation-for="Lectures[0].Quiz.Title" class="text-danger"></span>
+              </div>
+              <div class="form-group">
+                <label asp-for="Lectures[0].Quiz.Questions" class="control-label"></label>
+                <div id="questions-container-0-0">
+                  <div class="question-item">
+                    <h6>Question 1</h6>
+                    <div class="form-group">
+                      <label asp-for="Lectures[0].Quiz.Questions[0].Text" class="control-label"></label>
+                      <input asp-for="Lectures[0].Quiz.Questions[0].Text" class="form-control" />
+                      <span asp-validation-for="Lectures[0].Quiz.Questions[0].Text" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="Lectures[0].Quiz.Questions[0].AnswerOptions" class="control-label"></label>
+                      <div id="answers-container-0-0-0">
+                        <div class="answer-item">
+                          <h6>Answer 1</h6>
+                          <div class="form-group">
+                            <label asp-for="Lectures[0].Quiz.Questions[0].AnswerOptions[0].OptionText"
+                              class="control-label"></label>
+                            <input asp-for="Lectures[0].Quiz.Questions[0].AnswerOptions[0].OptionText" class="form-control" />
+                            <span asp-validation-for="Lectures[0].Quiz.Questions[0].AnswerOptions[0].OptionText"
+                              class="text-danger"></span>
+                          </div>
+                          <div class="form-group">
+                            <label asp-for="Lectures[0].Quiz.Questions[0].AnswerOptions[0].IsCorrect"
+                              class="control-label"></label>
+                            <input asp-for="Lectures[0].Quiz.Questions[0].AnswerOptions[0].IsCorrect" type="checkbox"
+                              class="form-control" />
+                            <span asp-validation-for="Lectures[0].Quiz.Questions[0].AnswerOptions[0].IsCorrect"
+                              class="text-danger"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="btn btn-secondary add-answer" data-lecture-index="0"
+                        data-quiz-index="0" data-question-index="0">Add Answer</button>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-secondary add-question" data-lecture-index="0"
+                  data-quiz-index="0">Add Question</button>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-secondary add-quiz" data-lecture-index="0">Add Quiz</button>
+        </div>
+      </div>
+    </div>
+    <button type="button" id="add-lecture" class="btn btn-secondary">Add Lecture</button>
+    <span asp-validation-for="Lectures" class="text-danger"></span>
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Create" class="btn btn-primary" />
+  </div>
+</form>
+
+@section Scripts {
+  <script>
+  document.getElementById('add-lecture').addEventListener('click', function () {
+    var container = document.getElementById('lectures-container');
+    var lectureCount = container.getElementsByClassName('lecture-item').length;
+    var newLecture = document.createElement('div');
+    newLecture.className = 'lecture-item';
+    newLecture.innerHTML = `
+        <h4>Lecture ${lectureCount + 1}</h4>
+        <div class="form-group">
+          <label for="Lectures_${lectureCount}__Title" class="control-label">Title</label>
+          <input type="text" id="Lectures_${lectureCount}__Title" name="Lectures[${lectureCount}].Title" class="form-control" />
+          <span class="text-danger field-validation-valid" data-valmsg-for="Lectures[${lectureCount}].Title" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group">
+          <label for="Lectures_${lectureCount}__Video" class="control-label">Video</label>
+          <input type="file" id="Lectures_${lectureCount}__Video" name="Lectures[${lectureCount}].Video" class="form-control" />
+          <span class="text-danger field-validation-valid" data-valmsg-for="Lectures[${lectureCount}].Video" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group">
+          <label for="Lectures_${lectureCount}__Content" class="control-label">Content</label>
+          <input type="file" id="Lectures_${lectureCount}__Content" name="Lectures[${lectureCount}].Content" class="form-control" />
+          <span class="text-danger field-validation-valid" data-valmsg-for="Lectures[${lectureCount}].Content" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group">
+          <label for="Lectures_${lectureCount}__Quizzes" class="control-label">Quizzes</label>
+          <div id="quizzes-container-${lectureCount}">
+            <div class="quiz-item">
+              <h5>Quiz 1</h5>
+              <div class="form-group">
+                <label for="Lectures_${lectureCount}__Quizzes_0__Title" class="control-label">Title</label>
+                <input type="text" id="Lectures_${lectureCount}__Quizzes_0__Title" name="Lectures[${lectureCount}].Quizzes[0].Title" class="form-control" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Lectures[${lectureCount}].Quizzes[0].Title" data-valmsg-replace="true"></span>
+              </div>
+              <div class="form-group">
+                <label for="Lectures_${lectureCount}__Quizzes_0__Questions" class="control-label">Questions</label>
+                <div id="questions-container-${lectureCount}-0">
+                  <div class="question-item">
+                    <h6>Question 1</h6>
+                    <div class="form-group">
+                      <label for="Lectures_${lectureCount}__Quizzes_0__Questions_0__Text" class="control-label">Text</label>
+                      <input type="text" id="Lectures_${lectureCount}__Quizzes_0__Questions_0__Text" name="Lectures[${lectureCount}].Quizzes[0].Questions[0].Text" class="form-control" />
+                      <span class="text-danger field-validation-valid" data-valmsg-for="Lectures[${lectureCount}].Quizzes[0].Questions[0].Text" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="Lectures_${lectureCount}__Quizzes_0__Questions_0__Answers" class="control-label">Answers</label>
+                      <div id="answers-container-${lectureCount}-0-0">
+                        <div class="answer-item">
+                          <h6>Answer 1</h6>
+                          <div class="form-group">
+                            <label for="Lectures_${lectureCount}__Quizzes_0__Questions_0__Answers_0__Text" class="control-label">Text</label>
+                            <input type="text" id="Lectures_${lectureCount}__Quizzes_0__Questions_0__Answers_0__Text" name="Lectures[${lectureCount}].Quizzes[0].Questions[0].Answers[0].Text" class="form-control" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Lectures[${lectureCount}].Quizzes[0].Questions[0].Answers[0].Text" data-valmsg-replace="true"></span>
+                          </div>
+                          <div class="form-group">
+                            <label for="Lectures_${lectureCount}__Quizzes_0__Questions_0__Answers_0__IsCorrect" class="control-label">Is Correct</label>
+                            <input type="checkbox" id="Lectures_${lectureCount}__Quizzes_0__Questions_0__Answers_0__IsCorrect" name="Lectures[${lectureCount}].Quizzes[0].Questions[0].Answers[0].IsCorrect" class="form-control" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Lectures[${lectureCount}].Quizzes[0].Questions[0].Answers[0].IsCorrect" data-valmsg-replace="true"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="btn btn-secondary add-answer" data-lecture-index="${lectureCount}" data-quiz-index="0" data-question-index="0">Add Answer</button>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-secondary add-question" data-lecture-index="${lectureCount}" data-quiz-index="0">Add Question</button>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-secondary add-quiz" data-lecture-index="${lectureCount}">Add Quiz</button>
+        </div>
+      `;
+    container.appendChild(newLecture);
+    });
+    </script>
+  }
+   *@

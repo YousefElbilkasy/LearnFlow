@@ -1,0 +1,37 @@
+﻿.course-container {
+    margin: 20px auto;
+    width: 60%; /* تقليل عرض الحاوية */
+}
+
+.course-description,
+.course-price,
+.course-creation-date {
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 80%; 
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.course-title {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.btn-custom {
+    display: block;
+    margin: 20px auto;
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+    .btn-custom:hover {
+        background-color: #5e0a9e;
+    }

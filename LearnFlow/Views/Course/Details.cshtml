@@ -1,42 +1,38 @@
 @model LearnFlow.Models.Course
 
 @{
-  ViewData["Title"] = "Details";
+    ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1 class="course-title">@Model.Title</h1>
+
+<div class="course-container">
+    <div class="course-description">
+        <strong>Description:</strong> @Model.Description
+    </div>
+    <div class="course-price">
+        <strong>Price:</strong> @Html.DisplayFor(model => model.Price)
+    </div>
+    <div class="course-creation-date">
+        <strong>Creation Date:</strong> @Html.DisplayFor(model => model.CreationDate)
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
 
 <div>
-  <h4>Course</h4>
-  <hr />
-  <dl class="row">
-    <dt class="col-sm-2">
-      @Html.DisplayNameFor(model => model.Title)
-    </dt>
-    <dd class="col-sm-10"></dd>
-    @Html.DisplayFor(model => model.Title)
-    </dd>
-    <dt class="col-sm-2">
-      @Html.DisplayNameFor(model => model.Description)
-    </dt>
-    <dd class="col-sm-10">
-      @Html.DisplayFor(model => model.Description)
-    </dd>
-    <dt class="col-sm-2">
-      @Html.DisplayNameFor(model => model.Price)
-    </dt>
-    <dd class="col-sm-10">
-      @Html.DisplayFor(model => model.Price)
-    </dd>
-    <dt class="col-sm-2">
-      @Html.DisplayNameFor(model => model.CreationDate)
-    </dt>
-    <dd class="col-sm-10">
-      @Html.DisplayFor(model => model.CreationDate)
-    </dd>
-  </dl>
+    <form asp-action="Enroll" method="post">
+        <input type="hidden" asp-for="CourseId" />
+        <button type="submit" class="btn btn-custom">Enroll in Course</button>
+    </form>
 </div>
+
 <div>
-  <a asp-action="Edit" asp-route-id="@Model.CourseId">Edit</a> |
-  <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.CourseId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
 </div>

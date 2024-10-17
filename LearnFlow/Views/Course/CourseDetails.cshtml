@@ -1,0 +1,47 @@
+@model LearnFlow.Models.Course
+
+@{
+    ViewData["Title"] = "CourseDetails";
+}
+
+<h2>Course Details</h2>
+<div>
+  <h3>@Model.Title</h3>
+  <p><strong>Description:</strong> @Model.Description</p>
+  <p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+  <p><strong>Creation Date:</strong> @Model.CreationDate.ToShortDateString()</p>
+  <p><strong>Instructor:</strong> @Model.Instructor?.FullName</p>
+  <p><strong>Verified:</strong> @(Model.IsVerified ? "Yes" : "No")</p>
+  <img src="@Model.ImageUrl" alt="Course Image" style="max-width: 200px;" />
+</div>
+
+<div>
+  <h4>Lectures</h4>
+  <ul>
+    @foreach (var lecture in Model.Lectures)
+    {
+      <li>@lecture.Title</li>
+    }
+  </ul>
+</div>
+
+<div>
+  <h4>Quizzes</h4>
+  <ul>
+    @foreach (var quiz in Model.Quizzes)
+    {
+      <li>@quiz.Title</li>
+    }
+  </ul>
+</div>
+
+<div>
+  <h4>Reviews</h4>
+  <ul>
+    @foreach (var review in Model.Reviews)
+    {
+      <li>@review.Rating</li>
+      <li>@review.ReviewText</li>
+    }
+  </ul>
+</div>

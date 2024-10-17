@@ -1,15 +1,16 @@
 using System;
+using LearnFlow.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-namespace LearnFlow.Models;
+namespace LearnFlow.Data;
 
 public class LearnFlowContext : IdentityDbContext<User, IdentityRole<int>, int>
 {
   public LearnFlowContext(DbContextOptions<LearnFlowContext> options) : base(options)
   {
   }
-  public DbSet<AnswerOption> AnswerOptions { get; set; }
+  public DbSet<Answer> Answers { get; set; }
   public DbSet<Course> Courses { get; set; }
   public DbSet<Enrollment> Enrollments { get; set; }
   public DbSet<Lecture> Lectures { get; set; }

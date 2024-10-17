@@ -21,7 +21,15 @@
       "PackagePath": "staticwebassets\\css\\owl.css"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\styles.css",
+=======
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\styles.css",
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
@@ -381,7 +389,19 @@
       "PackagePath": "staticwebassets\\uploads\\users\\default.png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
+=======
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\io.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\io.jpg"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\photo_2023-11-11_17-37-24.jpg"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },
     {

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "gC5C282YbCAgBkTkbLnIzWnGnj9W+Yor4pEUuEiU9is=",
+=======
+  "Hash": "7woSktRcPKZXoZngnpsdXHekEsD1yQtGOmjXsJ5W2fA=",
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
   "Source": "LearnFlow",
   "BasePath": "_content/LearnFlow",
   "Mode": "Default",
@@ -1271,7 +1275,30 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\styles.css",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\site.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\styles.css",
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
@@ -2981,7 +3008,49 @@
       "OriginalItemSpec": "wwwroot\\uploads\\users\\Image20240715104238.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\io.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "uploads/users/io.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\io.jpg"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "uploads/users/photo_2023-11-11_17-37-24.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",

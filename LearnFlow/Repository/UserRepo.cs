@@ -1,4 +1,5 @@
 using System;
+using LearnFlow.Data;
 using LearnFlow.Interfaces;
 using LearnFlow.Models; // Ensure this namespace contains the Role enum or class
 using Microsoft.AspNetCore.Mvc;

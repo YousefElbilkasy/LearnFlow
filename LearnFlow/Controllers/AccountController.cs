@@ -1,6 +1,9 @@
 using System.Drawing;
+using System.Security.Claims;
 using LearnFlow.Models;
 using LearnFlow.ViewModel;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -69,31 +72,23 @@ namespace LearnFlow.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> SaveLogIn(LogInUserViewModel loginmodel)
+    [HttpPost]
+    public async Task<IActionResult> SaveLogIn(LogInUserViewModel model)
+    {
+      if (ModelState.IsValid)
+      {
+        var user = await UserManager.FindByEmailAsync(model.Email);
+        if (user != null)
         {
-            if (ModelState.IsValid)
-            {
-                var emailfound = await UserManager.FindByEmailAsync(loginmodel.Email);
-                if (emailfound != null)
-                {
-                    bool isPasswordValid = await UserManager.CheckPasswordAsync(emailfound, loginmodel.Password);
-                    if (isPasswordValid)
-                    {
-                        var result = await signInManager.PasswordSignInAsync(emailfound, loginmodel.Password, false, false);
-                        if (result.Succeeded) return RedirectToAction("Student", "Index");
-                        TempData["Error"] = "Login Failed, please try again later";
-                        return View(loginmodel);
-                    }
-                    TempData["Error"] = "Wrong Credentials, please try again";
-                    return View(loginmodel);
-                }
-                TempData["Error"] = "Email not Found";
-                return View(loginmodel);
-
-            }
-            return View("LogIn", loginmodel);
+          var result = await signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+          if (result.Succeeded)
+            return RedirectToAction("Index", "Home");
         }
+
+        ModelState.AddModelError("", "Invalid Email or Password");
+      }
+      return View("LogIn", model);
+    }
 
         public async Task<IActionResult> LogOut()
         {

@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -116,6 +117,13 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\repository\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|f:\\studying\\depi\\final project\\learnflow\\learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
       "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -126,6 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 12,
           "Children": [
             {
@@ -195,10 +204,28 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T17:06:11.365Z"
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizRepo.cs",
+              "DocumentMoniker": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Repository\\QuizRepo.cs",
+              "ToolTip": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\Repository\\QuizRepo.cs",
+              "RelativeToolTip": "LearnFlow\\Repository\\QuizRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:02:35.038Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "CourseRepo.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Repository\\CourseRepo.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Repository\\CourseRepo.cs",
@@ -464,16 +491,21 @@
             {
               "$type": "Document",
               "DocumentIndex": 28,
+=======
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
               "Title": "IQuizRepo.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Interfaces\\IQuizRepo.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Interfaces\\IQuizRepo.cs",
               "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Interfaces\\IQuizRepo.cs",
               "RelativeToolTip": "LearnFlow\\Interfaces\\IQuizRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:03:19.107Z"
+              "WhenOpened": "2024-10-16T07:02:04.196Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
@@ -488,6 +520,22 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+=======
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+>>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
             }
           ]
         },

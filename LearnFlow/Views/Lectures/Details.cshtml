@@ -1,0 +1,57 @@
+﻿@model LearnFlow.Models.Lecture
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center mb-4" style="color: white;">Video Details</h1>
+
+<dl class="row">
+    <dt class="col-sm-4 text-white font-weight-bold">
+        @Html.DisplayNameFor(model => model.Title)
+    </dt>
+    <dd class="col-sm-8">
+        <span class="text-white">@Html.DisplayFor(model => model.Title)</span>
+    </dd>
+    <dt class="col-sm-4 text-white font-weight-bold">
+        Video
+    </dt>
+    <dd class="col-sm-8">
+        <video width="600px" controls style="border-radius: 10px;">
+            <source src="@Url.Content(Model.Content)" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </dd>
+</dl>
+
+<div>
+    @if (User.IsInRole("Instructor"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model.LectureId" class="btn custom-purple-btn">Edit</a>
+    }
+   
+    <a asp-action="Index" class="btn btn-outline-light ml-3">Back to List</a>
+</div>
+
+<style>
+    .custom-purple-btn {
+        background-color: #9b59b6; /* Primary purple color */
+        color: #ffffff; /* White text */
+        border: none;
+    }
+
+        .custom-purple-btn:hover {
+            background-color: #7d3c98; /* Darker purple for hover */
+            color: #ffffff;
+        }
+
+    .btn-outline-light {
+        color: #6a1b9a;
+        border-color: #6a1b9a;
+    }
+
+        .btn-outline-light:hover {
+            background-color: #6a1b9a;
+            color: white;
+        }
+</style>
