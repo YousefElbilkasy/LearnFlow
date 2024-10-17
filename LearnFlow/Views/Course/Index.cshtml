@@ -4,26 +4,59 @@
   ViewData["Title"] = "Index";
 }
 
-<h1>Courses</h1>
+<section class="section courses" id="courses">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="section-heading">
+          <h6>Latest Courses</h6>
+          <h2>Latest Courses</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row event_box">
+      @foreach (var course in Model)
+      {
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="@course.ImageUrl" alt=""></a>
+              @* <span class="category">Webdesign</span> *@
+              <span class="price">
+                <h6><em>L.E</em>@course.Price</h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author">@course.Instructor.FullName</span>
+              <h4>@course.Title</h4>
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+  </section>
 
-<div class="row">
-  @foreach (var course in Model)
-  {
-    <div class="col-md-4">
-      <div class="card mb-4 shadow-sm">
-        <img src="@course.ImageUrl" class="card-img-top" alt="Thumbnail of @course.Title">
-        <div class="card-body">
-          <h5 class="card-title">@course.Title</h5>
-          <p class="card-text">@course.Description</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a asp-action="Edit" asp-route-id="@course.CourseId" class="btn btn-sm btn-outline-secondary">Edit</a>
-              <a asp-action="Details" asp-route-id="@course.CourseId" class="btn btn-sm btn-outline-secondary">View</a>
-              <a asp-action="Delete" asp-route-id="@course.CourseId" class="btn btn-sm btn-outline-danger">Delete</a>
+  @* <h1>Courses</h1>
+
+  <div class="row">
+          @foreach (var course in Model)
+          {
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="@course.ImageUrl" class="card-img-top" alt="Thumbnail of @course.Title">
+          <div class="card-body">
+            <h5 class="card-title">@course.Title</h5>
+            <p class="card-text">@course.Description</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a asp-action="Edit" asp-route-id="@course.CourseId" class="btn btn-sm btn-outline-secondary">Edit</a>
+                <a asp-action="Details" asp-route-id="@course.CourseId" class="btn btn-sm btn-outline-secondary">View</a>
+                <a asp-action="Delete" asp-route-id="@course.CourseId" class="btn btn-sm btn-outline-danger">Delete</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  }
-</div>
+          }
+  </div> *@

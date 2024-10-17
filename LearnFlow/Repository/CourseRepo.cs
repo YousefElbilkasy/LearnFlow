@@ -17,7 +17,7 @@ public class CourseRepo : IRepo<Course>
 
     public async Task<IEnumerable<Course>> GetAllAsync()
     {
-        return await context.Courses.ToListAsync();
+        return await context.Courses.Include(c => c.Instructor).ToListAsync();
     }
 
     public async Task<IEnumerable<Course>> GetAllForInstructorAsync(int instructorId)

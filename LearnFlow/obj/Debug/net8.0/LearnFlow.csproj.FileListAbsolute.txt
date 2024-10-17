@@ -264,8 +264,6 @@ F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.ge
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\ref\LearnFlow.dll
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 >>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
 C:\Users\Maram Mohamed\Source\Repos\LearnFlowfinall\LearnFlow\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Maram Mohamed\Source\Repos\LearnFlowfinall\LearnFlow\bin\Debug\net8.0\appsettings.json
@@ -531,8 +529,6 @@ C:\Users\Maram Mohamed\Source\Repos\LearnFlowfinall\LearnFlow\obj\Debug\net8.0\r
 C:\Users\Maram Mohamed\Source\Repos\LearnFlowfinall\LearnFlow\obj\Debug\net8.0\LearnFlow.pdb
 C:\Users\Maram Mohamed\Source\Repos\LearnFlowfinall\LearnFlow\obj\Debug\net8.0\LearnFlow.genruntimeconfig.cache
 C:\Users\Maram Mohamed\Source\Repos\LearnFlowfinall\LearnFlow\obj\Debug\net8.0\ref\LearnFlow.dll
-<<<<<<< HEAD
-=======
 >>>>>>> origin/authentication
 C:\pro_learn\LearnFlow\LearnFlow\bin\Debug\net8.0\appsettings.Development.json
 C:\pro_learn\LearnFlow\LearnFlow\bin\Debug\net8.0\appsettings.json
@@ -1066,4 +1062,3 @@ D:\Learning\DotNet Core\LearnFlow\LearnFlow\obj\Debug\net8.0\refint\LearnFlow.dl
 D:\Learning\DotNet Core\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.pdb
 D:\Learning\DotNet Core\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.genruntimeconfig.cache
 D:\Learning\DotNet Core\LearnFlow\LearnFlow\obj\Debug\net8.0\ref\LearnFlow.dll
->>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
