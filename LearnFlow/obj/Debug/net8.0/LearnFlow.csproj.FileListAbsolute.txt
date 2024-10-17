@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\bin\Debug\net8.0\appsettings.Development.json
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\bin\Debug\net8.0\appsettings.json
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\bin\Debug\net8.0\LearnFlow.staticwebassets.runtime.json
@@ -262,7 +263,6 @@ F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\refint\Learn
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.pdb
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.genruntimeconfig.cache
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\ref\LearnFlow.dll
-<<<<<<< HEAD
 =======
 >>>>>>> de19a07097d8d060b07c0a13f354f313f61a88a5
 >>>>>>> origin/authentication
@@ -533,6 +533,7 @@ C:\pro_learn\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.genruntimeconfig.cac
 C:\pro_learn\LearnFlow\LearnFlow\obj\Debug\net8.0\ref\LearnFlow.dll
 C:\pro_learn\LearnFlow\LearnFlow\bin\Debug\net8.0\CloudinaryDotNet.dll
 >>>>>>> origin/Shahd
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
 D:\Learning\DotNet Core\LearnFlow\LearnFlow\bin\Debug\net8.0\appsettings.Development.json
 D:\Learning\DotNet Core\LearnFlow\LearnFlow\bin\Debug\net8.0\appsettings.json
 D:\Learning\DotNet Core\LearnFlow\LearnFlow\bin\Debug\net8.0\LearnFlow.staticwebassets.runtime.json

@@ -6,6 +6,13 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\controllers\\courseinstructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\courseinstructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -109,7 +116,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,20 +128,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAMwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-17T17:04:03.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseInstructorController.cs",
+              "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\CourseInstructorController.cs",
+              "RelativeDocumentMoniker": "LearnFlow\\Controllers\\CourseInstructorController.cs",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\CourseInstructorController.cs",
+              "RelativeToolTip": "LearnFlow\\Controllers\\CourseInstructorController.cs",
+              "ViewState": "AgIAAG0AAAAAwJmZmZnZvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T16:34:13.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.401\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAEsAAAAAKAAAAAAMwNoBAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAALMBAAAAAAAAAAAMwNgBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2024-10-17T14:29:36.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Models\\Enrollment.cs",
@@ -146,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SaveRegister.cshtml",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\Account\\SaveRegister.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\Account\\SaveRegister.cshtml",
@@ -158,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CourseRepo.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Repository\\CourseRepo.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Repository\\CourseRepo.cs",
@@ -170,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\Account\\Login.cshtml",
@@ -182,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RegisterUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\ViewModel\\RegisterUserViewModel.cs",
               "RelativeDocumentMoniker": "LearnFlow\\ViewModel\\RegisterUserViewModel.cs",
@@ -194,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "LogInUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\ViewModel\\LogInUserViewModel.cs",
               "RelativeDocumentMoniker": "LearnFlow\\ViewModel\\LogInUserViewModel.cs",
@@ -206,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "EditProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\ViewModel\\EditProfileViewModel.cs",
               "RelativeDocumentMoniker": "LearnFlow\\ViewModel\\EditProfileViewModel.cs",
@@ -218,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "InstructorDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
@@ -226,12 +258,11 @@
               "RelativeToolTip": "LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T20:55:55.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T20:55:55.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Models\\Course.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Models\\Course.cs",
@@ -243,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\Account\\Register.cshtml",
@@ -255,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Program.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Program.cs",
@@ -267,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "LearnFlow\\Properties\\launchSettings.json",
@@ -279,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\HomeController.cs",
@@ -291,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\CourseController.cs",
@@ -299,11 +330,12 @@
               "RelativeToolTip": "LearnFlow\\Controllers\\CourseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T21:10:27.286Z"
+              "WhenOpened": "2024-10-12T21:10:27.286Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\AdminController.cs",
@@ -315,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\AccountController.cs",
@@ -327,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "LearnFlow.csproj",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinall\\LearnFlow\\LearnFlow.csproj",
               "RelativeDocumentMoniker": "LearnFlow\\LearnFlow.csproj",
@@ -340,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\User\\Index.cshtml",
@@ -352,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\UserController.cs",
@@ -364,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\StudentController.cs",
@@ -376,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "QuizController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\QuizController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\QuizController.cs",
@@ -388,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "InstructorController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\InstructorController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\InstructorController.cs",
@@ -400,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "IUserRepo.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Interfaces\\IUserRepo.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Interfaces\\IUserRepo.cs",
@@ -412,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IRepo.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Interfaces\\IRepo.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Interfaces\\IRepo.cs",
