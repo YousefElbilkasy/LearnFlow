@@ -147,7 +147,16 @@ namespace LearnFlow.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> DeleteConfirmed(int id)
         {
+            var course = await GetCourseByIdAsync(id);  // Fetch course by id
+            if (course == null)
+            {
+                return NotFound();
+            }
+
+            // Delete the course from the repository
             await courseRepo.DeleteAsync(id);
+
+            // Redirect to the Instructor Dashboard after deletion
             return RedirectToAction("InstructorDashboard", "CourseInstructor");
         }
 

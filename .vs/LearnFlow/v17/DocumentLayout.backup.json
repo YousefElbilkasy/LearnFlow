@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\controllers\\courseinstcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\courseinstcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\views\\courseinstructor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\courseinstructor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\views\\dashboard\\instructordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\controllers\\courseinstcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|solutionrelative:learnflow\\controllers\\courseinstcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F5CA839-39EE-4EF7-A9FF-D041537D58B7}|LearnFlow\\LearnFlow.csproj|c:\\users\\maram mohamed\\source\\repos\\learnflowfinall\\learnflow\\views\\courseinstructor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -146,11 +146,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -158,9 +166,9 @@
               "Title": "delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\CourseInstructor\\delete.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\CourseInstructor\\delete.cshtml",
-              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\CourseInstructor\\delete.cshtml",
-              "RelativeToolTip": "LearnFlow\\Views\\CourseInstructor\\delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\CourseInstructor\\delete.cshtml*",
+              "RelativeToolTip": "LearnFlow\\Views\\CourseInstructor\\delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-16T20:38:07.274Z",
               "EditorCaption": ""
@@ -284,13 +292,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CourseinstController.cs",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\CourseinstController.cs",
               "RelativeDocumentMoniker": "LearnFlow\\Controllers\\CourseinstController.cs",
-              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\CourseinstController.cs*",
-              "RelativeToolTip": "LearnFlow\\Controllers\\CourseinstController.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Controllers\\CourseinstController.cs",
+              "RelativeToolTip": "LearnFlow\\Controllers\\CourseinstController.cs",
+              "ViewState": "AgIAAJcAAAAABAAAAADwv58AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T21:18:46.517Z",
               "EditorCaption": ""
@@ -349,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "InstructorDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
               "RelativeDocumentMoniker": "LearnFlow\\Views\\Dashboard\\InstructorDashboard.cshtml",
@@ -584,14 +592,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T19:02:56.614Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         },
