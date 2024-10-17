@@ -19,7 +19,7 @@ builder.Services.AddIdentity<User, IdentityRole<int>>()
 // Add Course Repository
 builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
 builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
-
+builder.Services.AddScoped<IStudentRepo, StudentRepo>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
