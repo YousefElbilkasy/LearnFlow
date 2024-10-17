@@ -1,427 +1,427 @@
 {
   "Files": [
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LearnFlow.bundle.scp.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LearnFlow.bundle.scp.css",
       "PackagePath": "staticwebassets\\LearnFlow.bundle.scp.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\animate.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\flex-slider.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\css\\flex-slider.css",
       "PackagePath": "staticwebassets\\css\\flex-slider.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\fontawesome.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\css\\fontawesome.css",
       "PackagePath": "staticwebassets\\css\\fontawesome.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\owl.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\css\\owl.css",
       "PackagePath": "staticwebassets\\css\\owl.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\templatemo-scholar.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\css\\templatemo-scholar.css",
       "PackagePath": "staticwebassets\\css\\templatemo-scholar.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\banner-bg.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\banner-bg.jpg",
       "PackagePath": "staticwebassets\\images\\banner-bg.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\banner-item-01.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\banner-item-01.jpg",
       "PackagePath": "staticwebassets\\images\\banner-item-01.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\banner-item-02.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\banner-item-02.jpg",
       "PackagePath": "staticwebassets\\images\\banner-item-02.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\banner-item-03.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\banner-item-03.jpg",
       "PackagePath": "staticwebassets\\images\\banner-item-03.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\contact-dec-01.png",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\contact-dec-01.png",
       "PackagePath": "staticwebassets\\images\\contact-dec-01.png"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\contact-dec-02.png",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\contact-dec-02.png",
       "PackagePath": "staticwebassets\\images\\contact-dec-02.png"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-01.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\course-01.jpg",
       "PackagePath": "staticwebassets\\images\\course-01.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-02.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\course-02.jpg",
       "PackagePath": "staticwebassets\\images\\course-02.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-03.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\course-03.jpg",
       "PackagePath": "staticwebassets\\images\\course-03.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-04.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\course-04.jpg",
       "PackagePath": "staticwebassets\\images\\course-04.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-05.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\course-05.jpg",
       "PackagePath": "staticwebassets\\images\\course-05.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-06.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\course-06.jpg",
       "PackagePath": "staticwebassets\\images\\course-06.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\event-01.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\event-01.jpg",
       "PackagePath": "staticwebassets\\images\\event-01.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\event-02.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\event-02.jpg",
       "PackagePath": "staticwebassets\\images\\event-02.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\member-03.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\member-03.jpg",
       "PackagePath": "staticwebassets\\images\\member-03.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\service-01.png",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\service-01.png",
       "PackagePath": "staticwebassets\\images\\service-01.png"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\service-02.png",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\service-02.png",
       "PackagePath": "staticwebassets\\images\\service-02.png"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\service-03.png",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\images\\service-03.png",
       "PackagePath": "staticwebassets\\images\\service-03.png"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\counter.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\js\\counter.js",
       "PackagePath": "staticwebassets\\js\\counter.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\custom.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\js\\custom.js",
       "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\isotope.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\js\\isotope.min.js",
       "PackagePath": "staticwebassets\\js\\isotope.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\owl-carousel.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\js\\owl-carousel.js",
       "PackagePath": "staticwebassets\\js\\owl-carousel.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\Default.png",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\uploads\\Default.png",
       "PackagePath": "staticwebassets\\uploads\\Default.png"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\courses\\default-course.png",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\uploads\\courses\\default-course.png",
       "PackagePath": "staticwebassets\\uploads\\courses\\default-course.png"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\1.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\uploads\\users\\1.jpg",
       "PackagePath": "staticwebassets\\uploads\\users\\1.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\Image20240715104238.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\uploads\\users\\Image20240715104238.jpg",
       "PackagePath": "staticwebassets\\uploads\\users\\Image20240715104238.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\default.png",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\uploads\\users\\default.png",
       "PackagePath": "staticwebassets\\uploads\\users\\default.png"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\io.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\uploads\\users\\io.jpg",
       "PackagePath": "staticwebassets\\uploads\\users\\io.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg",
       "PackagePath": "staticwebassets\\uploads\\users\\photo_2023-11-11_17-37-24.jpg"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
     },
     {
