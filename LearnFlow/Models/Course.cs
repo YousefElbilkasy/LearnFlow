@@ -21,7 +21,7 @@ public class Course
   public decimal Price { get; set; }
   [DisplayName("Creation Date")]
   public DateTime CreationDate { get; set; } = DateTime.Now;
-  public string ImageUrl { get; set; } = "default-course.png";
+  public string ImageUrl { get; set; } = "https://res.cloudinary.com/dwwuefmsb/image/upload/v1729191287/utaberriwu5sbav4h7ar.png";
 
   public bool IsVerified { get; set; } = false;
 

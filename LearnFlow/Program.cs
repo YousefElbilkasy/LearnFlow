@@ -33,6 +33,7 @@ builder.Services.AddScoped<UploadToCloudinaryRepo, UploadToCloudinaryRepo>();
 builder.Services.AddScoped<IVideoService, VideoService>();
 //builder.Services.AddScoped<ILectureRepository, LectureRepository>();
 builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
+builder.Services.AddScoped<IImageService, ImageService>();
 
 // Configure Cloudinary
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));

@@ -16,7 +16,7 @@ public class User : IdentityUser<int>
   [Required, DisplayName("Full Name")]
   public required string FullName { get; set; }
 
-  public string ImageUrl { get; set; } = "default.png";
+  public string ImageUrl { get; set; } = "https://res.cloudinary.com/dwwuefmsb/image/upload/v1729191590/default_d1m7rd.png";
 
   public DateTime DateJoined { get; set; } = DateTime.Now;
 

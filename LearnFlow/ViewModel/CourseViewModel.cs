@@ -47,6 +47,8 @@ public class CourseViewModel
   [Range(0.01, 10000, ErrorMessage = "Price must be between 0.01 and 10000.")]
   public decimal Price { get; set; }
 
+  public IFormFile? Image { get; set; }
+
   // This will be populated automatically based on the logged-in instructor
   public int InstructorId { get; set; }
 }

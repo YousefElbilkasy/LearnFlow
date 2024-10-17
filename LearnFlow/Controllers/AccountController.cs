@@ -1,5 +1,7 @@
 using System.Drawing;
 using System.Security.Claims;
+using CloudinaryDotNet.Actions;
+using LearnFlow.Interfaces;
 using LearnFlow.Models;
 using LearnFlow.ViewModel;
 using Microsoft.AspNetCore.Authentication;
@@ -11,13 +13,14 @@ namespace LearnFlow.Controllers
 {
   public class AccountController : Controller
   {
-    public readonly UserManager<User> UserManager;
-    public readonly SignInManager<User> signInManager;
-
-    public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+    private readonly UserManager<User> UserManager;
+    private readonly SignInManager<User> signInManager;
+    private readonly IImageService imageService;
+    public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IImageService imageService)
     {
       this.UserManager = userManager;
       this.signInManager = signInManager;
+      this.imageService = imageService;
     }
 
     // GET: AccountController
@@ -30,16 +33,17 @@ namespace LearnFlow.Controllers
     [HttpPost]
     public async Task<IActionResult> SaveRegister(RegisterUserViewModel model)
     {
-      // Save Image
-      if (model.ImageUrl != null)
-      {
-        var fileName =
-        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads\\users", model.ImageUrl.FileName);
-        model.ImageUrl.CopyTo(new FileStream(fileName, FileMode.Create));
-      }
 
       if (ModelState.IsValid)
       {
+        // Save Image
+        ImageUploadResult uploadResult = null;
+        if (model.ImageUrl != null)
+        {
+          uploadResult = await imageService.AddImageAsync(model.ImageUrl);
+        }
+
+        // Save User
         var user = new User
         {
           FullName = model.FullName,
@@ -47,16 +51,21 @@ namespace LearnFlow.Controllers
           Email = model.Email,
           PhoneNumber = model.PhoneNumber,
           Role = model.Role,
-          ImageUrl = model.ImageUrl?.FileName ?? "default.png",
           DateJoined = DateTime.Now,
           PasswordHash = model.Password
         };
+
+        if (uploadResult != null)
+        {
+          user.ImageUrl = uploadResult.Url.ToString();
+        }
 
         var result = await UserManager.CreateAsync(user, model.Password);
 
         if (result.Succeeded)
         {
           await signInManager.SignInAsync(user, false);
+          await UserManager.AddToRoleAsync(user, model.Role.ToString());
           return RedirectToAction("LogIn");
         }
 
