@@ -21,10 +21,8 @@ builder.Services.AddIdentity<User, IdentityRole<int>>()
                 .AddEntityFrameworkStores<LearnFlowContext>()
                 .AddDefaultTokenProviders();
 
-// Add Course Repository
-builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
-builder.Services.AddScoped<IQuizRepo, QuizRepo>();
 // Add Repositories
+builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
 builder.Services.AddScoped<ILectureRepository, LectureRepository>();
 builder.Services.AddScoped<CourseRepo, CourseRepo>();
 builder.Services.AddScoped<IRepo<Quiz>, QuizRepo>();
