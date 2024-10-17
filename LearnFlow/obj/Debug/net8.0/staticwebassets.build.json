@@ -1,6 +1,14 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "7woSktRcPKZXoZngnpsdXHekEsD1yQtGOmjXsJ5W2fA=",
+=======
+<<<<<<< HEAD
+  "Hash": "Tg+MPNn7z7FMztqAT/dFSwTMVnqkwt40+Ggok2KU8wE=",
+=======
+  "Hash": "sq1c8IkPUbJz2fUsp0Edxuj50Y4t4WNW1dTEAQLVy4I=",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
   "Source": "LearnFlow",
   "BasePath": "_content/LearnFlow",
   "Mode": "Default",
@@ -10,7 +18,11 @@
     {
       "Name": "LearnFlow\\wwwroot",
       "Source": "LearnFlow",
+<<<<<<< HEAD
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "Pattern": "**"
     }
@@ -74,7 +86,166 @@
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\js\\site.js"
     },
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
@@ -530,10 +701,18 @@
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -546,6 +725,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
@@ -553,6 +733,15 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -565,6 +754,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
@@ -572,6 +762,15 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -584,6 +783,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
@@ -591,6 +791,15 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -603,6 +812,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
@@ -610,6 +820,15 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -622,6 +841,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
@@ -629,6 +849,15 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -641,6 +870,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
@@ -648,6 +878,15 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -660,6 +899,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
@@ -667,6 +907,15 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -679,10 +928,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
@@ -929,7 +1187,15 @@
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
@@ -945,10 +1211,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
@@ -964,10 +1244,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
@@ -983,7 +1277,34 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+=======
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
     },
     {
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -1081,7 +1402,15 @@
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+=======
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
@@ -1097,10 +1426,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+=======
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
@@ -1116,10 +1459,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
       "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
@@ -1135,6 +1492,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
@@ -1142,6 +1500,16 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1154,13 +1522,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+=======
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LearnFlow.styles.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\youse\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
     },
     {
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LearnFlow.styles.css",
       "SourceId": "LearnFlow",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "LearnFlow.styles.css",
       "AssetKind": "All",
@@ -1173,6 +1554,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LearnFlow.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LearnFlow.bundle.scp.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
       "OriginalItemSpec": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LearnFlow.styles.css"
     },
     {
@@ -1180,6 +1570,7 @@
       "SourceId": "LearnFlow",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "LearnFlow.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,6 +1583,15 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LearnFlow.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\animate.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "OriginalItemSpec": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LearnFlow.bundle.scp.css"
     },
     {
@@ -1199,6 +1599,7 @@
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "css/animate.css",
       "AssetKind": "All",
@@ -1214,10 +1615,17 @@
       "OriginalItemSpec": "wwwroot\\css\\animate.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\flex-slider.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\flex-slider.css",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "css/flex-slider.css",
       "AssetKind": "All",
@@ -1233,10 +1641,17 @@
       "OriginalItemSpec": "wwwroot\\css\\flex-slider.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\fontawesome.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\fontawesome.css",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "css/fontawesome.css",
       "AssetKind": "All",
@@ -1252,10 +1667,17 @@
       "OriginalItemSpec": "wwwroot\\css\\fontawesome.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\owl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\owl.css",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "css/owl.css",
       "AssetKind": "All",
@@ -1271,10 +1693,14 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\site.css",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\site.css",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
       "BasePath": "_content/LearnFlow",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1290,10 +1716,17 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\styles.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\styles.css",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -1309,10 +1742,17 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\css\\templatemo-scholar.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\templatemo-scholar.css",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "css/templatemo-scholar.css",
       "AssetKind": "All",
@@ -1328,10 +1768,17 @@
       "OriginalItemSpec": "wwwroot\\css\\templatemo-scholar.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\favicon.ico",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\favicon.ico",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1347,10 +1794,17 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\banner-bg.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\banner-bg.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/banner-bg.jpg",
       "AssetKind": "All",
@@ -1366,10 +1820,17 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-bg.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\banner-item-01.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\banner-item-01.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/banner-item-01.jpg",
       "AssetKind": "All",
@@ -1385,10 +1846,17 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-item-01.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\banner-item-02.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\banner-item-02.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/banner-item-02.jpg",
       "AssetKind": "All",
@@ -1404,10 +1872,17 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-item-02.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\banner-item-03.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\banner-item-03.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/banner-item-03.jpg",
       "AssetKind": "All",
@@ -1423,10 +1898,17 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-item-03.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\contact-dec-01.png",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\contact-dec-01.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/contact-dec-01.png",
       "AssetKind": "All",
@@ -1442,10 +1924,17 @@
       "OriginalItemSpec": "wwwroot\\images\\contact-dec-01.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\contact-dec-02.png",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\contact-dec-02.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/contact-dec-02.png",
       "AssetKind": "All",
@@ -1461,10 +1950,17 @@
       "OriginalItemSpec": "wwwroot\\images\\contact-dec-02.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\course-01.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-01.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/course-01.jpg",
       "AssetKind": "All",
@@ -1480,10 +1976,17 @@
       "OriginalItemSpec": "wwwroot\\images\\course-01.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\course-02.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-02.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/course-02.jpg",
       "AssetKind": "All",
@@ -1499,10 +2002,17 @@
       "OriginalItemSpec": "wwwroot\\images\\course-02.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\course-03.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-03.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/course-03.jpg",
       "AssetKind": "All",
@@ -1518,10 +2028,17 @@
       "OriginalItemSpec": "wwwroot\\images\\course-03.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\course-04.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-04.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/course-04.jpg",
       "AssetKind": "All",
@@ -1537,10 +2054,17 @@
       "OriginalItemSpec": "wwwroot\\images\\course-04.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\course-05.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-05.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/course-05.jpg",
       "AssetKind": "All",
@@ -1556,10 +2080,17 @@
       "OriginalItemSpec": "wwwroot\\images\\course-05.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\course-06.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\course-06.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/course-06.jpg",
       "AssetKind": "All",
@@ -1575,10 +2106,17 @@
       "OriginalItemSpec": "wwwroot\\images\\course-06.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\event-01.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\event-01.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/event-01.jpg",
       "AssetKind": "All",
@@ -1594,10 +2132,17 @@
       "OriginalItemSpec": "wwwroot\\images\\event-01.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\event-02.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\event-02.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/event-02.jpg",
       "AssetKind": "All",
@@ -1613,10 +2158,17 @@
       "OriginalItemSpec": "wwwroot\\images\\event-02.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\member-03.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\member-03.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/member-03.jpg",
       "AssetKind": "All",
@@ -1632,10 +2184,17 @@
       "OriginalItemSpec": "wwwroot\\images\\member-03.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\service-01.png",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\service-01.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/service-01.png",
       "AssetKind": "All",
@@ -1651,10 +2210,17 @@
       "OriginalItemSpec": "wwwroot\\images\\service-01.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\service-02.png",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\service-02.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/service-02.png",
       "AssetKind": "All",
@@ -1670,10 +2236,17 @@
       "OriginalItemSpec": "wwwroot\\images\\service-02.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\images\\service-03.png",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\images\\service-03.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "images/service-03.png",
       "AssetKind": "All",
@@ -1689,10 +2262,17 @@
       "OriginalItemSpec": "wwwroot\\images\\service-03.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\js\\counter.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\counter.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "js/counter.js",
       "AssetKind": "All",
@@ -1708,10 +2288,17 @@
       "OriginalItemSpec": "wwwroot\\js\\counter.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\js\\custom.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\custom.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -1727,10 +2314,17 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\js\\isotope.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\isotope.min.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "js/isotope.min.js",
       "AssetKind": "All",
@@ -1746,10 +2340,17 @@
       "OriginalItemSpec": "wwwroot\\js\\isotope.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\js\\owl-carousel.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\owl-carousel.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "js/owl-carousel.js",
       "AssetKind": "All",
@@ -1765,462 +2366,14 @@
       "OriginalItemSpec": "wwwroot\\js\\owl-carousel.js"
     },
     {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "LearnFlow",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
-      "BasePath": "_content/LearnFlow",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
@@ -2373,10 +2526,847 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2392,10 +3382,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2411,10 +3408,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2430,10 +3434,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2449,10 +3460,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2468,10 +3486,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2487,10 +3512,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2506,10 +3538,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2525,10 +3564,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2544,10 +3590,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2563,10 +3616,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2582,10 +3642,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2601,10 +3668,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2620,6 +3694,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
@@ -2772,6 +3847,14 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
@@ -2905,10 +3988,415 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery/dist/jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery/dist/jquery.slim.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery/dist/jquery.slim.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery/dist/jquery.slim.min.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\uploads\\courses\\default-course.png",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
+>>>>>>> 6ce7ad5926a6052243cbdc3a1050745853a81bc2
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\courses\\default-course.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "uploads/courses/default-course.png",
       "AssetKind": "All",
@@ -2924,10 +4412,17 @@
       "OriginalItemSpec": "wwwroot\\uploads\\courses\\default-course.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\uploads\\Default.png",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\Default.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "uploads/Default.png",
       "AssetKind": "All",
@@ -2943,10 +4438,17 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Default.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\uploads\\users\\1.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\1.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "uploads/users/1.jpg",
       "AssetKind": "All",
@@ -2962,10 +4464,17 @@
       "OriginalItemSpec": "wwwroot\\uploads\\users\\1.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\uploads\\users\\default.png",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\default.png",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "uploads/users/default.png",
       "AssetKind": "All",
@@ -2981,10 +4490,17 @@
       "OriginalItemSpec": "wwwroot\\uploads\\users\\default.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\uploads\\users\\Image20240715104238.jpg",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\Image20240715104238.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "uploads/users/Image20240715104238.jpg",
       "AssetKind": "All",
@@ -3000,10 +4516,14 @@
       "OriginalItemSpec": "wwwroot\\uploads\\users\\Image20240715104238.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\uploads\\users\\io.jpg",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\io.jpg",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
       "BasePath": "_content/LearnFlow",
       "RelativePath": "uploads/users/io.jpg",
       "AssetKind": "All",
@@ -3019,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\users\\io.jpg"
     },
     {
-      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg",
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
       "BasePath": "_content/LearnFlow",
       "RelativePath": "uploads/users/photo_2023-11-11_17-37-24.jpg",
       "AssetKind": "All",
@@ -3038,10 +4558,17 @@
       "OriginalItemSpec": "wwwroot\\uploads\\users\\photo_2023-11-11_17-37-24.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -3057,10 +4584,17 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.ttf"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-brands-400.woff2",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -3076,10 +4610,17 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.woff2"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -3095,10 +4636,17 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.ttf"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-regular-400.woff2",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -3114,10 +4662,17 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.woff2"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -3133,10 +4688,17 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.ttf"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-solid-900.woff2",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -3152,10 +4714,17 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.woff2"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -3171,10 +4740,17 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-v4compatibility.ttf"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maram Mohamed\\source\\repos\\LearnFlowfinall\\LearnFlow\\wwwroot\\",
+=======
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+>>>>>>> db96e695b589362b50d36d98b7be76b4f32437f6
       "BasePath": "_content/LearnFlow",
       "RelativePath": "webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
