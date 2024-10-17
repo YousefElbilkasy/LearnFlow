@@ -15,11 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearnFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2b920756ac75b103e15b7f2b27397bebab2da34")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8effcb20905d714467bd0f4b989042e8fe95cdf0")]
->>>>>>> origin/authentication
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3f043161e6d119d561a1e18bef6d8e83d0d8c2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearnFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearnFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

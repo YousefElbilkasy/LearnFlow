@@ -47,6 +47,9 @@ builder.Services.AddSingleton(sp =>
 
 var app = builder.Build();
 
+// Seed roles
+await SeedRoles(app.Services);
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -67,3 +70,19 @@ app.MapControllerRoute(
   pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run(); 
+
+async Task SeedRoles(IServiceProvider serviceProvider)
+{
+    using var scope = serviceProvider.CreateScope();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole<int>>>();
+
+    string[] roleNames = { "Admin", "Instructor", "Student" };
+    foreach (var roleName in roleNames)
+    {
+        var roleExists = await roleManager.RoleExistsAsync(roleName);
+        if (!roleExists)
+        {
+            await roleManager.CreateAsync(new IdentityRole<int>(roleName));
+        }
+    }
+}
