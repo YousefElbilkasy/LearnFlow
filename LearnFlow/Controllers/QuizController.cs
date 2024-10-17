@@ -6,9 +6,9 @@ namespace LearnFlow.Controllers
 {
     public class QuizController : Controller
     {
-        private readonly IQuizRepo _quizRepo;
+        private readonly IRepo<Quiz> _quizRepo;
 
-        public QuizController(IQuizRepo quizRepo)
+        public QuizController(IRepo<Quiz> quizRepo)
         {
             _quizRepo = quizRepo;
         }
@@ -16,13 +16,13 @@ namespace LearnFlow.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var allQuizs = await _quizRepo.GetAllQuizes();
+            var allQuizs = await _quizRepo.GetAllAsync();
             return View(allQuizs);
         }
         [HttpGet]
         public async Task<IActionResult> ViewQuiz(int quizId)
         {
-            var quiz = await _quizRepo.GetQuiz(quizId);
+            var quiz = await _quizRepo.GetByIdAsync(quizId);
             return View(quiz);
         }
 
