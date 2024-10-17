@@ -1,0 +1,18 @@
+﻿@model List<Quiz>
+<div class="container">
+    <div style="margin:20px; padding:10px; border: 1px solid black;">
+        <ul>
+            @foreach (var item in Model)
+            {
+                <div>
+                    <li>
+                        <p>Quiz ID: @item.QuizId </p>
+                        <p>Course Title: @item.Course.Title</p>
+                        <p>Quiz Title: @item.Title</p>
+                        <p>Score: @item.MaxScore</p>
+                    </li>
+                </div>
+            }
+        </ul>
+    </div>
+</div>

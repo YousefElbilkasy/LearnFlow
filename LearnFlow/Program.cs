@@ -18,6 +18,7 @@ builder.Services.AddIdentity<User, IdentityRole<int>>()
 
 // Add Course Repository
 builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
+builder.Services.AddScoped<IQuizRepo, QuizRepo>();
 
 var app = builder.Build();
 
@@ -38,6 +39,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
   name: "default",
-  pattern: "{controller=Home}/{action=Index}/{id?}");
+  pattern: "{controller=Quiz}/{action=Index}/{id?}");
 
 app.Run();
