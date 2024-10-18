@@ -40,7 +40,7 @@ public class CourseRepo : IRepo<Course>
     .Include(c => c.Instructor)
     .Include(r => r.Reviews)
     .Include(l => l.Lectures)
-    .Include(e => e.Enrollments.Count)
+    .Include(e => e.Enrollments)
     .FirstOrDefaultAsync(c => c.CourseId == id);
   }
 

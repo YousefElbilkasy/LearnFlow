@@ -1,3 +1,4 @@
+@using System.Security.Claims
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +50,7 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a asp-action="Index" asp-controller="Home" class="logo">
               <h1>LearnFlow</h1>
             </a>
             <!-- ***** Logo End ***** -->
@@ -67,24 +68,60 @@
               <li class="scroll-to-section">
                 <a id="top" class="active" asp-controller="Home" asp-action="Index">Home</a>
               </li>
-              <li class="scroll-to-section">
-                <a asp-controller="Lectures" asp-action="Index">Lecturs</a>
-              </li>
-              <li class="scroll-to-section">
-                <a href="#services">Services</a>
-              </li>
+              @{
+                @* check if he is instructor *@
+                if (User.IsInRole("Instructor"))
+                {
+                  <li class="scroll-to-section">
+                    <a asp-controller="Lectures" asp-action="Index">Lectures</a>
+                  </li>
+                }
+
+                @* check if he is student *@
+                else if (User.IsInRole("Student"))
+                {
+                  <li class="scroll-to-section">
+                    <a asp-controller="Enrollments" asp-action="Index">My Courses</a>
+                  </li>
+                }
+
+                @* check if he is admin *@
+                else if (User.IsInRole("Admin"))
+                {
+                  <li class="scroll-to-section">
+                    <a asp-controller="Admin" asp-action="Index">Admin Dashboard</a>
+                  </li>
+                }
+              }
               <li class="scroll-to-section">
                 <a asp-action="Index" asp-controller="Course">Courses</a>
               </li>
-              <li class="scroll-to-section">
-                <a href="#team">Team</a>
-              </li>
-              <li class="scroll-to-section">
-                <a href="#events">Events</a>
-              </li>
-              <li class="scroll-to-section">
-                <a asp-controller="Account" asp-action="Register">Register Now!</a>
-              </li>
+              @* check if he authorized *@
+              @{
+                if (User.Identity.IsAuthenticated)
+                {
+                  @* view profile *@
+                  <li class="scroll-to-section">
+                    <a asp-controller="User" asp-action="ViewProfile"
+                      asp-route-id="@User.FindFirstValue(ClaimTypes.NameIdentifier)">Profile</a>
+                  </li>
+                  @* logout *@
+                  <li class="scroll-to-section">
+                    <a asp-controller="Account" asp-action="LogOut">Log Out</a>
+                  </li>
+                }
+                else
+                {
+                  @* login *@
+                  <li class="scroll-to-section">
+                    <a asp-controller="Account" asp-action="LogIn">Log In</a>
+                  </li>
+                  @* Register *@
+                  <li class="scroll-to-section">
+                    <a asp-controller="Account" asp-action="Register">Register Now!</a>
+                  </li>
+                }
+              }
             </ul>
             <a class="menu-trigger">
               <span>Menu</span>

@@ -5,9 +5,15 @@
 }
 
 <ul>
-    @foreach(var item in Model)
+    @{ var counter = 1; }
+    @foreach(var item in Model) 
     {
+      <h5>User @counter</h5>
+        <li>Email: @item.Email</li>
         <li>Username: @item.FullName</li>
+        <li>Role: @item.Role</li>
+        <li>Phone Number: @item.PhoneNumber</li>
+        counter++;
     }
 </ul>
 

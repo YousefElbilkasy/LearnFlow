@@ -86,30 +86,30 @@ namespace LearnFlow.Controllers
       return View(courseViewModel);
     }
 
-    // // POST: CourseInstructorController/Edit/5
-    // [HttpPost]
-    // [ValidateAntiForgeryToken]
-    // public async Task<IActionResult> Edit(int id, CourseViewModel model)
-    // {
-    //   if (ModelState.IsValid)
-    //   {
-    //     var course = await courseRepo.GetByIdAsync(id);
-    //     if (course == null)
-    //     {
-    //       return NotFound();
-    //     }
+    // POST: CourseInstructorController/Edit/5
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Edit(int id, CourseViewModel model)
+    {
+      if (ModelState.IsValid)
+      {
+        var course = await courseRepo.GetByIdAsync(id);
+        if (course == null)
+        {
+          return NotFound();
+        }
 
-    //     // Map CourseViewModel back to Course entity
-    //     course.Title = model.Title;
-    //     course.Description = model.Description;
-    //     course.Price = model.Price;
+        // Map CourseViewModel back to Course entity
+        course.Title = model.Title;
+        course.Description = model.Description;
+        course.Price = model.Price;
 
-    //     await courseRepo.UpdateAsync(course);
-    //     return RedirectToAction("InstructorDashboard");
-    //   }
+        await courseRepo.UpdateAsync(course);
+        return RedirectToAction("InstructorDashboard");
+      }
 
-    //   return View(model);
-    // }
+      return View(model);
+    }
 
     [Authorize(Roles = "Instructor")]
     public async Task<ActionResult> Delete(int id)
@@ -160,11 +160,11 @@ namespace LearnFlow.Controllers
         return null;
       }
 
-      var loggedInInstructorId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-      if (course.InstructorId != int.Parse(loggedInInstructorId))
-      {
-        return null;
-      }
+      // var loggedInInstructorId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+      // if (course.InstructorId != int.Parse(loggedInInstructorId))
+      // {
+      //   return null;
+      // }
 
       return course;
     }

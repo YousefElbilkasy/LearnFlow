@@ -2,26 +2,30 @@ using LearnFlow.Interfaces;
 using LearnFlow.Models;
 using LearnFlow.Repository;
 using LearnFlow.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace LearnFlow.Controllers
 {
+  [Authorize]
   public class UserController : Controller
   {
-    public readonly RoleManager<IdentityRole<int>> role;
-    public readonly UserManager<User> _userManager;
-    public readonly IUserRepo _userRepo;
-
-    public UserController(RoleManager<IdentityRole<int>> role, UserManager<User> userManager, IUserRepo userRepo)
+    private readonly RoleManager<IdentityRole<int>> role;
+    private readonly UserManager<User> _userManager;
+    private readonly IUserRepo _userRepo;
+    private readonly IImageService imageService;
+    public UserController(RoleManager<IdentityRole<int>> role, UserManager<User> userManager, IUserRepo userRepo, IImageService imageService)
     {
       this.role = role;
       this._userManager = userManager;
       this._userRepo = userRepo;
+      this.imageService = imageService;
     }
 
     [HttpGet]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Index()
     {
       var allUsers = await _userRepo.GetAllUsers();
@@ -46,11 +50,6 @@ namespace LearnFlow.Controllers
         DateJoined = user.DateJoined
       };
 
-      userProfile.ImageUrl = "/uploads/users/" + userProfile.ImageUrl;
-
-      if (string.IsNullOrEmpty(userProfile.ImageUrl))
-        userProfile.ImageUrl = "default.png";
-
       return View(userProfile);
     }
 
@@ -71,10 +70,6 @@ namespace LearnFlow.Controllers
         PhoneNumber = user.PhoneNumber
       };
 
-      userProfile.ImageUrl = "/uploads/users/" + userProfile.ImageUrl;
-
-      if (userProfile.ImageUrl == null)
-        userProfile.ImageUrl += "default.png";
 
       return View(userProfile);
     }
@@ -101,21 +96,15 @@ namespace LearnFlow.Controllers
         if (model.NewImageUrl != null)
         {
           // Save new image
-          var fileName =
-          Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads\\users", model.NewImageUrl.FileName);
-          model.NewImageUrl.CopyTo(new FileStream(fileName, FileMode.Create));
+          var uploadResult = await imageService.AddImageAsync(model.NewImageUrl);
 
-          // Delete old image
-          if (user.ImageUrl != "default.png")
-          {
-            var oldImagePath =
-            Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\uploads\\users", user.ImageUrl);
-            if (System.IO.File.Exists(oldImagePath))
-              System.IO.File.Delete(oldImagePath);
-          }
+          // Check if user has an image exept default image
+          if (user.ImageUrl != "https://res.cloudinary.com/dwwuefmsb/image/upload/v1729191590/default_d1m7rd.png")
+            // Delete old image
+            await imageService.DeleteImageAsync(user.ImageUrl);
 
           // Update user image in database
-          user.ImageUrl = model.NewImageUrl.FileName;
+          user.ImageUrl = uploadResult.Url.ToString();
         }
         // Save changes
         await _userManager.UpdateAsync(user);
@@ -128,19 +117,5 @@ namespace LearnFlow.Controllers
       return View("EditProfile", model);
     }
 
-// 
-    public async Task CreateRoles()
-    {
-      string[] roleNames = { "Admin", "Instructor", "Student" };
-
-      foreach (var roleName in roleNames)
-      {
-        var roleExist = await role.RoleExistsAsync(roleName);
-        if (!roleExist)
-        {
-          await role.CreateAsync(new IdentityRole<int>(roleName));
-        }
-      }
-    }
   }
 }
