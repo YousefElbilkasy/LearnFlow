@@ -10798,23 +10798,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\shahd\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\Maram Mohamed\\.nuget\\packages\\": {},
+>>>>>>> 1f7d1dc6f046b283835cb84ca56fa2a452f87ca3
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\proAd\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "projectName": "LearnFlow",
       "projectPath": "C:\\proAd\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "packagesPath": "C:\\Users\\shahd\\.nuget\\packages\\",
       "outputPath": "C:\\proAd\\LearnFlow\\LearnFlow\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\LearnFlow.csproj",
+      "projectName": "LearnFlow",
+      "projectPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\LearnFlow.csproj",
+      "packagesPath": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\obj\\",
+>>>>>>> 1f7d1dc6f046b283835cb84ca56fa2a452f87ca3
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\shahd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\Maram Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 1f7d1dc6f046b283835cb84ca56fa2a452f87ca3
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10897,7 +10913,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 1f7d1dc6f046b283835cb84ca56fa2a452f87ca3
       }
     }
   }
