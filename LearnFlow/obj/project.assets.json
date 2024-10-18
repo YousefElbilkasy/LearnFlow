@@ -10798,53 +10798,19 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\youse\\.nuget\\packages\\": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\shahd\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\Maram Mohamed\\.nuget\\packages\\": {},
->>>>>>> 1f7d1dc6f046b283835cb84ca56fa2a452f87ca3
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> 403efe23f9afa8e8088c8e5cb6a7bd1f6beb9115
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+      "projectUniqueName": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "projectName": "LearnFlow",
-      "projectPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+      "projectPath": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\proAd\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
-      "projectName": "LearnFlow",
-      "projectPath": "C:\\proAd\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
-      "packagesPath": "C:\\Users\\shahd\\.nuget\\packages\\",
-      "outputPath": "C:\\proAd\\LearnFlow\\LearnFlow\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\LearnFlow.csproj",
-      "projectName": "LearnFlow",
-      "projectPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\LearnFlow.csproj",
-      "packagesPath": "C:\\Users\\Maram Mohamed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maram Mohamed\\Source\\Repos\\LearnFlowfinals\\LearnFlow\\obj\\",
->>>>>>> 1f7d1dc6f046b283835cb84ca56fa2a452f87ca3
->>>>>>> 403efe23f9afa8e8088c8e5cb6a7bd1f6beb9115
+      "outputPath": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-        "C:\\Users\\shahd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\Maram Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 1f7d1dc6f046b283835cb84ca56fa2a452f87ca3
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> 403efe23f9afa8e8088c8e5cb6a7bd1f6beb9115
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10852,6 +10818,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10864,6 +10831,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -10926,15 +10898,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
->>>>>>> 1f7d1dc6f046b283835cb84ca56fa2a452f87ca3
->>>>>>> 403efe23f9afa8e8088c8e5cb6a7bd1f6beb9115
       }
     }
   }

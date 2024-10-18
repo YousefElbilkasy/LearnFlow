@@ -31,12 +31,19 @@
       style="width: auto; height: auto;" />
   </div>
   <div class="form-group">
-    @* <label asp-for="Course.Description" class="control-label"></label>
-    <p class="form-control-plaintext">@Model.Course.Description</p> *@
+    <label asp-for="Course.Description" class="control-label"></label>
+    <p class="form-control-plaintext">@Model.Course.Description</p>
     <label asp-for="Course.Price" class="control-label"></label>
     <p class="form-control-plaintext">@Model.Course.Price</p>
   </div>
   <div class="form-group">
+    <!-- Hidden fields for Course properties -->
+    <input type="hidden" asp-for="Course.CourseId" />
+    <input type="hidden" asp-for="Course.CreationDate" />
+    <input type="hidden" asp-for="Course.ImageUrl" />
+    <input type="hidden" asp-for="Course.InstructorId" />
+    <input type="hidden" asp-for="Course.Price" />
+    <input type="hidden" asp-for="Course.Description" />
   </div>
   <button type="submit" class="btn btn-primary">Enroll Now</button>
 </form>
