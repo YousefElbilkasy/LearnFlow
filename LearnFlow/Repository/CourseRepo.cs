@@ -44,6 +44,14 @@ public class CourseRepo : IRepo<Course>
     .FirstOrDefaultAsync(c => c.CourseId == id);
   }
 
+  public async Task<Course> GetByIdForEnrollAsync(int id)
+  {
+    return await context.Courses
+    .Include(c => c.Instructor)
+    .Include(e => e.Enrollments)
+    .FirstOrDefaultAsync(c => c.CourseId == id);
+  }
+
   public async Task<Course> CreateAsync(Course entity)
   {
     await context.Courses.AddAsync(entity);

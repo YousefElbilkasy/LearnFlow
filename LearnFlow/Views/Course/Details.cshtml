@@ -33,8 +33,8 @@
         <p>@Model.Enrollments.Count</p>
       </div>
       <div class="mt-4">
-        <form asp-action="Enroll" method="post">
-          <input type="hidden" asp-for="CourseId" />
+        <form asp-action="Enroll" asp-controller="Enrollment" method="get">
+          <input type="hidden" name="courseId" value="@Model.CourseId" />
           <button type="submit" class="btn btn-primary">Enroll Now</button>
         </form>
       </div>

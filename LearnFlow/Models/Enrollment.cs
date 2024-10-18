@@ -16,7 +16,7 @@ public class Enrollment
   [Required]
   public int CourseId { get; set; }
   [DisplayName("Enrollment Date")]
-  public DateTime EnrollmentDate { get; set; }
+  public DateTime EnrollmentDate { get; set; } = DateTime.Now;
   public float Progress { get; set; }
   public Course? Course { get; set; }
   public User? Student { get; set; }
