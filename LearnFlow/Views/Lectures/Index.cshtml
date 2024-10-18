@@ -7,16 +7,15 @@
 <div class="container">
   @* @if (User.IsInRole("Instructor")) *@
 
-  <a asp-action="Create" class="btn custom-purple-btn mb-4">Add Lecture</a>
-
+ <a asp-action="Create" class="btn createc mb-4">Add Lecture</a>
 
   <div class="row">
     @foreach (var item in Model)
     {
       <div class="col-md-4 mb-4">
-        <div class="card shadow-sm" style="background-color: rgba(111, 66, 193, 0.3); border-radius: 15px;">
+<div class="card shadow-sm" style="background-color: rgba(238, 234, 234, 0.966); border-radius: 15px;">
           <div class="card-body text-center">
-            <h5 class="card-title text-white">@item.Title</h5>
+            <h5 style="color:#6f42c1" >@item.Title</h5>
             <div class="mb-3">
               <video width="100%" controls style="border-radius: 10px;">
                 <source src="@Url.Content(item.Content)" type="video/mp4">
@@ -48,7 +47,14 @@
     font-weight: bold;
   }
 
-
+   .createc {
+        color: white; /* Match the text color */
+        border-color: white; /* Match the border color */
+    }
+    .createc:hover {
+        background-color: #6f42c1; /* Add a light purple background on hover */
+        color: #ffffff; /* White text on hover */
+    }
   .custom-purple-btn {
     background-color: #6f42c1;
     /* Primary purple color */

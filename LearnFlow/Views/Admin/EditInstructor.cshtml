@@ -1,0 +1,127 @@
+@model LearnFlow.Models.User
+
+@{
+    ViewData["Title"] = "Edit Instructor";
+}
+
+<h1 class="text-center mb-4" style="color: white;">Edit Instructor</h1>
+
+<div class="container">
+    <div class="form-container bg-light-purple p-5 shadow rounded">
+        <form asp-action="EditInstructor" method="post">
+            <input type="hidden" asp-for="Id" />
+
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    <strong>Please fix the errors below:</strong>
+                    <ul>
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <li>@error.ErrorMessage</li>
+                        }
+                    </ul>
+                </div>
+            }
+
+            <div class="form-group mb-4">
+                <label asp-for="FullName" class="control-label text-purple">Full Name</label>
+                <input asp-for="FullName" class="form-control" required />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="Email" class="control-label text-purple">Email</label>
+                <input asp-for="Email" class="form-control" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="Role" class="control-label text-purple">Role</label>
+                <select asp-for="Role" class="form-control" asp-items="Html.GetEnumSelectList<LearnFlow.Models.UserRole>()"></select>
+                <span asp-validation-for="Role" class="text-danger"></span>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn custom-purple-btn">Save Changes</button>
+                <a asp-action="Instructors" class="btn btn-outline-purple">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}
+
+<style>
+    /* Colors */
+    .bg-light-purple {
+        background-color: white;
+    }
+
+    .text-purple, .btn-purple {
+        color: #6f42c1;
+    }
+
+    /* Button styling */
+    .custom-purple-btn {
+        background-color: #6f42c1; /* Primary purple color */
+        color: white;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-weight: bold;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .custom-purple-btn:hover {
+            background-color: #5a3798;
+            color: white;
+        }
+
+    .btn-outline-purple {
+        border: 2px solid #6f42c1;
+        color: #6f42c1;
+        border-radius: 25px;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .btn-outline-purple:hover {
+            background-color: #6f42c1;
+            color: white;
+        }
+
+    /* Form container styling */
+    .form-container {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form elements */
+    .form-control {
+        border-radius: 10px;
+        border: 1px solid #6f42c1;
+    }
+
+        .form-control:focus {
+            box-shadow: 0 0 5px rgba(111, 66, 193, 0.5);
+            border-color: #5a3798;
+        }
+
+    /* Labels */
+    .control-label {
+        font-weight: bold;
+    }
+
+    /* Validation text styling */
+    .text-danger {
+        font-size: 0.9em;
+        font-style: italic;
+    }
+</style>

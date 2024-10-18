@@ -1,0 +1,88 @@
+@model IEnumerable<LearnFlow.Models.Course>
+
+@{
+    ViewData["Title"] = "Unverified Courses";
+}
+
+<h1 class="text-center mb-4" style="color: white;">Unverified Courses</h1>
+
+<div class="container">
+    <div class="table-container bg-light-purple p-5 shadow rounded">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="text-purple font-weight-bold">Title</th>
+                    <th class="text-purple font-weight-bold">Description</th>
+                    <th class="text-purple font-weight-bold">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model)
+                {
+                    <tr>
+                        <td class="text-dark">@course.Title</td>
+                        <td class="text-dark">@course.Description</td>
+                        <td>
+                            <form asp-action="VerifyCourse" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@course.CourseId" />
+                                <button type="submit" class="btn custom-purple-btn">Verify</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    /* Colors */
+    .bg-light-purple {
+        background-color: white; /* Light background for table container */
+    }
+
+    .text-purple {
+        color: #6f42c1; /* Purple text color */
+    }
+
+    /* Button styling */
+    .custom-purple-btn {
+        background-color: #6f42c1; /* Primary purple color */
+        color: white;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-weight: bold;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .custom-purple-btn:hover {
+        background-color: #5a3798; /* Darker purple on hover */
+        color: white;
+    }
+
+    /* Table container styling */
+    .table-container {
+        max-width: 800px; /* Max width for the table container */
+        margin: 20px auto; /* Center the container */
+        padding: 20px; /* Padding around the container */
+        border-radius: 15px; /* Rounded corners */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    }
+
+    /* Table styling */
+    .table th, .table td {
+        padding: 12px 15px; /* Padding for table cells */
+        text-align: left; /* Left-align text in cells */
+    }
+
+    .table th {
+        background-color: #f2f2f2; /* Light background for header */
+    }
+
+    /* Validation text styling */
+    .text-danger {
+        font-size: 0.9em; /* Smaller font size for validation text */
+        font-style: italic; /* Italic style for validation text */
+    }
+</style>
