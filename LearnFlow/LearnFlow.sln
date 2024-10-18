@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnFlow", "LearnFlow.csproj", "{95A15D02-F1ED-45AB-9E66-C552AC55CCE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95A15D02-F1ED-45AB-9E66-C552AC55CCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A15D02-F1ED-45AB-9E66-C552AC55CCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A15D02-F1ED-45AB-9E66-C552AC55CCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A15D02-F1ED-45AB-9E66-C552AC55CCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {672A3214-35DF-4D9A-91F4-A13F2262D6EA}
+	EndGlobalSection
+EndGlobal

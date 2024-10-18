@@ -26,7 +26,68 @@
 
   https://templatemo.com/tm-586-scholar
 
+  
+
   -->
+  <style>
+   /* Dropdown button styling (similar to 'Home' button) */
+
+/* Dropdown button styling (no border, smaller font) */
+.dropbtn {
+    background-color: transparent; /* No background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 0px 20px; /* Adjust padding as needed */
+    /* Bold text */
+    font-size: 14px; /* Smaller font */
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for the dropdown button */
+
+
+/* Dropdown container styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content styling */
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: transparent; /* Transparent background */
+    min-width: 160px;
+    z-index: 1;
+    padding: 5px 0; /* Vertical padding for dropdown items */
+}
+
+/* Dropdown items styling */
+.dropdown-content a {
+    color: white; /* White text */
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+ 
+    font-size: 14px; /* Smaller font size */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent hover effect */
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    top: 100%; /* Aligns dropdown directly below the button */
+}
+
+
+  </style>
 </head>
 
 <body>
@@ -63,15 +124,27 @@
             </div>
             <!-- ***** Serach Start ***** -->
             <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="scroll-to-section">
-                <a id="top" class="active" asp-controller="Home" asp-action="Index">Home</a>
-              </li>
-              <li class="scroll-to-section">
-                <a asp-controller="Lectures" asp-action="Index">Lecturs</a>
-              </li>
-              <li class="scroll-to-section">
-                <a href="#services">Services</a>
+           <ul class="nav">
+    <li class="scroll-to-section">
+        <a asp-controller="Home" asp-action="Index">Home</a>
+    </li>
+    <li class="scroll-to-section">
+        <a asp-controller="Lectures" asp-action="Index">Lectures</a>
+    </li>
+@* @if (User.Identity.IsAuthenticated && User.Identity.Name == "Admin1@gmail.com") *@
+
+
+    <li class="scroll-to-section dropdown">
+        <button class="dropbtn">Admin Options</button>
+        <div class="dropdown-content">
+            <a asp-controller="Admin" asp-action="Instructors">Instructors</a>
+            <a asp-controller="Admin" asp-action="VerifyCourses">Verify Courses</a>
+        </div>
+    </li>
+
+
+    <li class="scroll-to-section">
+        <a href="#services">Services</a>
               </li>
               <li class="scroll-to-section">
                 <a asp-action="Index" asp-controller="Course">Courses</a>
