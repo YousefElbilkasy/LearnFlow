@@ -1,0 +1,30 @@
+@{
+  ViewData["Title"] = "MyCourses";
+}
+
+@model IEnumerable<LearnFlow.Models.Course>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <div class="section-heading">
+        <h6>My Courses</h6>
+        <h2>My Courses</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row event_box">
+    @foreach (var course in Model)
+    {
+      <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+        <div class="events_item">
+          <div class="thumb">
+            <a href="@Url.Action("Details", "Course", new { id = course.CourseId })"><img src="@course.ImageUrl" alt=""></a>
+          </div>
+          <div class="down-content">
+            <h4>@course.Title</h4>
+          </div>
+        </div>
+      </div>
+    }
+  </div>

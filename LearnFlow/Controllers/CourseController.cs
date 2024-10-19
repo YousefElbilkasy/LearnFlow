@@ -296,7 +296,15 @@ namespace LearnFlow.Controllers
       }
 
       return RedirectToAction(nameof(Details), new { id });
+    }
 
+    [Authorize(Roles = "Student")]
+    [HttpGet]
+    public async Task<ActionResult> MyCourses()
+    {
+      var user = await userManager.GetUserAsync(User);
+      var courses = await courseRepo.GetAllForStudentAsync(user.Id);
+      return View(courses);
     }
   }
 }

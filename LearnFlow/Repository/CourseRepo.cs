@@ -27,7 +27,12 @@ public class CourseRepo : IRepo<Course>
 
   public async Task<IEnumerable<Course>> GetAllForIsVerifiedAsync()
   {
-    return await context.Courses.Where(c => c.IsVerified == true).ToListAsync();
+    return await context.Courses
+    .Where(c => c.IsVerified == true)
+    .Include(c => c.Enrollments)
+    .Include(c => c.Instructor)
+    .Include(c => c.Reviews)
+    .ToListAsync();
   }
   public async Task<IEnumerable<Course>> GetAllForStudentAsync(int studentId)
   {
