@@ -9,5 +9,5 @@ public class QuestionViewModel
   [Required, DisplayName("Question Text")]
   public required string Text { get; set; }
 
-  public List<AnswerOptionViewModel> AnswerOptions { get; set; }
+  public ICollection<AnswerOptionViewModel> AnswerOptions { get; set; }
 }
