@@ -23,21 +23,21 @@ namespace LearnFlow.Controllers
     [Authorize(Roles = "Student")]
     [HttpGet]
     // GET: EnrollmentController/Enroll/id
-    public async Task<ActionResult> Enroll(int CourseId)
+    public async Task<ActionResult> Enroll(int id)
     {
-      var course = await courseRepo.GetByIdForEnrollAsync(CourseId);
+      var course = await courseRepo.GetByIdForEnrollAsync(id);
       var user = await userManager.GetUserAsync(User);
       var enrollViewModel = new EnrollViewModel
       {
         Course = new CourseEnrollViewModel
         {
           CourseId = course.CourseId,
-          CreationDate = course.CreationDate,
-          ImageUrl = course.ImageUrl,
-          InstructorId=course.InstructorId,
           Title = course.Title,
+          Description = course.Description,
           Price = course.Price,
-          Description = course.Description
+          ImageUrl = course.ImageUrl,
+          InstructorId = course.InstructorId,
+          CreationDate = course.CreationDate
         },
         Email = await userManager.GetEmailAsync(user),
         FullName = await userManager.GetUserNameAsync(user),
