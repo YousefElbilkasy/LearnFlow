@@ -1,0 +1,57 @@
+﻿@using LearnFlow.ViewModel
+@model QuizViewModel
+
+<form action="/Quiz/Create" method="post">
+    <div>
+        <label>Quiz Title</label>
+        <input asp-for="Title" />
+    </div>
+
+    <div>
+        <label>Max Score</label>
+        <input asp-for="MaxScore" type="number" />
+    </div>
+
+    <div id="questions-container">
+        <h3>Questions</h3>
+        <!-- Questions will be added here dynamically -->
+    </div>
+
+    <button type="button" onclick="addQuestion()">Add Question</button>
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    let questionIndex = 0;
+
+    function addQuestion() {
+        let container = document.getElementById('questions-container');
+        let questionHtml = `
+                <div>
+                    <label>Question Text</label>
+                    <input name="Questions[${questionIndex}].Text" />
+                    <div>
+                        <label>Answer Options</label>
+                        <div id="answer-options-container-${questionIndex}">
+                            <!-- Answer options will be added here dynamically -->
+                        </div>
+                        <button type="button" onclick="addAnswerOption(${questionIndex})">Add Answer Option</button>
+                    </div>
+                </div>`;
+        container.insertAdjacentHTML('beforeend', questionHtml);
+        questionIndex++;
+    }
+
+    function addAnswerOption(questionIndex) {
+        let container = document.getElementById(`answer-options-container-${questionIndex}`);
+        let answerIndex = container.children.length;
+        let answerHtml = `
+                <div>
+                    <input name="Questions[${questionIndex}].AnswerOptions[${answerIndex}].OptionText" />
+                    <label>Is Correct?</label>
+                    <input type="checkbox" name="Questions[${questionIndex}].AnswerOptions[${answerIndex}].IsCorrect" value="true" />
+                    <input type="hidden" name="Questions[${questionIndex}].AnswerOptions[${answerIndex}].IsCorrect" value="false" />
+                </div>`;
+        container.insertAdjacentHTML('beforeend', answerHtml);
+    }
+</script>

@@ -1,0 +1,9 @@
+﻿@model Quiz
+
+<div>
+    <p>Are you sure you want to delete @Model.Title?</p>
+    <form asp-action="DeleteQuiz" method="post">
+        <input type="hidden" asp-for="QuizId" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+</div>

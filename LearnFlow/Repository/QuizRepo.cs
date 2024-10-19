@@ -29,6 +29,9 @@ namespace LearnFlow.Repository
             {
                 return null;
             }
+
+            var quizResults = await context.QuizResults.Where(qr => qr.QuizId == id).ToListAsync();
+            context.QuizResults.RemoveRange(quizResults);
             context.Quizs.Remove(quiz);
             await context.SaveChangesAsync();
             return quiz;
@@ -36,7 +39,7 @@ namespace LearnFlow.Repository
 
         public async Task<IEnumerable<Quiz>> GetAllAsync()
         {
-            return await context.Quizs.ToListAsync();
+            return await context.Quizs.Include(c => c.Course).ToListAsync();
         }
 
         public async Task<Quiz> GetByIdAsync(int id)
