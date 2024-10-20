@@ -1,55 +1,102 @@
 @using LearnFlow.ViewModel
 @{
-  ViewData["Title"] = "Enroll";
+    ViewData["Title"] = "Enroll";
 }
 
 @model EnrollViewModel
 
 <h2>Enroll</h2>
 
-<div asp-validation-summary="All"></div>
-<form asp-action="Enroll" method="post">
-  <div class="form-group">
-    <label asp-for="FullName" class="control-label"></label>
-    <input asp-for="FullName" class="form-control" />
-    <span asp-validation-for="FullName" class="text-danger"></span>
-  </div>
-  <div class="form-group">
-    <label asp-for="Email" class="control-label"></label>
-    <input asp-for="Email" class="form-control" />
-    <span asp-validation-for="Email" class="text-danger"></span>
-  </div>
-  <div class="form-group">
-    <label asp-for="PhoneNumber" class="control-label"></label>
-    <input asp-for="PhoneNumber" class="form-control" />
-    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-  </div>
-  <div class="form-group">
-    <label asp-for="Course.Title" class="control-label"></label>
-    <input asp-for="Course.Title" class="form-control" readonly />
-    <img src="@Model.Course.ImageUrl" alt="@Model.Course.Title" class="img-fluid mt-2"
-      style="width: auto; height: auto;" />
-  </div>
-  <div class="form-group">
-    <label asp-for="Course.Description" class="control-label"></label>
-    <p class="form-control-plaintext">@Model.Course.Description</p>
-    <label asp-for="Course.Price" class="control-label"></label>
-    <p class="form-control-plaintext">@Model.Course.Price</p>
-  </div>
-  <div class="form-group">
-    <!-- Hidden fields for Course properties -->
-    <input type="hidden" asp-for="Course.CourseId" />
-    <input type="hidden" asp-for="Course.CreationDate" />
-    <input type="hidden" asp-for="Course.ImageUrl" />
-    <input type="hidden" asp-for="Course.InstructorId" />
-    <input type="hidden" asp-for="Course.Price" />
-    <input type="hidden" asp-for="Course.Description" />
-  </div>
-  <button type="submit" class="btn btn-primary">Enroll Now</button>
-</form>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Enroll" method="post" id="enrollForm">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Course.Title" class="control-label"></label>
+                <input asp-for="Course.Title" class="form-control" readonly />
+                <img src="@Model.Course.ImageUrl" alt="@Model.Course.Title" class="img-fluid mt-2" />
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Course.Description" class="control-label"></label>
+                <p class="form-control-plaintext">@Model.Course.Description</p>
+                
+                <label asp-for="Course.Price" class="control-label"></label>
+                <p class="form-control-plaintext">$@Model.Course.Price</p>
+            </div>
+            
+            <div class="form-group">
+                <!-- Hidden fields for Course properties -->
+                <input type="hidden" asp-for="Course.CourseId" />
+                <input type="hidden" asp-for="Course.CreationDate" />
+                <input type="hidden" asp-for="Course.ImageUrl" />
+                <input type="hidden" asp-for="Course.InstructorId" />
+                <input type="hidden" asp-for="Course.Price" />
+                <input type="hidden" asp-for="Course.Description" />
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Enroll Now</button>
+            
+            <!-- PayPal Button Placeholder -->
+            <div id="paypal-button-container" class="mt-3"></div>
+        </form>
+    </div>
+</div>
 
+
+   
 @section Scripts {
   @{
     await Html.RenderPartialAsync("_ValidationScriptsPartial");
   }
+    
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+    <script>
+        var sessionValue = '@Model.Course.Price'; // Dynamically fetching course price
+
+        paypal
+            .Buttons({
+                createOrder: function (data, actions) {
+                    // Set up the transaction
+                    return actions.order.create({
+                        purchase_units: [{
+                            amount: {
+                                value: sessionValue // Total amount for the transaction
+                            }
+                        }]
+                    });
+                },
+                onApprove: function (data, actions) {
+                    // Capture the transaction once approved
+                    return actions.order.capture().then(function (details) {
+                        console.log('Transaction completed by ' + details.payer.name.given_name);
+
+                        // Automatically submit the enrollment form after successful payment
+                        document.getElementById("enrollForm").submit();
+                    });
+                },
+                fundingSource: paypal.FUNDING.PAYPAL
+            })
+            .render("#paypal-button-container"); // Display PayPal button
+    </script>
 }

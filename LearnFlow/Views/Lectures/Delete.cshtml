@@ -28,11 +28,15 @@
     </center>
     <br />
    
-    <form asp-action="Delete" method="post" class="d-inline">
-        <input type="hidden" asp-for="LectureId" />
-        <button type="submit" class="btn btn-danger custom-purple-btn">Delete</button>
-        <a asp-action="Index" class="btn btn-outline-light ml-3" style="color: black; border-color: gray;">Back to List</a>
-    </form>
+<form asp-action="Delete" method="post" class="d-inline">
+    <input type="hidden" asp-for="LectureId" />
+    <button type="submit" class="btn btn-danger custom-purple-btn">Delete</button>
+
+    <!-- Back to List Button: Pass courseId via ViewData -->
+    <a asp-controller="Lectures" asp-action="Index" asp-route-courseId="@ViewData["CourseId"]" 
+       class="btn btn-outline-light ml-3" 
+       style="color: black; border-color: gray;">Back to List</a>
+</form>
 </div>
 
 <style>

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {}
+    "C:\\New folder (2)\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {}
   },
   "projects": {
-    "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {
+    "C:\\New folder (2)\\LearnFlow\\LearnFlow\\LearnFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+        "projectUniqueName": "C:\\New folder (2)\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
         "projectName": "LearnFlow",
-        "projectPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
-        "packagesPath": "C:\\Users\\MaStEr\\.nuget\\packages\\",
-        "outputPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\obj\\",
+        "projectPath": "C:\\New folder (2)\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+        "packagesPath": "C:\\Users\\shahd\\.nuget\\packages\\",
+        "outputPath": "C:\\New folder (2)\\LearnFlow\\LearnFlow\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MaStEr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -102,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

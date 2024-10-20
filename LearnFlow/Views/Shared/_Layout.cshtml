@@ -130,16 +130,10 @@
                 <a id="top" class="active" asp-controller="Home" asp-action="Index">Home</a>
               </li>
               @{
-                @* check if he is instructor *@
-                if (User.IsInRole("Instructor"))
-                {
-                  <li class="scroll-to-section">
-                    <a asp-controller="Lectures" asp-action="Index">Lectures</a>
-                  </li>
-                }
+               
 
                 @* check if he is student *@
-                else if (User.IsInRole("Student"))
+                if (User.IsInRole("Student"))
                 {
                   <li class="scroll-to-section">
                     <a asp-controller="Course" asp-action="MyCourses">My Courses</a>

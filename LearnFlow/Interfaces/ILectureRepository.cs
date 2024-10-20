@@ -12,5 +12,7 @@ namespace LearnFlow.Interfaces
         Task DeleteLectureAsync(int id);
 
         Task UpdateLectureAsync(Lecture lectureToUpdate);
+        Task<IEnumerable<Lecture>> GetLecturesByCourseIdAsync(int courseId);
+
     }
 }

@@ -30,7 +30,8 @@
         <a asp-action="Edit" asp-route-id="@Model.LectureId" class="btn custom-purple-btn">Edit</a>
     }
    
-    <a asp-action="Index" class="btn btn-outline-light ml-3">Back to List</a>
+  <a asp-controller="Lectures" asp-action="Index" asp-route-courseId="@ViewData["CourseId"]" class="btn btn-outline-light ml-3">Back to List</a>
+
 </div>
 
 <style>
