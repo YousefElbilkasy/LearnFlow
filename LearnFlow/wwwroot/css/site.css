@@ -35,3 +35,11 @@
     .btn-custom:hover {
         background-color: #5e0a9e;
     }
+
+    .teacher-photo {
+      width: 220px;
+      height: 210px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }

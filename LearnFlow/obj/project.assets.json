@@ -10798,19 +10798,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MaStEr\\.nuget\\packages\\": {}
+    "C:\\Users\\youse\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+      "projectUniqueName": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
       "projectName": "LearnFlow",
-      "projectPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
-      "packagesPath": "C:\\Users\\MaStEr\\.nuget\\packages\\",
-      "outputPath": "F:\\Studying\\DEPI\\Final Project\\LearnFlow\\LearnFlow\\obj\\",
+      "projectPath": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\LearnFlow.csproj",
+      "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
+      "outputPath": "d:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MaStEr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10898,7 +10898,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

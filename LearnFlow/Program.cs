@@ -14,6 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add database context
 builder.Services.AddDbContext<LearnFlowContext>(options =>
   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
@@ -41,15 +43,12 @@ builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection(
 // Register Cloudinary service
 builder.Services.AddSingleton(sp =>
 {
-    var config = sp.GetRequiredService<IOptions<CloudinarySettings>>().Value;
-    var account = new Account(config.CloudName, config.ApiKey, config.ApiSecret);
-    return new Cloudinary(account);
+  var config = sp.GetRequiredService<IOptions<CloudinarySettings>>().Value;
+  var account = new Account(config.CloudName, config.ApiKey, config.ApiSecret);
+  return new Cloudinary(account);
 });
 
 var app = builder.Build();
-
-// Seed roles
-// await SeedRoles(app.Services);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -68,22 +67,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
   name: "default",
-  pattern: "{controller=Quiz}/{action=Index}/{id?}");
+  pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run(); 
-
-// async Task SeedRoles(IServiceProvider serviceProvider)
-// {
-//     using var scope = serviceProvider.CreateScope();
-//     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole<int>>>();
-
-//     string[] roleNames = { "Admin", "Instructor", "Student" };
-//     foreach (var roleName in roleNames)
-//     {
-//         var roleExists = await roleManager.RoleExistsAsync(roleName);
-//         if (!roleExists)
-//         {
-//             await roleManager.CreateAsync(new IdentityRole<int>(roleName));
-//         }
-//     }
-// }
+app.Run();
