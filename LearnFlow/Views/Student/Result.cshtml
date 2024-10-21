@@ -1,0 +1,53 @@
+﻿@model List<LearnFlow.Models.QuizResult>
+
+<h1>Quiz Results</h1>
+
+<div class="quiz-results-container">
+    @if (Model != null && Model.Count > 0)
+    {
+        <ul>
+            @foreach (var result in Model)
+            {
+                <li>
+                    <strong>Quiz:</strong> @result.Quiz.Title <br />
+                    <span class="score"><strong>Score:</strong> @result.Score/100</span> <br />
+
+                    <!-- Progress Bar -->
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: @result.Score%;"></div>
+                    </div>
+
+                    <strong>Completion Date:</strong> @result.CompletionDate.ToShortDateString()
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No quiz results found.</p>
+    }
+
+    <div>
+        <a class="back-button" asp-action="StudentIndex" asp-route-id="@Model.FirstOrDefault()?.StudentId">Back to Student Profile</a>
+    </div>
+</div>
+
+<!-- CSS for progress bar -->
+<style>
+    .progress-bar-container {
+        width: 100%;
+        background-color: #f3f3f3;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+
+    .progress-bar {
+        height: 20px;
+        background-color:lawngreen; /* Purple color for the bar */
+        border-radius: 5px;
+    }
+
+    .quiz-results-container ul {
+        list-style-type: none;
+    }
+</style>

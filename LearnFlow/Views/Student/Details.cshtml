@@ -1,0 +1,70 @@
+﻿@model List<LearnFlow.Models.Enrollment>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Enrollment Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site2.css" /> <!-- Link to your site.css -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body > <!-- Center the text -->
+    <h1>Enrollment Details</h1> <!-- Increased spacing below the title -->
+    
+    <div class="bg-white p-4 rounded shadow" style="max-width: 600px; margin: auto;"> <!-- White box for enrollment details -->
+        @if (Model != null && Model.Count > 0)
+        {
+            <ul class="list-unstyled">
+                @foreach (var enrollment in Model)
+                {
+                    <li style="font-size: 1.25rem; text-align: left;"><strong>Course Title:</strong> @enrollment.Course.Title</li> <!-- Increased font size -->
+                    <p style="font-size: 1.25rem; text-align: left;"><strong>Status:</strong> @if (enrollment.Progress == 1) { <span class="text-success">Course Completed</span>; } else { <span class="text-danger">Course In Progress</span>; }</p>
+                    <li style="font-size: 1.25rem; text-align: left;"><strong>Enrollment Date:</strong> @enrollment.EnrollmentDate.ToShortDateString()</li> <!-- Increased font size -->
+                    <hr /> <!-- Optional: Adds a horizontal line between enrollments -->
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No Enrollments Found.</p>
+        }
+    </div>
+
+    <!-- قسم الرسم البياني -->
+    <div class="mt-5">
+        <h4 class="section-title">Course Progress Chart</h4>
+        <div class="chart-container">
+            <canvas id="progressChart"></canvas>
+        </div>
+    </div>
+
+    <div class="mt-4"> <!-- Button below the chart -->
+        <a asp-action="StudentIndex" asp-route-id="@Model.FirstOrDefault()?.StudentId" class="btn btn-primary btn-sm">Return to Student Profile</a>
+    </div>
+
+    <script>
+        // Data for the chart
+        var approvedCount = @Model.Count(e => e.Progress == 1); // Number of completed courses
+        var pendingCount = @Model.Count(e => e.Progress == 0); // Number of incomplete courses
+
+        var ctx = document.getElementById('progressChart').getContext('2d');
+        var progressChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Completed', 'In Progress'],
+                datasets: [{
+                    label: 'Course Progress',
+                    data: [approvedCount, pendingCount],
+                    backgroundColor: ['#36A2EB', '#FF6384'] // Blue for completed courses, red for incomplete courses
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false // Allow the chart to fill its container
+            }
+        });
+    </script>
+</body>
+</html>
