@@ -1,95 +1,105 @@
-﻿@{
-  ViewData["Title"] = "Index";
+﻿@model IEnumerable<LearnFlow.Models.Lecture>
+
+@{
+    ViewData["Title"] = "Index";
 }
 
-<h1 class="text-center mb-4" style="color: white;">Course Name</h1>
+<h1 class="text-center mb-4" style="color: white;">@ViewData["CourseName"]</h1> <!-- Display Course Name -->
+@if (User.IsInRole("Instructor")) 
+{
+    <a asp-action="Create" asp-route-courseId="@ViewData["CourseId"]" class="btn createc mb-4">Add Lecture</a>
+}
 
-<div class="container">
-  @* @if (User.IsInRole("Instructor")) *@
-
- <a asp-action="Create" class="btn createc mb-4">Add Lecture</a>
-
-  <div class="row">
-    @foreach (var item in Model)
-    {
-      <div class="col-md-4 mb-4">
-<div class="card shadow-sm" style="background-color: rgba(238, 234, 234, 0.966); border-radius: 15px;">
-          <div class="card-body text-center">
-            <h5 style="color:#6f42c1" >@item.Title</h5>
-            <div class="mb-3">
-              <video width="100%" controls style="border-radius: 10px;">
-                <source src="@Url.Content(item.Content)" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div>
-              @if (User.IsInRole("Instructor")){
-              <a asp-action="Edit" asp-route-id="@item.LectureId" class="btn btn-outline-light btn-sm">Edit</a>
-              <a asp-action="Delete" asp-route-id="@item.LectureId" class="btn btn-outline-light btn-sm">Delete</a>
-              }
-
-              <a asp-action="Details" asp-route-id="@item.LectureId" class="btn btn-outline-light btn-sm">Details</a>
-            </div>
-          </div>
+@if (ViewBag.Message != null)
+{
+    <center>
+        <h1 style="color:white;">@ViewBag.Message</h1>
+    </center>
+    <a asp-controller="Course" asp-action="Details" asp-route-id="@ViewData["CourseId"]" class="btn btn-secondary mt-4">Back to Course</a>
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            @foreach (var lecture in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm" style="background-color: rgba(238, 234, 234, 0.966); border-radius: 15px;">
+                        <div class="card-body text-center">
+                            <h5 style="color:#6f42c1">@lecture.Title</h5>
+                            <div class="mb-3">
+                                <video width="100%" controls style="border-radius: 10px;">
+                                    <source src="@Url.Content(lecture.Content)" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div>
+                                @if (User.IsInRole("Instructor"))
+                                {
+                                    <a asp-action="Edit" asp-route-id="@lecture.LectureId" asp-route-courseId="@ViewData["CourseId"]" class="btn btn-outline-light btn-sm">Edit</a>
+                                    <a asp-action="Delete" asp-route-id="@lecture.LectureId" asp-route-courseId="@ViewData["CourseId"]" class="btn btn-outline-light btn-sm">Delete</a>
+                                }
+                                <a asp-action="Details" asp-route-id="@lecture.LectureId" asp-route-courseId="@ViewData["CourseId"]" class="btn btn-outline-light btn-sm">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
         </div>
-      </div>
-    }
-  </div>
-</div>
+
+        <a asp-controller="Course" asp-action="Details" asp-route-id="@ViewData["CourseId"]" class="btn btn-secondary mt-4">Back to Course</a>
+    </div>
+}
 
 <style>
-  body {
-    background-color: white;
-  }
-
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-
-   .createc {
-        color: white; /* Match the text color */
-        border-color: white; /* Match the border color */
+    body {
+        background-color: white;
     }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .createc {
+        color: white;
+        border-color: white;
+    }
+
     .createc:hover {
-        background-color: #6f42c1; /* Add a light purple background on hover */
-        color: #ffffff; /* White text on hover */
+        background-color: #6f42c1;
+        color: #ffffff;
     }
-  .custom-purple-btn {
-    background-color: #6f42c1;
-    /* Primary purple color */
-    color: #ffffff;
-    /* White text */
-    border: none;
-  }
 
-  .custom-purple-btn:hover {
-    background-color: #7d3c98;
-    /* Darker purple for hover */
-    color: #ffffff;
-  }
+    .custom-purple-btn {
+        background-color: #6f42c1;
+        color: #ffffff;
+        border: none;
+    }
 
-  .btn-outline-light {
-    color: #6f42c1;
-    border-color: #6a1b9a;
-  }
+    .custom-purple-btn:hover {
+        background-color: #7d3c98;
+        color: #ffffff;
+    }
 
-  .btn-outline-light:hover {
-    background-color: #6a1b9a;
-    color: white;
-  }
+    .btn-outline-light {
+        color: #6f42c1;
+        border-color: #6a1b9a;
+    }
 
-  .custom-purple-btn {
-    background-color: #9b59b6;
-    /* Primary purple color */
-    color: #ffffff;
-    /* White text */
-    border: none;
-  }
+    .btn-outline-light:hover {
+        background-color: #6a1b9a;
+        color: white;
+    }
 
-  .custom-purple-btn:hover {
-    background-color: #7d3c98;
-    /* Darker purple for hover */
-    color: #ffffff;
-  }
+    .btn-secondary {
+        background-color: #6f42c1;
+        color: white;
+        border: none;
+    }
+
+    .btn-secondary:hover {
+        background-color: #7d3c98;
+        color: #ffffff;
+    }
 </style>

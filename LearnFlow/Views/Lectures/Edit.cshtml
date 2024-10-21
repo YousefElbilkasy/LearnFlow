@@ -37,11 +37,11 @@
                 <span asp-validation-for="NewContent" class="text-danger"></span>
             </div>
 
-            <div class="text-center">
-                <button type="submit" class="btn custom-purple-btn">Save Changes</button>
-                <a asp-action="Index" class="btn btn-outline-purple">Cancel</a>
-            </div>
-        </form>
+           <div class="text-center">
+    <button type="submit" class="btn custom-purple-btn">Save Changes</button>
+    <a asp-controller="Lectures" asp-action="Index" asp-route-courseId="@ViewData["CourseId"]" class="btn btn-outline-purple">Cancel</a>
+</div>
+</form>
     </div>
 </div>
 

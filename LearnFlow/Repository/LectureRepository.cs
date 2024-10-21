@@ -13,6 +13,10 @@ namespace LearnFlow.Repositories
         {
             _context = context;
         }
+public async Task<IEnumerable<Lecture>> GetLecturesByCourseIdAsync(int courseId)
+{
+    return await _context.Lectures.Where(l => l.CourseId == courseId).ToListAsync();
+}
 
         public async Task<IEnumerable<Lecture>> GetAllLecturesAsync()
         {

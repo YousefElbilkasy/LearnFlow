@@ -2,71 +2,150 @@
 @model LearnFlow.ViewModel.RegisterUserViewModel
 
 @{
-  ViewData["Title"] = "Register";
+    ViewData["Title"] = "Register";
 }
 
-<h1>Register</h1>
+<h1 class="text-center mb-4" style="color: white;">Register</h1>
 
-<hr />
-<div class="row">
-  <div class="col-md-4">
-    <form asp-action="SaveRegister" enctype="multipart/form-data">
-      <div asp-validation-summary="All" class="text-danger"></div>
-      <div class="form-group">
-        <label asp-for="FullName" class="control-label"></label>
-        <input asp-for="FullName" class="form-control" />
-        <span asp-validation-for="FullName" class="text-danger"></span>
-      </div>
-      <div class="form-group">
-        <label asp-for="UserName" class="control-label"></label>
-        <input asp-for="UserName" class="form-control" />
-        <span asp-validation-for="UserName" class="text-danger"></span>
-      </div>
-      <div class="form-group">
-        <label asp-for="Email" class="control-label"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-      </div>
-      <div class="form-group">
-        <label asp-for="Password" class="control-label"></label>
-        <input asp-for="Password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-      </div>
-      <div class="form-group">
-        <label asp-for="ConfirmPassword" class="control-label"></label>
-        <input asp-for="ConfirmPassword" class="form-control" />
-        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-      </div>
-      <div class="form-group">
-        <label asp-for="PhoneNumber" class="control-label"></label>
-        <input asp-for="PhoneNumber" class="form-control" />
-        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-      </div>
-      <div class="form-group">
-        <label asp-for="ImageUrl" class="control-label"></label>
-        <input asp-for="ImageUrl" class="form-control" />
-        <span asp-validation-for="ImageUrl" class="text-danger"></span>
-      </div>
-      <div class="form-group">
-        <label asp-for="Role" class="control-label"></label>
-        <select asp-for="Role" asp-items="Html.GetEnumSelectList<UserRole>()" class="form-control">
-          <option value="">Select Role</option>
-        </select>
-        <span asp-validation-for="Role" class="text-danger"></span>
-      </div>
-      <div class="form-group">
-        <input type="submit" value="Register" class="btn btn-primary" />
-      </div>
-    </form>
-  </div>
-</div>
+<div class="container">
+    <div class="form-container bg-light-purple p-5 shadow rounded">
+        <form asp-action="SaveRegister" enctype="multipart/form-data">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="FullName" class="control-label text-purple">Full Name</label>
+                <input asp-for="FullName" class="form-control" required />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="UserName" class="control-label text-purple">User Name</label>
+                <input asp-for="UserName" class="form-control" required />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="Email" class="control-label text-purple">Email</label>
+                <input asp-for="Email" class="form-control" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="Password" class="control-label text-purple">Password</label>
+                <input asp-for="Password" class="form-control" type="password" required />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="ConfirmPassword" class="control-label text-purple">Confirm Password</label>
+                <input asp-for="ConfirmPassword" class="form-control" type="password" required />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="PhoneNumber" class="control-label text-purple">Phone Number</label>
+                <input asp-for="PhoneNumber" class="form-control" required />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="ImageUrl" class="control-label text-purple">Profile Image</label>
+                <input asp-for="ImageUrl" type="file" class="form-control" accept="image/*"/>
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label asp-for="Role" class="control-label text-purple">Role</label>
+                <select asp-for="Role" asp-items="Html.GetEnumSelectList<UserRole>()" class="form-control" required>
+                    <option value="">Select Role</option>
+                </select>
+                <span asp-validation-for="Role" class="text-danger"></span>
+            </div>
 
-<div>
-  <a asp-action="LogIn">LogIn</a>
+            <div class="text-center">
+                <button type="submit" class="btn custom-purple-btn">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="LogIn" class="btn btn-outline-purple">Log In</a>
+    </div>
 </div>
 
 @section Scripts {
-  @{
-    await Html.RenderPartialAsync("_ValidationScriptsPartial");
-  }
+    @Html.Partial("_ValidationScriptsPartial")
 }
+
+<!-- Embedded CSS for Consistent Style -->
+<style>
+    /* Colors */
+    .bg-light-purple {
+        background-color: white;
+    }
+
+    .text-purple {
+        color: #6f42c1;
+    }
+
+    /* Button styling */
+    .custom-purple-btn {
+        background-color: #6f42c1; /* Primary purple color */
+        color: white;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-weight: bold;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .custom-purple-btn:hover {
+        background-color: #5a3798;
+        color: white;
+    }
+
+    .btn-outline-purple {
+        border: 2px solid #6f42c1;
+        color: white;
+        border-radius: 25px;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .btn-outline-purple:hover {
+        background-color: #6f42c1;
+        color: white;
+    }
+
+    /* Form container styling */
+    .form-container {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form elements */
+    .form-control {
+        border-radius: 10px;
+        border: 1px solid #6f42c1;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 5px rgba(111, 66, 193, 0.5);
+        border-color: #5a3798;
+    }
+
+    /* Labels */
+    .control-label {
+        font-weight: bold;
+    }
+
+    /* Validation text styling */
+    .text-danger {
+        font-size: 0.9em;
+        font-style: italic;
+    }
+</style>
