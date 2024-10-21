@@ -117,13 +117,13 @@
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Serach Start ***** -->
-            <div class="search-input">
-              <form id="search" action="#">
-                <input type="text" placeholder="Type Something" id="searchText" name="searchKeyword"
-                  onkeypress="handleSearch" />
-                <i class="fa fa-search"></i>
-              </form>
-            </div>
+             <div class="search-input">
+         <form id="search" action="/Course/Search" method="post">
+             <input type="text" placeholder="Search for  courses" id="searchText" name="searchKeyword" autocomplete="off" />
+             <i class="fa fa-search"></i>
+         </form>
+         <ul id="courseList" class="autocomplete-list"></ul>
+     </div>
             <!-- ***** Serach Start ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
