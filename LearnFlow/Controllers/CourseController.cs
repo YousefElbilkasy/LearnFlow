@@ -175,5 +175,23 @@ namespace LearnFlow.Controllers
       var courses = await courseRepo.GetAllForStudentAsync(user.Id);
       return View(courses);
     }
+     [HttpGet]
+ public JsonResult GetCourses(string search)
+ {
+     if (string.IsNullOrEmpty(search))
+         return Json(new List<Course>()); // ???? ?? ??? ????? null
+
+     var courses = courseRepo.SearchCourses(search)
+         .Select(c => new
+         {
+             courseId = c.CourseId,
+             title = c.Title,
+             description = c.Description,
+             image = string.IsNullOrEmpty(c.ImageUrl) ? "/images/default.png" : c.ImageUrl 
+         }).ToList();
+
+     return Json(courses);
+    }
+
   }
 }
