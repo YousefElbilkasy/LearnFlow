@@ -83,6 +83,12 @@ public class CourseRepo : IRepo<Course>
     await context.SaveChangesAsync();
     return entity;
   }
+   public IEnumerable<Course> SearchCourses(string searchKeyword)
+ {
+     return context.Courses
+         .Where(c => c.Title.Contains(searchKeyword) || c.Description.Contains(searchKeyword))
+         .ToList();
+ }
 
 
 }
