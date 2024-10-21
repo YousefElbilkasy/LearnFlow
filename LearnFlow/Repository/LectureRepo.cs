@@ -43,6 +43,11 @@ public class LectureRepo : IRepo<Lecture>
     return await context.Lectures.FindAsync(id);
   }
 
+  public IEnumerable<Course> SearchCourses(string searchKeyword)
+  {
+    throw new NotImplementedException();
+  }
+
   public async Task<Lecture> UpdateAsync(Lecture entity)
   {
     context.Lectures.Update(entity);

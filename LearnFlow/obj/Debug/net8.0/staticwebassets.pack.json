@@ -17,12 +17,20 @@
       "PackagePath": "staticwebassets\\css\\fontawesome.css"
     },
     {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\list.css",
+      "PackagePath": "staticwebassets\\css\\list.css"
+    },
+    {
       "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\owl.css",
       "PackagePath": "staticwebassets\\css\\owl.css"
     },
     {
       "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\site2.css",
+      "PackagePath": "staticwebassets\\css\\site2.css"
     },
     {
       "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\styles.css",
@@ -147,6 +155,10 @@
     {
       "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\owl-carousel.js",
       "PackagePath": "staticwebassets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\LICENSE",

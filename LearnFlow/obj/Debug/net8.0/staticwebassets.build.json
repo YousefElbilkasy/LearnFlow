@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rDxPhDdJ4iONfBAxp7/xz5fFk2dS4Ze9Fcbgigip/VQ=",
+  "Hash": "9/3PWnGCQ/mqoknk+TuHdt2w52UFQeTVNkCTCdSk5Gg=",
   "Source": "LearnFlow",
   "BasePath": "_content/LearnFlow",
   "Mode": "Default",
@@ -1252,6 +1252,25 @@
       "OriginalItemSpec": "wwwroot\\css\\fontawesome.css"
     },
     {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\list.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "css/list.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\list.css"
+    },
+    {
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\owl.css",
       "SourceId": "LearnFlow",
       "SourceType": "Discovered",
@@ -1288,6 +1307,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\site2.css",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "css/site2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site2.css"
     },
     {
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\css\\styles.css",
@@ -1877,6 +1915,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\owl-carousel.js"
+    },
+    {
+      "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\js\\script.js",
+      "SourceId": "LearnFlow",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\",
+      "BasePath": "_content/LearnFlow",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "D:\\Learning\\DotNet Core\\LearnFlow\\LearnFlow\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

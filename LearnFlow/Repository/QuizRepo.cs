@@ -47,7 +47,12 @@ namespace LearnFlow.Repository
             return await context.Quizs.FindAsync(id);
         }
 
-        public async Task<Quiz> UpdateAsync(Quiz entity)
+    public IEnumerable<Course> SearchCourses(string searchKeyword)
+    {
+      throw new NotImplementedException();
+    }
+
+    public async Task<Quiz> UpdateAsync(Quiz entity)
         {
             context.Quizs.Update(entity);
             await context.SaveChangesAsync();

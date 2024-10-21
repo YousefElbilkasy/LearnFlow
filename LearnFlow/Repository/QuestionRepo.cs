@@ -42,6 +42,11 @@ public class QuestionRepo : IRepo<Question>
     return await context.Questions.FindAsync(id);
   }
 
+  public IEnumerable<Course> SearchCourses(string searchKeyword)
+  {
+    throw new NotImplementedException();
+  }
+
   public async Task<Question> UpdateAsync(Question entity)
   {
     context.Questions.Update(entity);
