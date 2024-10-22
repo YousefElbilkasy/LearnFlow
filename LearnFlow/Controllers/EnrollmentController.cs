@@ -51,24 +51,44 @@ namespace LearnFlow.Controllers
       return View(enrollViewModel);
     }
 
-    [Authorize(Roles = "Student")]
-    [HttpPost]
-    // POST: EnrollmentController/Enroll
-    public async Task<ActionResult> Enroll(EnrollViewModel enrollViewModel)
+   [Authorize(Roles = "Student")]
+[HttpPost]
+// POST: EnrollmentController/Enroll
+public async Task<ActionResult> Enroll(EnrollViewModel enrollViewModel)
+{
+    if (ModelState.IsValid)
     {
-      if (ModelState.IsValid)
-      {
         var student = await userManager.GetUserAsync(User);
-        var enrollment = new Enrollment
+        
+        // Check if the course is free
+        if (enrollViewModel.Course.Price == 0)
         {
-          StudentId = student.Id,
-          CourseId = enrollViewModel.Course.CourseId,
-          EnrollmentDate = DateTime.Now
-        };
-        await enrollmentRepo.EnrollStudentAsync(enrollment);
-        return RedirectToAction("Index", "Course");
-      }
-      return View(enrollViewModel);
+            // Enroll directly without payment
+            var enrollment = new Enrollment
+            {
+                StudentId = student.Id,
+                CourseId = enrollViewModel.Course.CourseId,
+                EnrollmentDate = DateTime.Now
+            };
+            await enrollmentRepo.EnrollStudentAsync(enrollment);
+            return RedirectToAction("Index", "Course");
+        }
+        else
+        {
+            // Proceed with the PayPal payment process
+            return View(enrollViewModel);
+        }
     }
+    return View(enrollViewModel);
+}
+[Authorize(Roles = "Student")]
+public ActionResult EnrollmentSuccess(int courseId)
+{
+    // Optionally, fetch course details if needed for the success view
+    ViewBag.CourseId = courseId; // Pass the course ID to the view
+    return View();
+}
+
+    
   }
 }

@@ -90,7 +90,8 @@ public async Task<IActionResult> Create(CreateVideoViewModel lecture)
         {
             Title = lecture.Title,
             Content = result.Url.ToString(),
-            CourseId = lecture.CourseId // Ensure CourseId is populated
+            CourseId = lecture.CourseId,
+            Order=lecture.Order
         };
 
         await _lectureRepository.AddLectureAsync(lectureToAdd);
@@ -141,8 +142,7 @@ public async Task<IActionResult> DeleteConfirmed(int id)
     return RedirectToAction(nameof(Index), new { courseId = courseId });
 }
 
-
-    public async Task<IActionResult> Edit(int id)
+public async Task<IActionResult> Edit(int id)
 {
     var lecture = await _lectureRepository.GetLectureByIdAsync(id);
     if (lecture == null)
@@ -150,23 +150,21 @@ public async Task<IActionResult> DeleteConfirmed(int id)
         return NotFound();
     }
 
-    // Populate the ViewModel, including CourseId
+    // Populate the ViewModel, including CourseId and Order
     var lectureViewModel = new EditVideoViewModel
     {
         LectureId = lecture.LectureId,
         Title = lecture.Title,
-        CourseId = lecture.CourseId,  // Ensure CourseId is set
-        CurrentContentUrl = lecture.Content
+        CourseId = lecture.CourseId,
+        CurrentContentUrl = lecture.Content,
+        Order = lecture.Order  // Populate Order
     };
 
-    // Pass the CourseId in ViewData for the Cancel button
     ViewData["CourseId"] = lecture.CourseId;
 
     return View(lectureViewModel);
 }
-
-
-   [HttpPost]
+[HttpPost]
 [ValidateAntiForgeryToken]
 public async Task<IActionResult> Edit(int id, EditVideoViewModel model)
 {
@@ -195,14 +193,16 @@ public async Task<IActionResult> Edit(int id, EditVideoViewModel model)
         lectureToUpdate.Content = result.Url.ToString();
     }
 
-    // Update the title and course
+    // Update title, course, and order
     lectureToUpdate.Title = model.Title;
     lectureToUpdate.CourseId = model.CourseId;
+    lectureToUpdate.Order = model.Order;  // Update Order
 
     await _lectureRepository.UpdateLectureAsync(lectureToUpdate);
 
     // Redirect back to Index, passing courseId
     return RedirectToAction(nameof(Index), new { courseId = model.CourseId });
 }
+
 
 }
