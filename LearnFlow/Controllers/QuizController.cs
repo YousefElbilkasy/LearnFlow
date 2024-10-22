@@ -1,6 +1,7 @@
 ﻿using LearnFlow.Interfaces;
 using LearnFlow.Models;
 using LearnFlow.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearnFlow.Controllers
@@ -14,12 +15,14 @@ namespace LearnFlow.Controllers
             _quizRepo = quizRepo;
         }
 
+        //Index function
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             var allQuizs = await _quizRepo.GetAllAsync();
             return View(allQuizs);
         }
+        //View Quiz Function
         [HttpGet]
         public async Task<IActionResult> ViewQuiz(int quizId)
         {
@@ -27,23 +30,27 @@ namespace LearnFlow.Controllers
             return View(quiz);
         }
 
-
+        //Create Functions
+        [Authorize(Roles = "Instructor, Admin")]
         public async Task<IActionResult> Create()
         {
             var quizVM = new QuizViewModel() { Title = string.Empty };
             return View(quizVM);
         }
 
+        [Authorize(Roles = "Instructor, Admin")]
         [HttpPost]
         public async Task<IActionResult> Create(QuizViewModel quizViewModel)
         {
+            //This line is temporary until I figure out how to pass CourseId
+            quizViewModel.CourseId = 4;
             if (ModelState.IsValid)
             {
                 var Quiz = new Quiz
                 {
                     Title = quizViewModel.Title,
                     MaxScore = quizViewModel.MaxScore,
-                    CourseId = 6,
+                    CourseId = quizViewModel.CourseId,
                     Questions = (ICollection<Question>)quizViewModel.Questions.Select(q => new Question
                     {
                         Text = q.Text,
@@ -63,12 +70,15 @@ namespace LearnFlow.Controllers
             return View("Create",quizViewModel);
         }
 
+        //Delete Functions
+        [Authorize(Roles ="Instructor, Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var delQuiz = await _quizRepo.GetByIdAsync(id);
             return View(delQuiz);
         }
 
+        [Authorize(Roles = "Instructor, Admin")]
         [HttpPost]
         public async Task<IActionResult> DeleteQuiz(int quizId)
         {
@@ -78,6 +88,31 @@ namespace LearnFlow.Controllers
                 return RedirectToAction("Index");
             }
             return NotFound();
+        }
+
+        //Update Functions
+        [Authorize(Roles ="Instructor, Admin")]
+        public async Task<IActionResult> Update(int id)
+        {
+            var updQuiz = await _quizRepo.GetByIdAsync(id);
+            return View(updQuiz);
+        }
+
+        [Authorize(Roles = "Instructor, Admin")]
+        [HttpPost]
+        public async Task<IActionResult> Update(QuizViewModel quizViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var Quiz = new Quiz()
+                {
+                    Title = quizViewModel.Title,
+                    MaxScore = quizViewModel.MaxScore,
+                    CourseId = quizViewModel.CourseId,
+                };
+                return RedirectToAction("Index");
+            }
+            return View(quizViewModel); 
         }
 
     }

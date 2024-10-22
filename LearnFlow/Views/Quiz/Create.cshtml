@@ -17,8 +17,8 @@
         <!-- Questions will be added here dynamically -->
     </div>
 
-    <button type="button" onclick="addQuestion()">Add Question</button>
-    <button type="submit">Submit</button>
+    <button class="btn btn-info" type="button" onclick="addQuestion()">Add Question</button>
+    <button class="btn btn-success" type="submit">Submit</button>
 </form>
 
 <script>
@@ -27,31 +27,58 @@
     function addQuestion() {
         let container = document.getElementById('questions-container');
         let questionHtml = `
-                <div>
+                <div class="qcontainer" id="question-${questionIndex}">
                     <label>Question Text</label>
                     <input name="Questions[${questionIndex}].Text" />
+                    <button class="btn btn-danger" type="button" onclick="removeQuestion(${questionIndex})">X</button>
                     <div>
                         <label>Answer Options</label>
                         <div id="answer-options-container-${questionIndex}">
                             <!-- Answer options will be added here dynamically -->
                         </div>
-                        <button type="button" onclick="addAnswerOption(${questionIndex})">Add Answer Option</button>
+                        <button class="btn btn-info" type="button" onclick="addAnswerOption(${questionIndex})">Add Answer Option</button>
                     </div>
+                    <hr/>
                 </div>`;
         container.insertAdjacentHTML('beforeend', questionHtml);
         questionIndex++;
+    }
+
+    function removeQuestion(index) {
+        let questionElement = document.getElementById(`question-${index}`);
+        questionElement.remove(); // Remove the question block
     }
 
     function addAnswerOption(questionIndex) {
         let container = document.getElementById(`answer-options-container-${questionIndex}`);
         let answerIndex = container.children.length;
         let answerHtml = `
-                <div>
+                <div class="anscontainer" id="answer-${questionIndex}-${answerIndex}">
                     <input name="Questions[${questionIndex}].AnswerOptions[${answerIndex}].OptionText" />
                     <label>Is Correct?</label>
                     <input type="checkbox" name="Questions[${questionIndex}].AnswerOptions[${answerIndex}].IsCorrect" value="true" />
                     <input type="hidden" name="Questions[${questionIndex}].AnswerOptions[${answerIndex}].IsCorrect" value="false" />
+                    <button class="btn btn-danger" type="button" onclick="removeAnswerOption(${questionIndex}, ${answerIndex})">X</button>
                 </div>`;
         container.insertAdjacentHTML('beforeend', answerHtml);
     }
+
+    function removeAnswerOption(questionIndex, answerIndex) {
+        let answerElement = document.getElementById(`answer-${questionIndex}-${answerIndex}`);
+        answerElement.remove(); // Remove the answer option block
+    }
 </script>
+<style>
+    .qcontainer{
+        margin:20px;
+        margin-bottom: 30px;
+    }
+    .anscontainer{
+        margin:10px;
+    }
+    input{
+        border-radius: 10px;
+        padding: 5px;
+        margin:10px;
+    }
+</style>

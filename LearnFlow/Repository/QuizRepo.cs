@@ -32,6 +32,14 @@ namespace LearnFlow.Repository
 
             var quizResults = await context.QuizResults.Where(qr => qr.QuizId == id).ToListAsync();
             context.QuizResults.RemoveRange(quizResults);
+
+            var quizQuestions = await context.Questions.Where(question => question.QuizId == id).ToListAsync();
+            var questionsIds = quizQuestions.Select(q => q.QuestionId).ToList();
+            var answers = await context.Answers.Where(answer => questionsIds.Contains(answer.QuestionId)).ToListAsync();
+            context.Answers.RemoveRange(answers);
+            context.Questions.RemoveRange(quizQuestions);
+
+
             context.Quizs.Remove(quiz);
             await context.SaveChangesAsync();
             return quiz;
