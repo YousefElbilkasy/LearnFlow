@@ -362,3 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 .editorconfig
+/LearnFlow/bin/Debug/net8.0/LearnFlow.dll
+/LearnFlow/bin/Debug/net8.0/LearnFlow.exe
