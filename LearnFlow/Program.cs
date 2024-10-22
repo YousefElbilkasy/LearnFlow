@@ -29,6 +29,7 @@ builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
 builder.Services.AddScoped<ILectureRepository, LectureRepository>();
 builder.Services.AddScoped<CourseRepo, CourseRepo>();
 builder.Services.AddScoped<IRepo<Quiz>, QuizRepo>();
+builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
 builder.Services.AddScoped<IRepo<Question>, QuestionRepo>();
 builder.Services.AddScoped<IRepo<Lecture>, LectureRepo>();
 builder.Services.AddScoped<IUserRepo, UserRepo>();

@@ -49,6 +49,12 @@
         Model.InstructorId)
         {
           <a asp-action="Edit" asp-route-id="@Model.CourseId" class="btn btn-warning">Edit</a>
+          <a asp-action ="Create" asp-controller="Quiz" asp-route-id ="@Model.CourseId" class="btn btn-primary">Create Quiz</a>
+        }
+        @if (User.IsInRole("Student"))
+        {
+        <a class="btn btn-success" asp-controller="Quiz" asp-action="Details" asp-route-id ="@Model.CourseId">Go to Quiz</a>
+
         }
         <a asp-action="Index" class="btn btn-secondary">Back to List</a>
       </div>
