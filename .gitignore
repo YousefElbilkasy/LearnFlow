@@ -366,3 +366,4 @@ FodyWeavers.xsd
 /LearnFlow/bin/Debug/net8.0/LearnFlow.exe
 /LearnFlow/obj/Debug/net8.0/LearnFlow.AssemblyInfo.cs
 /LearnFlow/obj/Debug/net8.0/LearnFlow.AssemblyInfoInputs.cache
+/.vs
