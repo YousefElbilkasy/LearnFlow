@@ -22,15 +22,17 @@ namespace LearnFlow.Controllers
     private readonly UserManager<User> userManager;
     private readonly Cloudinary cloudinary;
     private readonly IEnrollmentRepo enrollmentRepo;
+    private readonly ISearchRepo searchRepo;
     private readonly LearnFlowContext _context;
 
-    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, Cloudinary cloudinary, LearnFlowContext context)
+    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, Cloudinary cloudinary, LearnFlowContext context, ISearchRepo searchRepo)
     {
       this.courseRepo = courseRepo;
       this.userManager = userManager;
       this.cloudinary = cloudinary;
       this.enrollmentRepo = enrollmentRepo;
       _context = context;
+      this.searchRepo = searchRepo;
     }
 
     // GET: CourseController
@@ -256,7 +258,7 @@ namespace LearnFlow.Controllers
       if (string.IsNullOrEmpty(search))
         return Json(new List<Course>()); // ???? ?? ??? ????? null
 
-      var courses = courseRepo.SearchCourses(search)
+      var courses = searchRepo.SearchCourses(search)
           .Select(c => new
           {
             courseId = c.CourseId,
