@@ -52,7 +52,7 @@ namespace LearnFlow.Repository
 
         public async Task<Quiz> GetByIdAsync(int id)
         {
-            return await context.Quizs.FindAsync(id);
+            return await context.Quizs.Include(c => c.Course).FirstOrDefaultAsync(q => q.QuizId == id);
         }
 
     public IEnumerable<Course> SearchCourses(string searchKeyword)

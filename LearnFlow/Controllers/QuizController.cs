@@ -1,5 +1,6 @@
 ﻿using LearnFlow.Interfaces;
 using LearnFlow.Models;
+using LearnFlow.Repository;
 using LearnFlow.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,10 +10,12 @@ namespace LearnFlow.Controllers
     public class QuizController : Controller
     {
         private readonly IRepo<Quiz> _quizRepo;
+        private readonly IRepo<Course> _courseRepo;
 
-        public QuizController(IRepo<Quiz> quizRepo)
+        public QuizController(IRepo<Quiz> quizRepo, IRepo<Course> courseRepo)
         {
             _quizRepo = quizRepo;
+            _courseRepo = courseRepo;
         }
 
         //Index function
@@ -32,9 +35,10 @@ namespace LearnFlow.Controllers
 
         //Create Functions
         [Authorize(Roles = "Instructor, Admin")]
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> Create(int courseId)
         {
             var quizVM = new QuizViewModel() { Title = string.Empty };
+            quizVM.CourseId = courseId;
             return View(quizVM);
         }
 
@@ -42,8 +46,6 @@ namespace LearnFlow.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(QuizViewModel quizViewModel)
         {
-            //This line is temporary until I figure out how to pass CourseId
-            quizViewModel.CourseId = 4;
             if (ModelState.IsValid)
             {
                 var Quiz = new Quiz

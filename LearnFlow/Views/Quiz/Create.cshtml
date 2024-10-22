@@ -2,6 +2,7 @@
 @model QuizViewModel
 
 <form action="/Quiz/Create" method="post">
+    <input type="hidden" asp-for="CourseId" />
     <div>
         <label>Quiz Title</label>
         <input asp-for="Title" />
