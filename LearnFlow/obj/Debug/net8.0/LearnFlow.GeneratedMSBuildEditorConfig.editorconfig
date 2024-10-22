@@ -34,8 +34,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Account/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Account/Register.cshtml]
@@ -138,16 +138,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Quiz/AddQuiz.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxBZGRRdWl6LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Quiz/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Quiz/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Quiz/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Studying/DEPI/Final Project/LearnFlow/LearnFlow/Views/Quiz/Index.cshtml]
