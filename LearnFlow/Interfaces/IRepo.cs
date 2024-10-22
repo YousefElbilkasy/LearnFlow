@@ -10,5 +10,5 @@ public interface IRepo<T> where T : class
   Task<T> CreateAsync(T entity);
   Task<T> UpdateAsync(T entity);
   Task<T> DeleteAsync(int id);
- 
+  IEnumerable<Course> SearchCourses(string searchKeyword);
 }
