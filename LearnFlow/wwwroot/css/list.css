@@ -2,7 +2,7 @@
     list-style-type: none;
     padding: 0;
     margin: 5px auto; 
-    border: 1px solid #ddd;
+    border: 0px solid #ddd;
     max-height: 200px;
     overflow-y: auto;
     position: absolute;
@@ -57,7 +57,7 @@
     list-style-type: none;
     padding: 0;
     margin: 5px auto; 
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     max-height: 200px;
     overflow-y: auto;
     position: absolute;
