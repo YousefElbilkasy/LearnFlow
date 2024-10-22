@@ -25,8 +25,13 @@ namespace LearnFlow.Controllers
     // GET: EnrollmentController/Enroll/id
     public async Task<ActionResult> Enroll(int id)
     {
+      // Get the course to enroll in
       var course = await courseRepo.GetByIdForEnrollAsync(id);
+
+      // Get the current user
       var user = await userManager.GetUserAsync(User);
+
+      // Create the view model
       var enrollViewModel = new EnrollViewModel
       {
         Course = new CourseEnrollViewModel

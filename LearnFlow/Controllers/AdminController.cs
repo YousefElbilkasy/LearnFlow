@@ -4,8 +4,9 @@ using LearnFlow.Models;
 using System.Threading.Tasks;
 using LearnFlow.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
-
+[Authorize(Roles = "Admin")]
 public class AdminController : Controller
 {
   private readonly LearnFlowContext _context;
