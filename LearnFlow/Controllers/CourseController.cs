@@ -22,17 +22,15 @@ namespace LearnFlow.Controllers
     private readonly UserManager<User> userManager;
     private readonly Cloudinary cloudinary;
     private readonly IEnrollmentRepo enrollmentRepo;
-    private readonly ISearchRepo searchRepo;
     private readonly LearnFlowContext _context;
 
-    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, Cloudinary cloudinary, LearnFlowContext context, ISearchRepo searchRepo)
+    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, Cloudinary cloudinary, LearnFlowContext context)
     {
       this.courseRepo = courseRepo;
       this.userManager = userManager;
       this.cloudinary = cloudinary;
       this.enrollmentRepo = enrollmentRepo;
       _context = context;
-      this.searchRepo = searchRepo;
     }
 
     // GET: CourseController
@@ -43,7 +41,7 @@ namespace LearnFlow.Controllers
     }
 
     // GET: CourseController/Details/3
-    [Authorize(Roles = "Student")]
+    [Authorize(Roles = "Student, Instructor")]
     public async Task<IActionResult> Details(int id, int? selectedLectureId)
     {
       var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -52,7 +50,8 @@ namespace LearnFlow.Controllers
 
       if (enrollment == null)
       {
-      return NotFound();
+        var ViewCourse = await courseRepo.GetByIdAsync(id);
+        return View(ViewCourse);
       }
 
       var course = await _context.Courses
@@ -61,21 +60,21 @@ namespace LearnFlow.Controllers
 
       if (course == null)
       {
-      return NotFound();
+        return NotFound();
       }
 
       var viewModel = new DisplayCourseViewModel
       {
-      CourseId = course.CourseId,
-      CourseTitle = course.Title,
-      CourseDescription = course.Description,
-      Lectures = course.Lectures.Select(l => new DisplayLectureViewModel
-      {
-        LectureId = l.LectureId,
-        LectureTitle = l.Title,
-        LectureVideoUrl = l.Content
-      }).ToList(),
-      SelectedLecture = selectedLectureId.HasValue
+        CourseId = course.CourseId,
+        CourseTitle = course.Title,
+        CourseDescription = course.Description,
+        Lectures = course.Lectures.Select(l => new DisplayLectureViewModel
+        {
+          LectureId = l.LectureId,
+          LectureTitle = l.Title,
+          LectureVideoUrl = l.Content
+        }).ToList(),
+        SelectedLecture = selectedLectureId.HasValue
         ? course.Lectures.Select(l => new DisplayLectureViewModel
         {
           LectureId = l.LectureId,
@@ -83,10 +82,10 @@ namespace LearnFlow.Controllers
           LectureVideoUrl = l.Content
         }).FirstOrDefault(l => l.LectureId == selectedLectureId.Value)
         : null,
-      Progress = enrollment.Progress // Pass the progress value
+        Progress = enrollment.Progress // Pass the progress value
       };
 
-      return View("DisplayCourse" ,viewModel);
+      return View("DisplayCourse", viewModel);
     }
 
     [Authorize(Roles = "Student")]
@@ -243,10 +242,10 @@ namespace LearnFlow.Controllers
 
       var viewModel = enrollments.Select(e => new CourseWithProgressViewModel
       {
-          CourseId = e.Course.CourseId,
-          Title = e.Course.Title,
-          ImageUrl = e.Course.ImageUrl,
-          Progress = e.Progress // Pass the progress value
+        CourseId = e.Course.CourseId,
+        Title = e.Course.Title,
+        ImageUrl = e.Course.ImageUrl,
+        Progress = e.Progress // Pass the progress value
       }).ToList();
 
       return View(viewModel);
@@ -258,7 +257,7 @@ namespace LearnFlow.Controllers
       if (string.IsNullOrEmpty(search))
         return Json(new List<Course>()); // ???? ?? ??? ????? null
 
-      var courses = searchRepo.SearchCourses(search)
+      var courses = courseRepo.SearchCourses(search)
           .Select(c => new
           {
             courseId = c.CourseId,

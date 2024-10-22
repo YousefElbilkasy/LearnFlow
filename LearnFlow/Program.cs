@@ -33,7 +33,6 @@ builder.Services.AddScoped<IRepo<Course>, CourseRepo>();
 builder.Services.AddScoped<IRepo<Question>, QuestionRepo>();
 builder.Services.AddScoped<IRepo<Lecture>, LectureRepo>();
 builder.Services.AddScoped<IUserRepo, UserRepo>();
-builder.Services.AddScoped<UploadToCloudinaryRepo, UploadToCloudinaryRepo>();
 builder.Services.AddScoped<IVideoService, VideoService>();
 builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
 builder.Services.AddScoped<IImageService, ImageService>();

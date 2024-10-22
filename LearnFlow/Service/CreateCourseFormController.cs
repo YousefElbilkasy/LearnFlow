@@ -12,19 +12,19 @@ namespace LearnFlow.Service
   {
     private readonly LearnFlowContext dbContext;
     private readonly CourseRepo courseRepo;
-    private readonly UploadToCloudinaryRepo uploadToCloudinaryRepo;
     private readonly IRepo<Lecture> lectureRepo;
+    private readonly IImageService imageService;
     private readonly IRepo<Quiz> quizRepo;
     private readonly IRepo<Question> questionRepo;
 
-    public CreateCourseFormController(LearnFlowContext dbContext, CourseRepo courseRepo, UploadToCloudinaryRepo uploadToCloudinaryRepo, IRepo<Lecture> lectureRepo, IRepo<Quiz> quizRepo, IRepo<Question> questionRepo)
+    public CreateCourseFormController(LearnFlowContext dbContext, CourseRepo courseRepo, IRepo<Lecture> lectureRepo, IRepo<Quiz> quizRepo, IRepo<Question> questionRepo, IImageService imageService)
     {
       this.dbContext = dbContext;
       this.courseRepo = courseRepo;
-      this.uploadToCloudinaryRepo = uploadToCloudinaryRepo;
       this.lectureRepo = lectureRepo;
       this.quizRepo = quizRepo;
       this.questionRepo = questionRepo;
+      this.imageService = imageService;
     }
 
     // GET: CourseController/Create
@@ -107,7 +107,7 @@ namespace LearnFlow.Service
               {
                 CourseId = model.CourseId,
                 Title = lecture.Title,
-                Content = await uploadToCloudinaryRepo.UploadFileToCloudinary(lecture.Content)
+                Content = (await imageService.AddImageAsync(lecture.Content)).Url.ToString(),
               };
 
               await lectureRepo.CreateAsync(newLecture);

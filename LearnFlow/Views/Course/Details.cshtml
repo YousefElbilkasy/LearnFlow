@@ -2,23 +2,23 @@
 @model LearnFlow.Models.Course
 
 @{
-    ViewData["Title"] = "Course Details";
+  ViewData["Title"] = "Course Details";
 }
 
 <div class="container mt-5">
+  <h1 class="text-center mb-4" style="color: white;">@Model.Title</h1>
   <div class="row">
     <div class="col-md-6">
-      <img src="@Model.ImageUrl" class="img-fluid rounded" alt="Course Image">
+      <img src="@Model.ImageUrl" class="img-fluid rounded shadow" alt="Course Image">
     </div>
     <div class="col-md-6">
-      <h1 class="course-title display-4">@Model.Title</h1>
       <div class="course-description mt-3">
         <strong>Description:</strong>
         <p>@Model.Description</p>
       </div>
       <div class="course-price mt-3">
         <strong>Price:</strong>
-        <p>@Html.DisplayFor(model => model.Price)</p>
+        <p class="h5 text-success">$@Html.DisplayFor(model => model.Price)</p>
       </div>
       <div class="course-creation-date mt-3">
         <strong>Creation Date:</strong>
@@ -32,44 +32,84 @@
         <strong>Enrollments:</strong>
         <p>@Model.Enrollments.Count</p>
       </div>
-      <div class="mt-4">
-        <form asp-action="Enroll" asp-controller="Enrollment" method="get">
-          <input type="hidden" name="Id" value="@Model.CourseId" />
-          <button type="submit" class="btn btn-primary">Enroll Now</button>
-        </form>
-      </div>
-      <div class="mt-4">
-    <!-- Show Lectures button -->
-
-    <a asp-controller="Lectures" asp-action="Index" asp-route-courseId="@Model.CourseId" class="btn btn-info">Show Lectures</a>
-
-</div>
-      <div class="mt-3">
-        @if (User.IsInRole("Instructor") && int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)) ==
+      @if (User.IsInRole("Student"))
+      {
+        <div class="mt-4">
+          <form asp-action="Enroll" asp-controller="Enrollment" method="get">
+            <input type="hidden" name="Id" value="@Model.CourseId" />
+            <button type="submit" class="btn btn-primary btn-lg btn-block custom-purple-btn">Enroll Now</button>
+          </form>
+        </div>
+      }
+      @if (User.IsInRole("Instructor") && int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)) ==
         Model.InstructorId)
-        {
-          <a asp-action="Edit" asp-route-id="@Model.CourseId" class="btn btn-warning">Edit</a>
-          <a asp-action ="Create" asp-controller="Quiz" asp-route-id ="@Model.CourseId" class="btn btn-primary">Create Quiz</a>
-        }
-        @if (User.IsInRole("Student"))
-        {
-        <a class="btn btn-success" asp-controller="Quiz" asp-action="Details" asp-route-id ="@Model.CourseId">Go to Quiz</a>
-
-        }
-        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+      {
+        <div class="mt-4">
+          <a asp-controller="Lectures" asp-action="Index" asp-route-courseId="@Model.CourseId"
+            class="btn btn-info btn-lg btn-block">Show Lectures</a>
+            <a asp-action ="Create" asp-controller="Quiz" asp-route-id ="@Model.CourseId" class="btn btn-primary">Create Quiz</a>
+        </div>
+      }
+      <div class="mt-4">
+        <a asp-action="Index" class="btn btn-secondary btn-lg btn-block">Back to List</a>
       </div>
       <div class="course-reviews mt-3">
         <strong>Reviews:</strong>
-        @foreach (var review in Model.Reviews)
+        @if (Model.Reviews.Any())
         {
-          <div class="card mt-2">
-            <div class="card-body">
-              <p>@review.ReviewText</p>
-              <p>Rating: @review.Rating</p>
+          foreach (var review in Model.Reviews)
+          {
+            <div class="card mt-2 shadow-sm" style="background-color: rgba(238, 234, 234, 0.966); border-radius: 15px;">
+              <div class="card-body">
+                <p>@review.ReviewText</p>
+                <p class="font-weight-bold">Rating: @review.Rating</p>
+              </div>
             </div>
-          </div>
+          }
+        }
+        else
+        {
+          <p>No reviews yet.</p>
         }
       </div>
     </div>
   </div>
 </div>
+
+<style>
+  body {
+    background-color: #f8f9fa;
+    /* Light background for contrast */
+  }
+
+  .course-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .custom-purple-btn {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+  }
+
+  .custom-purple-btn:hover {
+    background-color: #7d3c98;
+    color: #ffffff;
+  }
+
+  .btn-secondary {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+  }
+
+  .btn-secondary:hover {
+    background-color: #7d3c98;
+    color: #ffffff;
+  }
+
+  .card {
+    border-radius: 15px;
+  }
+</style>

@@ -156,7 +156,20 @@
                 if (User.IsInRole("Student"))
                 {
                   <li class="scroll-to-section ">
-                    <a asp-controller="Course" asp-action="MyCourses" class="@IsActive("Course", "MyCourses")">My Courses</a>
+                    <a asp-controller="Course" asp-action="MyCourses" class="@IsActive("Course", "MyCourses")">My
+                      Courses</a>
+                  </li>
+                  <li
+                    class="scroll-to-section dropdown @IsActive("Student", "StudentIndex") @IsActive("Student", "Details") @IsActive("Student", "Result")">
+                    <button class="dropbtn">Student Options</button>
+                    <div class="dropdown-content">
+                      <a asp-controller="Student" asp-action="StudentIndex"
+                        asp-route-id="@User.FindFirstValue(ClaimTypes.NameIdentifier)">Index</a>
+                      <a asp-controller="Student" asp-action="Details"
+                        asp-route-studentId="@User.FindFirstValue(ClaimTypes.NameIdentifier)">Details</a>
+                      <a asp-controller="Student" asp-action="Result"
+                        asp-route-studentId="@User.FindFirstValue(ClaimTypes.NameIdentifier)">Result Of Quiz</a>
+                    </div>
                   </li>
                 }
 
@@ -170,6 +183,14 @@
                       <a asp-controller="Admin" asp-action="Instructors">Instructors</a>
                       <a asp-controller="Admin" asp-action="VerifyCourses">Verify Courses</a>
                     </div>
+                  </li>
+                }
+
+                else if (User.IsInRole("Instructor"))
+                {
+                  <li class="scroll-to-section ">
+                    <a asp-controller="CourseInstructor" asp-action="InstructorDashboard" class="@IsActive("CourseInstructor", "InstructorDashboard")">My
+                      Dashboard</a>
                   </li>
                 }
               }
@@ -198,7 +219,8 @@
                   </li>
                   @* Register *@
                   <li class="scroll-to-section ">
-                    <a asp-controller="Account" asp-action="Register" class="@IsActive("Account", "Register")">Register Now!</a>
+                    <a asp-controller="Account" asp-action="Register" class="@IsActive("Account", "Register")">Register
+                      Now!</a>
                   </li>
                 }
               }

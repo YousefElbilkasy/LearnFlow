@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using LearnFlow.Data;
 using LearnFlow.Interfaces;
 using LearnFlow.Models;
 using LearnFlow.Repository;
@@ -11,15 +12,17 @@ namespace LearnFlow.Controllers
   public class CourseInstructorController : Controller
   {
     private readonly CourseRepo courseRepo;
-    public CourseInstructorController(CourseRepo courseRepo)
+    private readonly LearnFlowContext context;
+    public CourseInstructorController(CourseRepo courseRepo, LearnFlowContext context)
     {
       this.courseRepo = courseRepo;
+      this.context = context;
     }
 
     // GET: CourseInstructor/Create
     public async Task<IActionResult> InstructorDashboard()
     {
-      var courses = await courseRepo.GetAllAsync();
+      var courses = await courseRepo.GetAllForInstructorAsync(int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)));
 
       // Convert each Course to CourseViewModel
       var courseViewModels = courses.Select(course => new CourseViewModel
