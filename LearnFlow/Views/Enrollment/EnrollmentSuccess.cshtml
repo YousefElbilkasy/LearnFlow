@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Enrollment Success";
+}
+
+<h2>Enrollment Successful!</h2>
+<p>Congratulations! You have successfully enrolled in the course.</p>
+
+<a href="@Url.Action("Details", "Course", new { id = ViewBag.CourseId })" class="btn btn-primary">Go to Course</a>

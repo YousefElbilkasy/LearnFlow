@@ -85,6 +85,7 @@ public class LecturesController : Controller
   {
     if (ModelState.IsValid)
     {
+<<<<<<< HEAD
       var result = await _videoService.AddVideoAsync(lecture.Content);
       var lectureToAdd = new Lecture
       {
@@ -92,6 +93,16 @@ public class LecturesController : Controller
         Content = result.Url.ToString(),
         CourseId = lecture.CourseId // Ensure CourseId is populated
       };
+=======
+        var result = await _videoService.AddVideoAsync(lecture.Content);
+        var lectureToAdd = new Lecture
+        {
+            Title = lecture.Title,
+            Content = result.Url.ToString(),
+            CourseId = lecture.CourseId,
+            Order=lecture.Order
+        };
+>>>>>>> a56bfe1cccd586e0e547b9cb5699e81ddc305a4e
 
       await _lectureRepository.AddLectureAsync(lectureToAdd);
 
@@ -141,28 +152,41 @@ public class LecturesController : Controller
     return RedirectToAction(nameof(Index), new { courseId = courseId });
   }
 
+<<<<<<< HEAD
 
   public async Task<IActionResult> Edit(int id)
   {
+=======
+public async Task<IActionResult> Edit(int id)
+{
+>>>>>>> a56bfe1cccd586e0e547b9cb5699e81ddc305a4e
     var lecture = await _lectureRepository.GetLectureByIdAsync(id);
     if (lecture == null)
     {
       return NotFound();
     }
 
-    // Populate the ViewModel, including CourseId
+    // Populate the ViewModel, including CourseId and Order
     var lectureViewModel = new EditVideoViewModel
     {
+<<<<<<< HEAD
       LectureId = lecture.LectureId,
       Title = lecture.Title,
       CourseId = lecture.CourseId,  // Ensure CourseId is set
       CurrentContentUrl = lecture.Content
+=======
+        LectureId = lecture.LectureId,
+        Title = lecture.Title,
+        CourseId = lecture.CourseId,
+        CurrentContentUrl = lecture.Content,
+        Order = lecture.Order  // Populate Order
+>>>>>>> a56bfe1cccd586e0e547b9cb5699e81ddc305a4e
     };
 
-    // Pass the CourseId in ViewData for the Cancel button
     ViewData["CourseId"] = lecture.CourseId;
 
     return View(lectureViewModel);
+<<<<<<< HEAD
   }
 
 
@@ -170,6 +194,13 @@ public class LecturesController : Controller
   [ValidateAntiForgeryToken]
   public async Task<IActionResult> Edit(int id, EditVideoViewModel model)
   {
+=======
+}
+[HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<IActionResult> Edit(int id, EditVideoViewModel model)
+{
+>>>>>>> a56bfe1cccd586e0e547b9cb5699e81ddc305a4e
     if (id != model.LectureId)
     {
       return BadRequest();
@@ -195,14 +226,16 @@ public class LecturesController : Controller
       lectureToUpdate.Content = result.Url.ToString();
     }
 
-    // Update the title and course
+    // Update title, course, and order
     lectureToUpdate.Title = model.Title;
     lectureToUpdate.CourseId = model.CourseId;
+    lectureToUpdate.Order = model.Order;  // Update Order
 
     await _lectureRepository.UpdateLectureAsync(lectureToUpdate);
 
     // Redirect back to Index, passing courseId
     return RedirectToAction(nameof(Index), new { courseId = model.CourseId });
   }
+
 
 }
