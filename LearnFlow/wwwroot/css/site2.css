@@ -1,4 +1,77 @@
-﻿
+
+
+.section-title {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    width: 300px; /* تحديد عرض ثابت للرسم */
+    height: 300px; /* تحديد ارتفاع ثابت للرسم */
+    margin: auto; /* توسيط الرسم */
+}
+
+.text-success {
+    color:black;
+}
+
+.text-danger {
+    color:black;
+}
+
+.btn-primary {
+    background-color: #007bff; /* اللون الأزرق للزر */
+    border-color: #007bff;
+}
+.btn-purple {
+    background-color: purple; /* Set button background color to purple */
+    color: white; /* Set button text color to white */
+    font-size: 1.25rem; /* Increase button font size */
+    padding: 10px 15px; /* Add some padding */
+    margin-top: 10px; /* Add top margin for spacing */
+}
+.quiz-results-container {
+    background-color: white; /* White background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    max-width: 600px; /* Limit the width of the container */
+    margin: 20px auto; /* Center the container */
+}
+
+    .quiz-results-container ul {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove default padding */
+    }
+
+    .quiz-results-container li {
+        font-size: 18px; /* Increase font size */
+        margin-bottom: 10px; /* Space between list items */
+    }
+
+.score {
+    color: red; /* Red color for the score */
+    font-weight: bold; /* Make the score bold */
+}
+
+.back-button {
+    display: inline-block; /* Make the button inline */
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: purple; /* Purple background color */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners for button */
+}
+
+
 
 .section-title {
     color: white;

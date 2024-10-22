@@ -34,6 +34,18 @@ public class LearnFlowContext : IdentityDbContext<User, IdentityRole<int>, int>
     // Configure composite key for Progress
     modelBuilder.Entity<Progress>()
         .HasKey(p => new { p.EnrollmentId, p.LectureId });
+        
+    modelBuilder.Entity<Quiz>()
+           .HasMany(q => q.Questions)
+           .WithOne(q => q.Quiz)
+           .HasForeignKey(q => q.QuizId)
+           .OnDelete(DeleteBehavior.Cascade); // Cascade delete for questions
+
+        modelBuilder.Entity<Question>()
+            .HasMany(q => q.Answers)
+            .WithOne(a => a.Question)
+            .HasForeignKey(a => a.QuestionId)
+            .OnDelete(DeleteBehavior.Cascade);
   }
 
 }

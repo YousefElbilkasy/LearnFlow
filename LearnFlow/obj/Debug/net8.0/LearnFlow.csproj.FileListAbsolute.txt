@@ -264,6 +264,7 @@ F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.pd
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.genruntimeconfig.cache
 F:\Studying\DEPI\Final Project\LearnFlow\LearnFlow\obj\Debug\net8.0\ref\LearnFlow.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 c:\New folder (2)\LearnFlow\LearnFlow\bin\Debug\net8.0\appsettings.Development.json
 c:\New folder (2)\LearnFlow\LearnFlow\bin\Debug\net8.0\appsettings.json
@@ -1063,3 +1064,5 @@ c:\finallllll\LearnFlow\LearnFlow\obj\Debug\net8.0\refint\LearnFlow.dll
 c:\finallllll\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.pdb
 C:\finallllll\LearnFlow\LearnFlow\obj\Debug\net8.0\LearnFlow.genruntimeconfig.cache
 C:\finallllll\LearnFlow\LearnFlow\obj\Debug\net8.0\ref\LearnFlow.dll
+=======
+>>>>>>> 1c91c0759a946d9004174b133cca619e354bedfc
