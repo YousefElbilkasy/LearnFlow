@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="~/css/owl.css" />
   <link rel="stylesheet" href="~/css/animate.css" />
   <link rel="stylesheet" href="~/css/site.css" />
- <link rel="stylesheet" href="~/css/list.css" />
+  <link rel="stylesheet" href="~/css/list.css" />
   <link rel="stylesheet" href="~/css/site2.css" />
 
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -29,67 +29,79 @@
 
   https://templatemo.com/tm-586-scholar
 
-  
+
 
   -->
   <style>
-   /* Dropdown button styling (similar to 'Home' button) */
+    /* Dropdown button styling (similar to 'Home' button) */
 
-/* Dropdown button styling (no border, smaller font) */
-.dropbtn {
-    background-color: transparent; /* No background */
-    border: none; /* Remove border */
-    color: white; /* White text */
-    padding: 0px 20px; /* Adjust padding as needed */
-    /* Bold text */
-    font-size: 14px; /* Smaller font */
-    text-transform: uppercase; /* Uppercase text */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
+    /* Dropdown button styling (no border, smaller font) */
+    .dropbtn {
+      background-color: transparent;
+      /* No background */
+      border: none;
+      /* Remove border */
+      color: white;
+      /* White text */
+      padding: 0px 20px;
+      /* Adjust padding as needed */
+      /* Bold text */
+      font-size: 14px;
+      /* Smaller font */
+      text-transform: uppercase;
+      /* Uppercase text */
+      cursor: pointer;
+      /* Pointer cursor */
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
 
-/* Hover effect for the dropdown button */
-
-
-/* Dropdown container styling */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown content styling */
-.dropdown-content {
-    display: none; /* Hidden by default */
-    position: absolute;
-    background-color: transparent; /* Transparent background */
-    min-width: 160px;
-    z-index: 1;
-    padding: 5px 0; /* Vertical padding for dropdown items */
-}
-
-/* Dropdown items styling */
-.dropdown-content a {
-    color: white; /* White text */
-    padding: 5px 8px;
-    text-decoration: none;
-    display: block;
- 
-    font-size: 14px; /* Smaller font size */
-    transition: background-color 0.3s ease;
-}
-
-/* Hover effect for dropdown items */
-.dropdown-content a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Light transparent hover effect */
-}
-
-/* Show dropdown content on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-    top: 100%; /* Aligns dropdown directly below the button */
-}
+    /* Hover effect for the dropdown button */
 
 
+    /* Dropdown container styling */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown content styling */
+    .dropdown-content {
+      display: none;
+      /* Hidden by default */
+      position: absolute;
+      background-color: transparent;
+      /* Transparent background */
+      min-width: 160px;
+      z-index: 1;
+      padding: 5px 0;
+      /* Vertical padding for dropdown items */
+    }
+
+    /* Dropdown items styling */
+    .dropdown-content a {
+      color: white;
+      /* White text */
+      padding: 5px 8px;
+      text-decoration: none;
+      display: block;
+
+      font-size: 14px;
+      /* Smaller font size */
+      transition: background-color 0.3s ease;
+    }
+
+    /* Hover effect for dropdown items */
+    .dropdown-content a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      /* Light transparent hover effect */
+    }
+
+    /* Show dropdown content on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+      top: 100%;
+      /* Aligns dropdown directly below the button */
+    }
   </style>
 </head>
 
@@ -118,13 +130,14 @@
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Serach Start ***** -->
-             <div class="search-input">
-         <form id="search" action="/Course/Search" method="post">
-             <input type="text" placeholder="Search for  courses" id="searchText" name="searchKeyword" autocomplete="off" />
-             <i class="fa fa-search"></i>
-         </form>
-         <ul id="courseList" class="autocomplete-list"></ul>
-     </div>
+            <div class="search-input">
+              <form id="search" action="/Course/Search" method="post">
+                <input type="text" placeholder="Search for  courses" id="searchText" name="searchKeyword"
+                  autocomplete="off" />
+                <i class="fa fa-search"></i>
+              </form>
+              <ul id="courseList" class="autocomplete-list"></ul>
+            </div>
             <!-- ***** Serach Start ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
@@ -132,7 +145,7 @@
                 <a id="top" class="active" asp-controller="Home" asp-action="Index">Home</a>
               </li>
               @{
-               
+
 
                 @* check if he is student *@
                 if (User.IsInRole("Student"))
@@ -219,7 +232,7 @@
   <script src="~/js/owl-carousel.js"></script>
   <script src="~/js/counter.js"></script>
   <script src="~/js/custom.js"></script>
- <script src="~/js/script.js"></script>
+  <script src="~/js/script.js"></script>
   <!-- Render the Scripts section here -->
   @RenderSection("Scripts", required: false)
 </body>

@@ -13,6 +13,11 @@
     </div>
     <div class="card-body">
       <p>@Model.CourseDescription</p>
+      <!-- Progress Bar -->
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: @Model.Progress%;" aria-valuenow="@Model.Progress"
+          aria-valuemin="0" aria-valuemax="100">@Model.Progress%</div>
+      </div>
     </div>
   </div>
 
@@ -24,9 +29,10 @@
         <ul class="list-group">
           @foreach (var lecture in Model.Lectures)
           {
-            <li class="list-group-item @if (Model.SelectedLecture.LectureId == lecture.LectureId) {
+            <li
+              class="list-group-item @if (Model.SelectedLecture?.LectureId == lecture.LectureId) {
           <text>active</text>
-  }">
+ }">
               <a href="@Url.Action("Details", new { Id = Model.CourseId, selectedLectureId = lecture.LectureId })"
                 class="text-decoration-none">
                 @lecture.LectureTitle
@@ -34,15 +40,20 @@
             </li>
           }
         </ul>
+        <form asp-action="MarkAsCompleted" method="post">
+          <input type="hidden" name="courseId" value="@Model.CourseId" />
+          <input type="hidden" name="CompletedLectureId" value="@Model.SelectedLecture?.LectureId" />
+          <button type="submit" class="btn btn-primary mt-3">Mark as Completed & Next</button>
+        </form>
       </div>
 
       <!-- Right column: Video player -->
       <div class="col-md-8">
         <div class="card">
           <div class="card-body">
-            <h5>@Model.SelectedLecture.LectureTitle</h5>
+            <h5>@Model.SelectedLecture?.LectureTitle</h5>
             <video width="100%" controls>
-              <source src="@Model.SelectedLecture.LectureVideoUrl" type="video/mp4">
+              <source src="@Model.SelectedLecture?.LectureVideoUrl" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
@@ -50,3 +61,4 @@
       </div>
     </div>
   </div>
+</div>
