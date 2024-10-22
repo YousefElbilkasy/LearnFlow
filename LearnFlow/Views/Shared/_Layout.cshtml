@@ -1,4 +1,8 @@
 @using System.Security.Claims
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using Microsoft.AspNetCore.Mvc.Routing
+@inject IUrlHelperFactory UrlHelperFactory
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +23,7 @@
   <link rel="stylesheet" href="~/css/owl.css" />
   <link rel="stylesheet" href="~/css/animate.css" />
   <link rel="stylesheet" href="~/css/site.css" />
- <link rel="stylesheet" href="~/css/list.css" />
+  <link rel="stylesheet" href="~/css/list.css" />
   <link rel="stylesheet" href="~/css/site2.css" />
 
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -29,67 +33,82 @@
 
   https://templatemo.com/tm-586-scholar
 
-  
+
 
   -->
   <style>
-   /* Dropdown button styling (similar to 'Home' button) */
+    /* Dropdown button styling (similar to 'Home' button) */
 
-/* Dropdown button styling (no border, smaller font) */
-.dropbtn {
-    background-color: transparent; /* No background */
-    border: none; /* Remove border */
-    color: white; /* White text */
-    padding: 0px 20px; /* Adjust padding as needed */
-    /* Bold text */
-    font-size: 14px; /* Smaller font */
-    text-transform: uppercase; /* Uppercase text */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
+    /* Dropdown button styling (no border, smaller font) */
+    .dropbtn {
+      background-color: transparent;
+      /* No background */
+      border: none;
+      /* Remove border */
+      color: white;
+      /* White text */
+      padding: 0px 20px;
+      /* Adjust padding as needed */
+      /* Bold text */
+      font-size: 14px;
+      /* Smaller font */
+      cursor: pointer;
+      /* Pointer cursor */
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
 
-/* Hover effect for the dropdown button */
-
-
-/* Dropdown container styling */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown content styling */
-.dropdown-content {
-    display: none; /* Hidden by default */
-    position: absolute;
-    background-color: transparent; /* Transparent background */
-    min-width: 160px;
-    z-index: 1;
-    padding: 5px 0; /* Vertical padding for dropdown items */
-}
-
-/* Dropdown items styling */
-.dropdown-content a {
-    color: white; /* White text */
-    padding: 5px 8px;
-    text-decoration: none;
-    display: block;
- 
-    font-size: 14px; /* Smaller font size */
-    transition: background-color 0.3s ease;
-}
-
-/* Hover effect for dropdown items */
-.dropdown-content a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Light transparent hover effect */
-}
-
-/* Show dropdown content on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-    top: 100%; /* Aligns dropdown directly below the button */
-}
+    /* Hover effect for the dropdown button */
 
 
+    /* Dropdown container styling */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown content styling */
+    .dropdown-content {
+      display: none;
+      /* Hidden by default */
+      position: absolute;
+      background-color: transparent;
+      /* Transparent background */
+      min-width: 160px;
+      z-index: 1;
+      padding: 5px 0;
+      /* Vertical padding for dropdown items */
+    }
+
+    /* Dropdown items styling */
+    .dropdown-content a {
+      color: white;
+      /* White text */
+      padding: 5px 8px;
+      text-decoration: none;
+      display: block;
+
+      font-size: 14px;
+      /* Smaller font size */
+      transition: background-color 0.3s ease;
+    }
+
+    /* Hover effect for dropdown items */
+    .dropdown-content a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      /* Light transparent hover effect */
+    }
+
+    /* Show dropdown content on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+      top: 100%;
+      /* Aligns dropdown directly below the button */
+    }
+
+    /* Active shadow for active nav item */
+    .active-shadow {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
   </style>
 </head>
 
@@ -118,64 +137,90 @@
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Serach Start ***** -->
-             <div class="search-input">
-         <form id="search" action="/Course/Search" method="post">
-             <input type="text" placeholder="Search for  courses" id="searchText" name="searchKeyword" autocomplete="off" />
-             <i class="fa fa-search"></i>
-         </form>
-         <ul id="courseList" class="autocomplete-list"></ul>
-     </div>
+            <div class="search-input">
+              <form id="search" action="/Course/Search" method="post">
+                <input type="text" placeholder="Search for  courses" id="searchText" name="searchKeyword"
+                  autocomplete="off" />
+                <i class="fa fa-search"></i>
+              </form>
+              <ul id="courseList" class="autocomplete-list"></ul>
+            </div>
             <!-- ***** Serach Start ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section">
-                <a id="top" class="active" asp-controller="Home" asp-action="Index">Home</a>
+              <li class="scroll-to-section ">
+                <a id="top" asp-controller="Home" asp-action="Index" class="@IsActive("Home", "Index")">Home</a>
               </li>
               @{
-               
-
                 @* check if he is student *@
                 if (User.IsInRole("Student"))
                 {
-                  <li class="scroll-to-section">
-                    <a asp-controller="Course" asp-action="MyCourses">My Courses</a>
+                  <li class="scroll-to-section ">
+                    <a asp-controller="Course" asp-action="MyCourses" class="@IsActive("Course", "MyCourses")">My
+                      Courses</a>
+                  </li>
+                  <li
+                    class="scroll-to-section dropdown @IsActive("Student", "StudentIndex") @IsActive("Student", "Details") @IsActive("Student", "Result")">
+                    <button class="dropbtn">Student Options</button>
+                    <div class="dropdown-content">
+                      <a asp-controller="Student" asp-action="StudentIndex"
+                        asp-route-id="@User.FindFirstValue(ClaimTypes.NameIdentifier)">Index</a>
+                      <a asp-controller="Student" asp-action="Details"
+                        asp-route-studentId="@User.FindFirstValue(ClaimTypes.NameIdentifier)">Details</a>
+                      <a asp-controller="Student" asp-action="Result"
+                        asp-route-studentId="@User.FindFirstValue(ClaimTypes.NameIdentifier)">Result Of Quiz</a>
+                    </div>
                   </li>
                 }
 
                 @* check if he is admin *@
                 else if (User.IsInRole("Admin"))
                 {
-                  <li class="scroll-to-section">
-                    <a asp-controller="Admin" asp-action="Index">Admin Dashboard</a>
+                  <li
+                    class="scroll-to-section dropdown @IsActive("Admin", "Instructors") @IsActive("Admin", "VerifyCourses")">
+                    <button class="dropbtn">Admin Options</button>
+                    <div class="dropdown-content">
+                      <a asp-controller="Admin" asp-action="Instructors">Instructors</a>
+                      <a asp-controller="Admin" asp-action="VerifyCourses">Verify Courses</a>
+                    </div>
+                  </li>
+                }
+
+                else if (User.IsInRole("Instructor"))
+                {
+                  <li class="scroll-to-section ">
+                    <a asp-controller="CourseInstructor" asp-action="InstructorDashboard" class="@IsActive("CourseInstructor", "InstructorDashboard")">My
+                      Dashboard</a>
                   </li>
                 }
               }
               <li class="scroll-to-section">
-                <a asp-action="Index" asp-controller="Course">Courses</a>
+                <a asp-action="Index" asp-controller="Course" class="@IsActive("Course", "Index")">Courses</a>
               </li>
               @* check if he authorized *@
               @{
                 if (User.Identity.IsAuthenticated)
                 {
                   @* view profile *@
-                  <li class="scroll-to-section">
-                    <a asp-controller="User" asp-action="ViewProfile"
+                  <li class="scroll-to-section ">
+                    <a asp-controller="User" asp-action="ViewProfile" class="@IsActive("User", "ViewProfile")"
                       asp-route-id="@User.FindFirstValue(ClaimTypes.NameIdentifier)">Profile</a>
                   </li>
                   @* logout *@
-                  <li class="scroll-to-section">
-                    <a asp-controller="Account" asp-action="LogOut">Log Out</a>
+                  <li class="scroll-to-section ">
+                    <a asp-controller="Account" asp-action="LogOut" class="@IsActive("Account", "LogOut")">Log Out</a>
                   </li>
                 }
                 else
                 {
                   @* login *@
-                  <li class="scroll-to-section">
-                    <a asp-controller="Account" asp-action="LogIn">Log In</a>
+                  <li class="scroll-to-section ">
+                    <a asp-controller="Account" asp-action="LogIn" class="@IsActive("Account", "LogIn")">Log In</a>
                   </li>
                   @* Register *@
-                  <li class="scroll-to-section">
-                    <a asp-controller="Account" asp-action="Register">Register Now!</a>
+                  <li class="scroll-to-section ">
+                    <a asp-controller="Account" asp-action="Register" class="@IsActive("Account", "Register")">Register
+                      Now!</a>
                   </li>
                 }
               }
@@ -219,9 +264,23 @@
   <script src="~/js/owl-carousel.js"></script>
   <script src="~/js/counter.js"></script>
   <script src="~/js/custom.js"></script>
- <script src="~/js/script.js"></script>
+  <script src="~/js/script.js"></script>
   <!-- Render the Scripts section here -->
   @RenderSection("Scripts", required: false)
 </body>
 
 </html>
+
+@{
+  string IsActive(string controller, string action)
+  {
+    var routeData = Context.GetRouteData();
+    var currentController = routeData.Values["controller"]?.ToString();
+    var currentAction = routeData.Values["action"]?.ToString();
+
+    return string.Equals(currentController, controller, StringComparison.OrdinalIgnoreCase) &&
+    string.Equals(currentAction, action, StringComparison.OrdinalIgnoreCase)
+    ? "active"
+    : string.Empty;
+  }
+}

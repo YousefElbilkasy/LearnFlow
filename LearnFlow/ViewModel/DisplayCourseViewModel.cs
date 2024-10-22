@@ -11,4 +11,5 @@ public class DisplayCourseViewModel
   public User CourseInstructor { get; set; }
   public List<DisplayLectureViewModel> Lectures { get; set; }
   public DisplayLectureViewModel SelectedLecture { get; set; }
+  public float Progress { get; set; }
 }

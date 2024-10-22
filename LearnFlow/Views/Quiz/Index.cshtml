@@ -1,37 +1,37 @@
 ﻿@model List<Quiz>
 <div class="container">
-    <div style="margin:20px; padding:15px; border: 1px solid black;border-radius:10px;">
-        @if (Model != null && Model.Any())
+  <div style="margin:20px; padding:15px; border: 1px solid black;border-radius:10px;">
+    @if (Model != null && Model.Any())
+    {
+      <ul>
+        @foreach (var item in Model)
         {
-            <ul>
-                @foreach (var item in Model)
-                {
-                    <li style="border:solid 2px black; border-radius:10px; padding:10px; margin:20px; background-color:#b8b2db;">
-                        <p>Quiz ID: @item.QuizId</p>
-                        <p>Course Title: @(item.Course != null ? item.Course.Title : "No Course")</p>
-                        <p>Quiz Title: @item.Title</p>
-                        <p>Score: @item.MaxScore</p>
-                        <a class="btn btn-danger" asp-controller="Quiz" asp-action="Delete" asp-route-id="@item.QuizId">Delete</a>
-                        <a class="btn btn-warning" asp-controller="Quiz" asp-action="Update" asp-route-id="@item.QuizId">Update</a>
-                    </li>
-                }
-            </ul>
+          <li style="border:solid 2px black; border-radius:10px; padding:10px; margin:20px; background-color:#b8b2db;">
+            <p>Quiz ID: @item.QuizId</p>
+            <p>Course Title: @(item.Course != null ? item.Course.Title : "No Course")</p>
+            <p>Quiz Title: @item.Title</p>
+            <p>Score: @item.MaxScore</p>
+            <a class="btn btn-danger" asp-controller="Quiz" asp-action="Delete" asp-route-id="@item.QuizId">Delete</a>
+          </li>
         }
-        else
-        {
-            <p>No quizzes available.</p>
-        }
-    </div>
-    <div>
-        <a style="margin:10px;" class="btn btn-info" asp-action="Create" asp-controller="Quiz">Create</a>
-    </div>
+      </ul>
+    }
+    else
+    {
+      <p>No quizzes available.</p>
+    }
+  </div>
+  <div>
+    <a style="margin:10px;" class="btn btn-info" asp-action="Create" asp-controller="Quiz">Create</a>
+  </div>
 </div>
 <style>
-    p{
-        font-size: 20px;
-        margin:10px;
-    }
-    a{
-        margin: 10px;
-    }
+  p {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  a {
+    margin: 10px;
+  }
 </style>

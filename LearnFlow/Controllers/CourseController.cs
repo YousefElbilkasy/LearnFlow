@@ -9,6 +9,10 @@ using LearnFlow.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using LearnFlow.Data;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LearnFlow.Controllers
 {
@@ -18,13 +22,15 @@ namespace LearnFlow.Controllers
     private readonly UserManager<User> userManager;
     private readonly Cloudinary cloudinary;
     private readonly IEnrollmentRepo enrollmentRepo;
+    private readonly LearnFlowContext _context;
 
-    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, Cloudinary cloudinary)
+    public CourseController(CourseRepo courseRepo, IEnrollmentRepo enrollmentRepo, UserManager<User> userManager, Cloudinary cloudinary, LearnFlowContext context)
     {
       this.courseRepo = courseRepo;
       this.userManager = userManager;
       this.cloudinary = cloudinary;
       this.enrollmentRepo = enrollmentRepo;
+      _context = context;
     }
 
     // GET: CourseController
@@ -35,38 +41,107 @@ namespace LearnFlow.Controllers
     }
 
     // GET: CourseController/Details/3
-    public async Task<ActionResult> Details(int id, int? selectedLectureId)
+    [Authorize(Roles = "Student, Instructor")]
+    public async Task<IActionResult> Details(int id, int? selectedLectureId)
     {
-      var course = await courseRepo.GetByIdAsync(id);
+      var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+      var enrollment = await _context.Enrollments
+        .FirstOrDefaultAsync(e => e.StudentId.ToString() == userId && e.CourseId == id);
+
+      if (enrollment == null)
+      {
+        var ViewCourse = await courseRepo.GetByIdAsync(id);
+        return View(ViewCourse);
+      }
+
+      var course = await _context.Courses
+        .Include(c => c.Lectures)
+        .FirstOrDefaultAsync(c => c.CourseId == id);
+
       if (course == null)
       {
         return NotFound();
       }
 
-      // Check if the user is enrolled in the course
-      if (course.Enrollments.Any(e => e.StudentId.ToString() == User.FindFirstValue(ClaimTypes.NameIdentifier)))
+      var viewModel = new DisplayCourseViewModel
       {
-        var displayCourse = new DisplayCourseViewModel
+        CourseId = course.CourseId,
+        CourseTitle = course.Title,
+        CourseDescription = course.Description,
+        Lectures = course.Lectures.Select(l => new DisplayLectureViewModel
         {
-          CourseId = course.CourseId,
-          CourseTitle = course.Title,
-          CourseDescription = course.Description,
-          CourseInstructor = course.Instructor,
-          Lectures = course.Lectures.Select(l => new DisplayLectureViewModel
-          {
-            LectureId = l.LectureId,
-            LectureTitle = l.Title,
-            LectureVideoUrl = l.Content,
-          }).ToList()
-        };
+          LectureId = l.LectureId,
+          LectureTitle = l.Title,
+          LectureVideoUrl = l.Content
+        }).ToList(),
+        SelectedLecture = selectedLectureId.HasValue
+        ? course.Lectures.Select(l => new DisplayLectureViewModel
+        {
+          LectureId = l.LectureId,
+          LectureTitle = l.Title,
+          LectureVideoUrl = l.Content
+        }).FirstOrDefault(l => l.LectureId == selectedLectureId.Value)
+        : null,
+        Progress = enrollment.Progress // Pass the progress value
+      };
 
-        // Select the lecture, if not specified, default to the first lecture
-        displayCourse.SelectedLecture = selectedLectureId.HasValue
-            ? displayCourse.Lectures.FirstOrDefault(l => l.LectureId == selectedLectureId.Value)
-            : displayCourse.Lectures.First();
-        return View("DisplayCourse", displayCourse);
+      return View("DisplayCourse", viewModel);
+    }
+
+    [Authorize(Roles = "Student")]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> MarkAsCompleted(int CompletedLectureId, int courseId)
+    {
+      var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+      var enrollment = await _context.Enrollments.FirstOrDefaultAsync(e => e.StudentId.ToString() == userId && e.CourseId == courseId);
+
+      if (enrollment == null)
+      {
+        return NotFound();
       }
-      return View(course);
+
+      var progress = await _context.Progresses.FirstOrDefaultAsync(p => p.EnrollmentId == enrollment.EnrollmentId && p.LectureId == CompletedLectureId);
+
+      if (progress == null)
+      {
+        progress = new Progress
+        {
+          EnrollmentId = enrollment.EnrollmentId,
+          LectureId = CompletedLectureId,
+          IsCompleted = true
+        };
+        await _context.Progresses.AddAsync(progress);
+      }
+      else
+      {
+        progress.IsCompleted = true;
+        _context.Progresses.Update(progress);
+      }
+
+      await _context.SaveChangesAsync();
+
+      var totalLectures = await _context.Lectures.CountAsync(l => l.CourseId == courseId);
+      var completedLectures = await _context.Progresses.CountAsync(p => p.EnrollmentId == enrollment.EnrollmentId && p.IsCompleted);
+
+      enrollment.Progress = (completedLectures / (float)totalLectures) * 100;
+      _context.Enrollments.Update(enrollment);
+      await _context.SaveChangesAsync();
+
+      // Get the next lecture
+      var nextLecture = await _context.Lectures
+          .Where(l => l.CourseId == courseId && l.Order > _context.Lectures.FirstOrDefault(l => l.LectureId == CompletedLectureId).Order)
+          .OrderBy(l => l.Order)
+          .FirstOrDefaultAsync();
+
+      if (nextLecture == null)
+      {
+        // If there is no next lecture, redirect to the course details page
+        return RedirectToAction("Details", new { Id = courseId });
+      }
+
+      // Redirect to the course details page with the next lecture selected
+      return RedirectToAction("Details", new { Id = courseId, selectedLectureId = nextLecture.LectureId });
     }
 
     [Authorize(Roles = "Instructor, Admin")]
@@ -157,11 +232,23 @@ namespace LearnFlow.Controllers
 
     [Authorize(Roles = "Student")]
     [HttpGet]
-    public async Task<ActionResult> MyCourses()
+    public async Task<IActionResult> MyCourses()
     {
-      var user = await userManager.GetUserAsync(User);
-      var courses = await courseRepo.GetAllForStudentAsync(user.Id);
-      return View(courses);
+      var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+      var enrollments = await _context.Enrollments
+          .Include(e => e.Course)
+          .Where(e => e.StudentId.ToString() == userId)
+          .ToListAsync();
+
+      var viewModel = enrollments.Select(e => new CourseWithProgressViewModel
+      {
+        CourseId = e.Course.CourseId,
+        Title = e.Course.Title,
+        ImageUrl = e.Course.ImageUrl,
+        Progress = e.Progress // Pass the progress value
+      }).ToList();
+
+      return View(viewModel);
     }
 
     [HttpGet]
